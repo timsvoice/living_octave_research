@@ -1,0 +1,280 @@
+* {
+	font-family: "franklin-gothic-urw";
+	font-weight:200;
+}
+
+a {
+	text-decoration:none;
+	color:inherit;
+}
+
+#underline {
+	text-decoration:underline;
+}
+
+#no_underline {
+	text-decoration:none;
+}
+
+ul, li {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	border:none;
+}
+
+td {
+	
+}
+
+hr {
+	height:3px;
+	background-color: #000;
+	color:#000;
+	border:0;
+}
+
+h1 {
+	font-weight: 200;
+	text-decoration:none;
+	font-weight:500;
+}
+
+h2 {
+	font-family: "franklin-gothic-urw";
+	font-weight:200;
+}
+
+
+h3 {
+	text-transform:uppercase;
+	font-weight:200;
+	font-size:28px;
+	text-decoration:underline;
+}
+
+h4 {
+	text-transform:uppercase;
+	font-weight:200;
+	font-size:22px;
+}
+
+p {
+	font-weight:200;
+}
+
+p a {
+        text-decoration:underline;
+}
+
+h1.branding {
+	text-transform:uppercase;
+}
+
+#header_branding {
+	text-transform:uppercase;
+	font-size:39px;
+	font-weight:900;
+	color:#000;
+	text-align:center;
+	background-color:inherit;
+}
+
+span#header_branding_research {
+	font-weight:200;
+}
+
+li.header_banner_menu_item {
+	text-transform:uppercase;
+	font-size:18px;
+	font-weight:400;
+	color:#D7D7D7;
+	margin: 0px;
+	padding: 0px;
+}
+
+li.header_banner_menu_item:hover {
+	color:#FFFFFF;
+}
+
+li.header_banner_menu_item_selected {
+	text-transform:uppercase;
+	font-size:18px;
+	font-weight:400;
+	color:#fff;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+h2.sectionhead_page, h2.sectionhead_sidebar {
+	font-family: "minion-pro";
+	font-style:italic;
+	font-size:22px;
+	font-weight:800;
+	color:#000;
+}
+
+h2.blog_title a{
+	font-family: "minion-pro";
+	font-style:italic;
+	font-size:22px;
+	font-weight:700;
+	color:#fff;
+}
+
+.category_title {
+	/*font-family: "minion-pro";
+	font-style:italic;*/
+	font-size:22px;
+	font-weight:400;
+	text-align: center;
+	margin:0px 0px 10px 0px;
+}
+
+.category_title:hover {
+	color:#FF0000;
+}
+
+#report_summary_title:hover {
+	color:#FF0000;
+}
+
+h3.article_header {
+	font-size:16px;
+	font-weight:700;
+}
+
+p.blog_meta {
+	font-family: "minion-pro";
+	font-style:italic;
+	font-size:14px;
+	font-weight:400;
+	color:red;
+}
+
+p.body {
+	font-family: Times;
+	font-size:14px;
+	color:#000;
+}
+
+p.blog_body {
+	font-family: Times;
+	font-size:14px;
+	color:#fff;
+}
+
+p.blog_more {
+	font-family: "minion-pro";
+	font-style:italic;
+	font-size:12px;
+	font-weight:400;
+	color:red;
+}
+
+p.category_body {
+	font-family: Times;
+	font-size:13px;
+	color:#7D7D7D;
+}
+
+p.category_body:hover {
+	color:#000;
+}
+
+p.button_more {
+	font-family: "minion-pro";
+	font-style:italic;
+	font-size:16px;
+	font-weight:400;
+	color:red;
+	text-align:center;
+}
+
+p.instructions {
+	font-family: "minion-pro";
+	font-style:italic;
+	color:#7d7d7d;
+}
+
+p#form_contact {
+	
+}
+
+p#article_body {
+	
+}
+
+p#instructions {
+	
+}
+
+li.tag_selector {
+	font-family: "minion-pro";
+	font-style:italic;
+	color:#000;
+}
+
+p.tag_selector_selected {
+	font-family: "minion-pro";
+	font-style:italic;
+	color:#FF0000;
+}
+
+p.button {
+	font-family: "minion-pro";
+	font-style:italic;
+	font-weight:500;
+	color:red;
+	text-align:center;
+}
+
+li#header_banner_menu_item {
+	
+}
+
+.B_crumbBox {
+	font-weight:200;
+	font-size:14px;
+	min-width:150px;
+}
+
+.menu_here, .B_currentCrumb {
+	color:#FF0000;
+}
+
+.breadcrumb li + li:before{
+	content:  '/';
+	margin:   0 2px;
+}
+
+#report_download {
+	color:#FF0000;
+}
+
+#section_title {
+	margin:0px 0px 10px 0px;
+	font-weight:600 !important;
+}
+
+#rss_button_subscribe, #rss_button_how {
+	text-decoration:underline;
+	display:inline-block;
+}
+
+/* comments */
+
+
+
+.comment_createdon {
+	text-decoration:underline;
+	color:inherit;
+	font-size:16px;
+}
+
+.comment_author {
+	font-family: "franklin-gothic-urw";
+	font-weight:200;
+}

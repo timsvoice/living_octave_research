@@ -1,0 +1,140 @@
+.shaddow {
+  -moz-box-shadow: inset 0 0 2px #000000;
+  -webkit-box-shadow: inset 0 0 2px #000000;
+  box-shadow: inset 0 0 2px #000000; }
+
+.clear {
+  clear: both;
+  line-height: 0; }
+
+ul, li {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  display: inline-block; }
+
+hr {
+  padding-left: 10px; }
+
+img {
+    max-width: 100%;
+    height: auto; }
+
+iframe {
+    max-width: 100%;
+    min-height: 445px;
+    height: auto; }
+
+nav {
+  position: absolute; }
+
+nav li, nav li a {
+  text-decoration: none;
+  color: #333333; }
+  nav li:hover, nav li a:hover {
+    color: red; }
+
+
+#logout {
+	float:right;
+}
+
+#searchForm {
+	float:left;
+	clear:both;
+	margin-top:40px;
+	margin-bottom:10px;
+}
+
+#searchForm fieldset {
+	margin-bottom:0px;
+	height:30px;
+	float:left;
+}
+
+#search_submit {
+	display:none;
+	margin-left:10px;
+	height:30px;
+	background:transparent;
+}
+
+input[type="text"] {
+	display:inline-block;
+	float:left;
+}
+
+#header_banner_menu_container {
+  border-top: 1px #e5e2d6 solid;
+  border-bottom: 2px #333333 solid;
+  height: auto;
+  padding: 5px 0px;
+  top: 75px;
+  display: inherit; }
+
+#main_story_container {
+  padding: 0px 9px 0px 0px;
+  border-right: 1px #e5e2d6 solid; }
+  #main_story_container img {
+    max-width: 100%;
+    height: auto; }
+  #main_story_container #main_story_category {
+    margin-right: none;
+    display: inline-block; }
+    #main_story_container #main_story_category h5 {
+      margin: 5px 0px 0px 0px; }
+  #main_story_container #main_story_teaser {
+    background-color: transparent; }
+    #main_story_container #main_story_teaser p {
+      margin: 0px 0px 0px 0px;
+      padding: 10px 10px 0px 0px; }
+
+#newsfeed_item {
+  margin: 0px 0px 10px 0px;
+  border-bottom: 1px #e5e2d6 solid; }
+
+#main_story_container, #newsfeed_container {
+ }
+  #main_story_container #newsfeed_source, #newsfeed_container #newsfeed_source {
+    color: #e5e2d6; }
+
+#newsfeed_container {
+  overflow: hidden; }
+
+#frontpage_story_container {
+	float:left;
+	clear:both;
+}
+
+#frontpage_story {
+  position: relative;
+  margin-top: 10px;
+  padding: 10px 0px 0px 0px;
+  border-top: 1px #e5e2d6 solid;
+  height:315px; }
+  #frontpage_story img {
+    width: 100%;
+    height: auto; }
+
+#frontpage_inspiration img {
+  max-width: 100%;
+  height: auto; }
+
+#report_container {
+	margin-top:50px;
+}
+
+#newsfeed_source {
+	clear:both;
+}
+
+#report_container table{
+	margin-bottom:20px;
+}
+
+body img.typekit-badge {display:none;}
+
+.loginForm {
+float:left;
+margin:0px auto;}
