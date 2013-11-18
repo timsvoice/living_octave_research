@@ -31,7 +31,9 @@
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
-		header#header_branding h1 { font-size: 66px; line-height: 75px; margin-bottom: 0px; }
+		header#header_branding h1 { font-size: 5.7em; line-height: 1em; margin-bottom: 0px; }
+		#main_story_container {margin-top:3.1em !important;}
+		#header_banner_menu_container { top:5em; }
 		#newsfeed_container.one-third ul { max-height:500px}
 		#newsfeed_item #newsfeed_teaser p {font-size:14px;}	
 	}
@@ -49,19 +51,20 @@
 		#frontpage_story {border:none; height:auto;}
 		#report_container {margin-top:10px;}
                 a.news_download {visibility:hidden;}
+        .related_post_container {visibility:hidden; height:0; width:0;}
 	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
-		header#header_branding h1 { font-size: 37px; line-height: 40px; margin-bottom: 0px; }
-		#main_story_container {margin: 5px 0px 0px 0px;}
+		header#header_branding h1 { font-size: 3.2em; line-height: 1em; margin-bottom: 0.2em; }
+		#main_story_container {margin-top: 0 !important;}
 		#searchForm { display:none; float:left; clear:both; margin-top:0px; margin-bottom:0px;}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
-		header#header_branding h1 { font-size: 26px; line-height: 32px; margin-bottom: 0px; }
-		#main_story_container {margin: 0px 0px 0px 0px;}
+		header#header_branding h1 { font-size: 2.2em; line-height: 1em; margin-bottom: 0px; }
+		#main_story_container {margin-top: 0 !important;}
 		#searchForm { display:none; bottom:0; float:left; clear:both; margin-top:0px; margin-bottom:0px;}
 	}
 

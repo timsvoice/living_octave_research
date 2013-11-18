@@ -320,3 +320,4 @@ OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpt
 [2013-11-13 14:08:09] (ERROR @ /living_octave_research/connectors/system/phpthumb.php) phpThumb was unable to generate a thumbnail for: /Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/core/cache/phpthumb/phpThumb_cache_127.0.0.1_src8847e331cd55f693078202b011f8b508_paradf896d45f319fa323d889e84ccb98c5_dat0.jpeg
 [2013-11-13 14:08:09] (ERROR @ /living_octave_research/connectors/system/phpthumb.php) Error outputting thumbnail:
 OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 557
+[2013-11-18 12:35:24] (ERROR @ /living_octave_research/connectors/lang.js.php) Error caching lexicon topic lexicon/en/core/resource

@@ -4,10 +4,6 @@
 @import "framework";
 @import "add2home";
 
-
-
-
-
 $gray: #E5E2D6;
 $whiteTransparent:rgba(254,254,254,0.6);
 $darkGray: #888;
@@ -51,8 +47,45 @@ nav li, nav li a {
 	text-decoration:none;
 	color:$black;
 	&:hover {
-	  color:$red;
+	 color:$red;
 	}
+}
+
+.loginForm {
+
+  .loginLogin {
+    margin-top: 2em;
+  }
+
+  .loginLoginForm {
+    margin-bottom: 2em;
+  }
+
+  .loginLoginFieldset {
+    margin-bottom: 0;
+  }
+
+  input[type='text'], input[type='password'] {
+    font-size: 1em;
+    float: left;
+    height: 3em;
+    border: $darkGray solid 0.25em;
+    margin:0 0 1em;
+    padding:0 0.5em;
+  }
+  input[type='submit'] {
+    display:inline-block;
+    text-transform: uppercase;
+    background-color:white;
+    background:$darkGray;
+    border:none;
+    font-size: 1em;
+    font-weight: 200;
+    color:white;
+    float: left;
+    height: 2.5em;
+    margin-bottom: 0;
+  }
 }
 
 #header_branding {
@@ -64,14 +97,14 @@ nav li, nav li a {
 	border-bottom:$borderThick;
 	height:auto;
 	padding:5px 0px;
-	top:5.5em; 
+	top:9em; 
 	display:inherit;
 }
 
 #logout {
   float:right;
- font-size: 10px; 
-font-weight: 200;
+  font-size: 10px; 
+  font-weight: 200;
   text-decoration: underline;
 }
 
@@ -132,7 +165,7 @@ input[type="text"] {
 }
 
 #main_story_container, #newsfeed_container {
-  margin-top:50px;
+  margin-top:1.2em;
     #newsfeed_source {
       color:$gray;
     }
@@ -160,3 +193,37 @@ input[type="text"] {
   }
 }
 
+#report_container {
+  margin-top: 5em;
+  h3 {
+    margin-bottom: 0;
+  }
+  img {
+    width:inherit;
+  }
+  #report_download {
+    a {
+      font-weight: $lightText;
+      text-decoration: underline;
+      color:$red;
+    }
+  }
+}
+
+.related_post_container {
+  margin-top: 5.7em;
+  float: right;
+  opacity: 0.5;
+  border-left:$darkGray 1px solid;
+  padding-left:1em;
+  h3 {
+    margin-bottom: 0;
+  }
+  .related_post {
+
+  }
+}
+
+.related_post_container:hover{
+  opacity: 1;
+}
