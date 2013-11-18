@@ -16,15 +16,26 @@
     'parent' => 0,
     'isfolder' => 1,
     'introtext' => '',
-    'content' => '<p>[[!getResources? &amp;parents=`2` &amp;limit=`1` &amp;depth=`1` &amp;hideContainers=`1` &amp;tpl=`featureStoryTpl` &amp;includeContent=`1` &amp;showHidden=`1` &amp;includeTVs=`1` &amp;processTVs=`1` &amp;tvPrefix=`` &amp;tvFilters=`featureStory==%yes%` &sortby=`{"createdon":"DESC"}` ]]</p>
-<div id="newsfeed_container" class="one-third column omega">
-<ul>[[!getResources? &amp;parents=`2,49` &amp;limit=`4` &amp;depth=`1` &amp;hideContainers=`1` &amp;tpl=`newsSummaryTpl` &amp;includeContent=`1` &amp;showHidden=`1` &amp;includeTVs=`1` &amp;processTVs=`1` &amp;tvPrefix=`` &amp;tvFilters=`postType==%article%,featureStory==%no%` &sortby=`{"createdon":"DESC"}` ]]</ul>
-</div>
-<!--end newsfeed_container-->
-<p> </p>
-<div id="frontpage_story_container">[[!getResources? &amp;parents=`2` &amp;limit=`0` &amp;depth=`1` &amp;hideContainers=`1` &amp;tpl=`postTeaserTpl` &amp;includeContent=`1` &amp;showHidden=`1` &amp;includeTVs=`1` &amp;processTVs=`1` &amp;tvPrefix=`` &amp;tvFilters=`featureStory==%no%,postType!=%article%,postType!=%inspiration%` &sortby=`{"createdon":"DESC"}` ]]</div>
+    'content' => '[[!getResources? &parents=`2` &limit=`1` &depth=`1` &hideContainers=`1` &tpl=`featureStoryTpl` &includeContent=`1` &showHidden=`1` &includeTVs=`1` &processTVs=`1` &tvPrefix=`` &tvFilters=`featureStory==%yes%` &sortby=`{"createdon":"DESC"}` ]]
+
+
+[[!getResources? 
+&parents=`2` 
+&limit=`9` 
+&depth=`1` 
+&hideContainers=`1`
+&tplCondition=`postType`
+&conditionalTpls=`{"article":"articlePostTeaserTpl","report":"postTeaserTpl"}`
+&tpl=`postTeaserTpl` 
+&includeContent=`1` 
+&showHidden=`1` 
+&includeTVs=`1` 
+&processTVs=`1` 
+&tvPrefix=`` 
+&tvFilters=`featureStory==%no%,postType!=%inspiration%` 
+&sortby=`{"createdon":"DESC"}` ]]
 <!--end frontpage_story_container-->',
-    'richtext' => 1,
+    'richtext' => 0,
     'template' => 1,
     'menuindex' => 0,
     'searchable' => 1,
@@ -32,7 +43,7 @@
     'createdby' => 1,
     'createdon' => 1365003183,
     'editedby' => 1,
-    'editedon' => 1372456455,
+    'editedon' => 1384470115,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
@@ -47,7 +58,7 @@
     'class_key' => 'modDocument',
     'context_key' => 'web',
     'content_type' => 1,
-    'uri' => '',
+    'uri' => 'index/',
     'uri_override' => 0,
     'hide_children_in_tree' => 0,
     'show_in_tree' => 1,
@@ -56,7 +67,7 @@
 "http://www.w3.org/TR/html4/strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-        <base href="http://livingoctaveresearch.us/" />
+        <base href="http://127.0.0.1:8080/living_octave_research/" />
 	<meta charset="utf-8">
 	<title>Living Octave Research</title>
 	<meta name="description" content="">
@@ -67,25 +78,9 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-title" content="livingOctave">
-        <!------------------------>
 
         <!--style sheets-->
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/typography.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/base.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/layout.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/framework.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/add2home.css" />
-        <!------------------------>
-
-        <script type="application/javascript" src="assets/js/add2home.js"></script>
-	
-        <!--typekit-->
-        <script type="text/javascript" src="//use.typekit.net/kky1ncp.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<!--[if lt IE 9]-->
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	
+	<link rel="stylesheet" href="assets/css/compiled/style.css" type="text/css" />
 
 	<!--homescreen icons-->
 	<link rel="shortcut icon" href="images/favicon.ico">
@@ -121,12 +116,21 @@
          and (orientation: portrait)
          and (-webkit-device-pixel-ratio: 2)"
          rel="apple-touch-startup-image">       
-       <!------------------->
 
        <!--RSS--> 
        <link rel="alternate" type="application/rss+xml" title="Follow this website with RSS" href="index.php?id=48" />  
        <!-- Version Date: 2013-04-03 -->
-       
+
+<!--typekit-->
+        <script type="text/javascript" src="//use.typekit.net/itk1olx.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<!--[if lt IE 9]-->
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+        <script type="application/javascript" src="assets/js/add2home.js"></script>  
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
        <script type="text/javascript">
         // Mobile Safari in standalone mode
         if(("standalone" in window.navigator) && window.navigator.standalone){
@@ -183,17 +187,27 @@ $(\'.stored\').keyup(function () {
 <div class="container">			
 <header class="sixteen columns" id="header_branding">
 <a href="index.php?id=1" title="Living Octave Research">
-<h1>living octave <span id="header_branding_research">research</span></h1>
+<h1>octave <span id="header_branding_research">research</span></h1>
 </a>
 </header>
-[[!SimpleSearchForm? &landing=`14` &tpl=`customSearchForm`]]  
-<p>[[!getResources? &amp;parents=`2` &amp;limit=`1` &amp;depth=`1` &amp;hideContainers=`1` &amp;tpl=`featureStoryTpl` &amp;includeContent=`1` &amp;showHidden=`1` &amp;includeTVs=`1` &amp;processTVs=`1` &amp;tvPrefix=`` &amp;tvFilters=`featureStory==%yes%` &sortby=`{"createdon":"DESC"}` ]]</p>
-<div id="newsfeed_container" class="one-third column omega">
-<ul>[[!getResources? &amp;parents=`2,49` &amp;limit=`4` &amp;depth=`1` &amp;hideContainers=`1` &amp;tpl=`newsSummaryTpl` &amp;includeContent=`1` &amp;showHidden=`1` &amp;includeTVs=`1` &amp;processTVs=`1` &amp;tvPrefix=`` &amp;tvFilters=`postType==%article%,featureStory==%no%` &sortby=`{"createdon":"DESC"}` ]]</ul>
-</div>
-<!--end newsfeed_container-->
-<p> </p>
-<div id="frontpage_story_container">[[!getResources? &amp;parents=`2` &amp;limit=`0` &amp;depth=`1` &amp;hideContainers=`1` &amp;tpl=`postTeaserTpl` &amp;includeContent=`1` &amp;showHidden=`1` &amp;includeTVs=`1` &amp;processTVs=`1` &amp;tvPrefix=`` &amp;tvFilters=`featureStory==%no%,postType!=%article%,postType!=%inspiration%` &sortby=`{"createdon":"DESC"}` ]]</div>
+[[!getResources? &parents=`2` &limit=`1` &depth=`1` &hideContainers=`1` &tpl=`featureStoryTpl` &includeContent=`1` &showHidden=`1` &includeTVs=`1` &processTVs=`1` &tvPrefix=`` &tvFilters=`featureStory==%yes%` &sortby=`{"createdon":"DESC"}` ]]
+
+
+[[!getResources? 
+&parents=`2` 
+&limit=`9` 
+&depth=`1` 
+&hideContainers=`1`
+&tplCondition=`postType`
+&conditionalTpls=`{"article":"articlePostTeaserTpl","report":"postTeaserTpl"}`
+&tpl=`postTeaserTpl` 
+&includeContent=`1` 
+&showHidden=`1` 
+&includeTVs=`1` 
+&processTVs=`1` 
+&tvPrefix=`` 
+&tvFilters=`featureStory==%no%,postType!=%inspiration%` 
+&sortby=`{"createdon":"DESC"}` ]]
 <!--end frontpage_story_container-->
 <nav class="sixteen columns" id="header_banner_menu_container">
 [[!Wayfinder? 
@@ -243,7 +257,7 @@ $(\'.stored\').keyup(function () {
   array (
     '[[~48]]' => 'index.php?id=48',
     '[[$head]]' => '<head>
-        <base href="http://livingoctaveresearch.us/" />
+        <base href="http://127.0.0.1:8080/living_octave_research/" />
 	<meta charset="utf-8">
 	<title>Living Octave Research</title>
 	<meta name="description" content="">
@@ -254,25 +268,9 @@ $(\'.stored\').keyup(function () {
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-title" content="livingOctave">
-        <!------------------------>
 
         <!--style sheets-->
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/typography.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/base.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/layout.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/framework.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/add2home.css" />
-        <!------------------------>
-
-        <script type="application/javascript" src="assets/js/add2home.js"></script>
-	
-        <!--typekit-->
-        <script type="text/javascript" src="//use.typekit.net/kky1ncp.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<!--[if lt IE 9]-->
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	
+	<link rel="stylesheet" href="assets/css/compiled/style.css" type="text/css" />
 
 	<!--homescreen icons-->
 	<link rel="shortcut icon" href="images/favicon.ico">
@@ -308,12 +306,21 @@ $(\'.stored\').keyup(function () {
          and (orientation: portrait)
          and (-webkit-device-pixel-ratio: 2)"
          rel="apple-touch-startup-image">       
-       <!------------------->
 
        <!--RSS--> 
        <link rel="alternate" type="application/rss+xml" title="Follow this website with RSS" href="index.php?id=48" />  
        <!-- Version Date: 2013-04-03 -->
-       
+
+<!--typekit-->
+        <script type="text/javascript" src="//use.typekit.net/itk1olx.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<!--[if lt IE 9]-->
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+        <script type="application/javascript" src="assets/js/add2home.js"></script>  
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
        <script type="text/javascript">
         // Mobile Safari in standalone mode
         if(("standalone" in window.navigator) && window.navigator.standalone){
@@ -369,10 +376,9 @@ $(\'.stored\').keyup(function () {
     '[[~1]]' => 'index.php?id=1',
     '[[$header]]' => '<header class="sixteen columns" id="header_branding">
 <a href="index.php?id=1" title="Living Octave Research">
-<h1>living octave <span id="header_branding_research">research</span></h1>
+<h1>octave <span id="header_branding_research">research</span></h1>
 </a>
 </header>',
-    '[[$search]]' => '[[!SimpleSearchForm? &landing=`14` &tpl=`customSearchForm`]]  ',
     '[[~24? &service=`logout`]]' => 'index.php?id=24&amp;service=logout',
     '[[$menu]]' => '<nav class="sixteen columns" id="header_banner_menu_container">
 [[!Wayfinder? 
@@ -390,25 +396,16 @@ $(\'.stored\').keyup(function () {
 </nav><!--end header_banner_menu_container-->
 
 <hr>',
-    '[[*id]]' => 1,
-    '[[~14]]' => 'index.php?id=14',
-    '[[%sisea.search? &namespace=`sisea` &topic=`default`]]' => 'Search',
+    '[[~80]]' => 'index.php?id=80',
+    '[[~85]]' => 'index.php?id=85',
+    '[[~84]]' => 'index.php?id=84',
+    '[[~83]]' => 'index.php?id=83',
+    '[[~82]]' => 'index.php?id=82',
+    '[[~81]]' => 'index.php?id=81',
+    '[[~79]]' => 'index.php?id=79',
+    '[[~78]]' => 'index.php?id=78',
+    '[[~77]]' => 'index.php?id=77',
     '[[~76]]' => 'index.php?id=76',
-    '[[~75]]' => 'index.php?id=75',
-    '[[~74]]' => 'index.php?id=74',
-    '[[~73]]' => 'index.php?id=73',
-    '[[~72]]' => 'index.php?id=72',
-    '[[~71]]' => 'index.php?id=71',
-    '[[~64]]' => 'index.php?id=64',
-    '[[~63]]' => 'index.php?id=63',
-    '[[~62]]' => 'index.php?id=62',
-    '[[~57]]' => 'index.php?id=57',
-    '[[~36]]' => 'index.php?id=36',
-    '[[~31]]' => 'index.php?id=31',
-    '[[~15]]' => 'index.php?id=15',
-    '[[~11]]' => 'index.php?id=11',
-    '[[~9]]' => 'index.php?id=9',
-    '[[~8]]' => 'index.php?id=8',
   ),
   'sourceCache' => 
   array (
@@ -438,25 +435,9 @@ $(\'.stored\').keyup(function () {
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-title" content="livingOctave">
-        <!------------------------>
 
         <!--style sheets-->
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/typography.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/base.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/layout.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/framework.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/add2home.css" />
-        <!------------------------>
-
-        <script type="application/javascript" src="assets/js/add2home.js"></script>
-	
-        <!--typekit-->
-        <script type="text/javascript" src="//use.typekit.net/kky1ncp.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<!--[if lt IE 9]-->
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	
+	<link rel="stylesheet" href="assets/css/compiled/style.css" type="text/css" />
 
 	<!--homescreen icons-->
 	<link rel="shortcut icon" href="images/favicon.ico">
@@ -492,12 +473,21 @@ $(\'.stored\').keyup(function () {
          and (orientation: portrait)
          and (-webkit-device-pixel-ratio: 2)"
          rel="apple-touch-startup-image">       
-       <!------------------->
 
        <!--RSS--> 
        <link rel="alternate" type="application/rss+xml" title="Follow this website with RSS" href="[[~48]]" />  
        <!-- Version Date: 2013-04-03 -->
-       
+
+<!--typekit-->
+        <script type="text/javascript" src="//use.typekit.net/itk1olx.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<!--[if lt IE 9]-->
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+        <script type="application/javascript" src="assets/js/add2home.js"></script>  
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
        <script type="text/javascript">
         // Mobile Safari in standalone mode
         if(("standalone" in window.navigator) && window.navigator.standalone){
@@ -568,25 +558,9 @@ $(\'.stored\').keyup(function () {
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-title" content="livingOctave">
-        <!------------------------>
 
         <!--style sheets-->
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/typography.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/base.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/layout.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/framework.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/add2home.css" />
-        <!------------------------>
-
-        <script type="application/javascript" src="assets/js/add2home.js"></script>
-	
-        <!--typekit-->
-        <script type="text/javascript" src="//use.typekit.net/kky1ncp.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<!--[if lt IE 9]-->
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	
+	<link rel="stylesheet" href="assets/css/compiled/style.css" type="text/css" />
 
 	<!--homescreen icons-->
 	<link rel="shortcut icon" href="images/favicon.ico">
@@ -622,12 +596,21 @@ $(\'.stored\').keyup(function () {
          and (orientation: portrait)
          and (-webkit-device-pixel-ratio: 2)"
          rel="apple-touch-startup-image">       
-       <!------------------->
 
        <!--RSS--> 
        <link rel="alternate" type="application/rss+xml" title="Follow this website with RSS" href="[[~48]]" />  
        <!-- Version Date: 2013-04-03 -->
-       
+
+<!--typekit-->
+        <script type="text/javascript" src="//use.typekit.net/itk1olx.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<!--[if lt IE 9]-->
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+        <script type="application/javascript" src="assets/js/add2home.js"></script>  
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
        <script type="text/javascript">
         // Mobile Safari in standalone mode
         if(("standalone" in window.navigator) && window.navigator.standalone){
@@ -702,7 +685,7 @@ $(\'.stored\').keyup(function () {
           'cache_type' => 0,
           'snippet' => '<header class="sixteen columns" id="header_branding">
 <a href="[[~1]]" title="[[++site_name]]">
-<h1>living octave <span id="header_branding_research">research</span></h1>
+<h1>octave <span id="header_branding_research">research</span></h1>
 </a>
 </header>',
           'locked' => false,
@@ -713,37 +696,9 @@ $(\'.stored\').keyup(function () {
           'static_file' => '',
           'content' => '<header class="sixteen columns" id="header_branding">
 <a href="[[~1]]" title="[[++site_name]]">
-<h1>living octave <span id="header_branding_research">research</span></h1>
+<h1>octave <span id="header_branding_research">research</span></h1>
 </a>
 </header>',
-        ),
-        'policies' => 
-        array (
-        ),
-        'source' => 
-        array (
-        ),
-      ),
-      'search' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 27,
-          'source' => 0,
-          'property_preprocess' => false,
-          'name' => 'search',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 20,
-          'cache_type' => 0,
-          'snippet' => '[[!SimpleSearchForm? &landing=`14` &tpl=`customSearchForm`]]  ',
-          'locked' => false,
-          'properties' => 
-          array (
-          ),
-          'static' => false,
-          'static_file' => '',
-          'content' => '[[!SimpleSearchForm? &landing=`14` &tpl=`customSearchForm`]]  ',
         ),
         'policies' => 
         array (
@@ -813,231 +768,6 @@ $(\'.stored\').keyup(function () {
     ),
     'modSnippet' => 
     array (
-      'SimpleSearchForm' => 
-      array (
-        'fields' => 
-        array (
-          'id' => 25,
-          'source' => 0,
-          'property_preprocess' => false,
-          'name' => 'SimpleSearchForm',
-          'description' => '',
-          'editor_type' => 0,
-          'category' => 9,
-          'cache_type' => 0,
-          'snippet' => '/**
- * SimpleSearch
- *
- * Copyright 2010-11 by Shaun McCormick <shaun+sisea@modx.com>
- *
- * This file is part of SimpleSearch, a simple search component for MODx
- * Revolution. It is loosely based off of AjaxSearch for MODx Evolution by
- * coroico/kylej, minus the ajax.
- *
- * SimpleSearch is free software; you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation; either version 2 of the License, or (at your option) any later
- * version.
- *
- * SimpleSearch is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
- *
- * You should have received a copy of the GNU General Public License along with
- * SimpleSearch; if not, write to the Free Software Foundation, Inc., 59 Temple Place,
- * Suite 330, Boston, MA 02111-1307 USA
- *
- * @package simplesearch
- */
-/**
- * Show the search form
- *
- * @var modX $modx
- * @var array $scriptProperties
- * @package simplesearch
- */
-require_once $modx->getOption(\'sisea.core_path\',null,$modx->getOption(\'core_path\').\'components/simplesearch/\').\'model/simplesearch/simplesearch.class.php\';
-$search = new SimpleSearch($modx,$scriptProperties);
-
-/* setup default options */
-$scriptProperties = array_merge(array(
-  \'tpl\' => \'SearchForm\',
-  \'method\' => \'get\',
-  \'searchIndex\' => \'search\',
-  \'toPlaceholder\' => false,
-  \'landing\' => $modx->resource->get(\'id\'),
-), $scriptProperties);
-
-if (empty($scriptProperties[\'landing\'])) {
-  $scriptProperties[\'landing\'] = $modx->resource->get(\'id\');
-}
-
-/* if get value already exists, set it as default */
-$searchValue = isset($_REQUEST[$scriptProperties[\'searchIndex\']]) ? $_REQUEST[$scriptProperties[\'searchIndex\']] : \'\';
-$searchValues = explode(\' \', $searchValue);
-array_map(array($modx, \'sanitizeString\'), $searchValues);
-$searchValue = implode(\' \', $searchValues);
-$placeholders = array(
-    \'method\' => $scriptProperties[\'method\'],
-    \'landing\' => $scriptProperties[\'landing\'],
-    \'searchValue\' => strip_tags(str_replace(array(\'[\',\']\',\'"\',"\'"),array(\'&#91;\',\'&#93;\',\'&quot;\',\'&apos;\'),$searchValue)),
-    \'searchIndex\' => $scriptProperties[\'searchIndex\'],
-);
-
-$output = $search->getChunk($scriptProperties[\'tpl\'],$placeholders);
-return $search->output($output,$scriptProperties[\'toPlaceholder\']);',
-          'locked' => false,
-          'properties' => 
-          array (
-            'tpl' => 
-            array (
-              'name' => 'tpl',
-              'desc' => 'sisea.tpl_form_desc',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => 'SearchForm',
-              'lexicon' => 'sisea:properties',
-              'area' => '',
-              'desc_trans' => 'The chunk that will be used to display the search form.',
-              'area_trans' => '',
-            ),
-            'landing' => 
-            array (
-              'name' => 'landing',
-              'desc' => 'sisea.landing_desc',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => '',
-              'lexicon' => 'sisea:properties',
-              'area' => '',
-              'desc_trans' => 'The Resource that the SimpleSearch snippet is called on, that will display the results of the search.',
-              'area_trans' => '',
-            ),
-            'searchIndex' => 
-            array (
-              'name' => 'searchIndex',
-              'desc' => 'sisea.searchindex_desc',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => 'search',
-              'lexicon' => 'sisea:properties',
-              'area' => '',
-              'desc_trans' => 'The name of the REQUEST parameter that the search will use.',
-              'area_trans' => '',
-            ),
-            'method' => 
-            array (
-              'name' => 'method',
-              'desc' => 'sisea.method_desc',
-              'type' => 'combo-boolean',
-              'options' => 
-              array (
-                0 => 
-                array (
-                  'text' => 'sisea.get',
-                  'value' => 'get',
-                  'name' => 'get',
-                ),
-                1 => 
-                array (
-                  'text' => 'sisea.post',
-                  'value' => 'post',
-                  'name' => 'post',
-                ),
-              ),
-              'value' => 'get',
-              'lexicon' => 'sisea:properties',
-              'area' => '',
-              'desc_trans' => 'Whether to send the search over POST or GET.',
-              'area_trans' => '',
-            ),
-            'toPlaceholder' => 
-            array (
-              'name' => 'toPlaceholder',
-              'desc' => 'sisea.toplaceholder_desc',
-              'type' => 'textfield',
-              'options' => '',
-              'value' => '',
-              'lexicon' => 'sisea:properties',
-              'area' => '',
-              'desc_trans' => 'Whether to set the output to directly return, or set to a placeholder with this propertys name.',
-              'area_trans' => '',
-            ),
-          ),
-          'moduleguid' => '',
-          'static' => false,
-          'static_file' => '',
-          'content' => '/**
- * SimpleSearch
- *
- * Copyright 2010-11 by Shaun McCormick <shaun+sisea@modx.com>
- *
- * This file is part of SimpleSearch, a simple search component for MODx
- * Revolution. It is loosely based off of AjaxSearch for MODx Evolution by
- * coroico/kylej, minus the ajax.
- *
- * SimpleSearch is free software; you can redistribute it and/or modify it under
- * the terms of the GNU General Public License as published by the Free Software
- * Foundation; either version 2 of the License, or (at your option) any later
- * version.
- *
- * SimpleSearch is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
- * details.
- *
- * You should have received a copy of the GNU General Public License along with
- * SimpleSearch; if not, write to the Free Software Foundation, Inc., 59 Temple Place,
- * Suite 330, Boston, MA 02111-1307 USA
- *
- * @package simplesearch
- */
-/**
- * Show the search form
- *
- * @var modX $modx
- * @var array $scriptProperties
- * @package simplesearch
- */
-require_once $modx->getOption(\'sisea.core_path\',null,$modx->getOption(\'core_path\').\'components/simplesearch/\').\'model/simplesearch/simplesearch.class.php\';
-$search = new SimpleSearch($modx,$scriptProperties);
-
-/* setup default options */
-$scriptProperties = array_merge(array(
-  \'tpl\' => \'SearchForm\',
-  \'method\' => \'get\',
-  \'searchIndex\' => \'search\',
-  \'toPlaceholder\' => false,
-  \'landing\' => $modx->resource->get(\'id\'),
-), $scriptProperties);
-
-if (empty($scriptProperties[\'landing\'])) {
-  $scriptProperties[\'landing\'] = $modx->resource->get(\'id\');
-}
-
-/* if get value already exists, set it as default */
-$searchValue = isset($_REQUEST[$scriptProperties[\'searchIndex\']]) ? $_REQUEST[$scriptProperties[\'searchIndex\']] : \'\';
-$searchValues = explode(\' \', $searchValue);
-array_map(array($modx, \'sanitizeString\'), $searchValues);
-$searchValue = implode(\' \', $searchValues);
-$placeholders = array(
-    \'method\' => $scriptProperties[\'method\'],
-    \'landing\' => $scriptProperties[\'landing\'],
-    \'searchValue\' => strip_tags(str_replace(array(\'[\',\']\',\'"\',"\'"),array(\'&#91;\',\'&#93;\',\'&quot;\',\'&apos;\'),$searchValue)),
-    \'searchIndex\' => $scriptProperties[\'searchIndex\'],
-);
-
-$output = $search->getChunk($scriptProperties[\'tpl\'],$placeholders);
-return $search->output($output,$scriptProperties[\'toPlaceholder\']);',
-        ),
-        'policies' => 
-        array (
-        ),
-        'source' => 
-        array (
-        ),
-      ),
       'getResources' => 
       array (
         'fields' => 

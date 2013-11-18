@@ -49,7 +49,7 @@
 "http://www.w3.org/TR/html4/strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-        <base href="http://livingoctaveresearch.us/" />
+        <base href="http://127.0.0.1:8080/living_octave_research/" />
 	<meta charset="utf-8">
 	<title>Living Octave Research</title>
 	<meta name="description" content="">
@@ -60,25 +60,9 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-title" content="livingOctave">
-        <!------------------------>
 
         <!--style sheets-->
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/typography.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/base.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/layout.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/framework.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/add2home.css" />
-        <!------------------------>
-
-        <script type="application/javascript" src="assets/js/add2home.js"></script>
-	
-        <!--typekit-->
-        <script type="text/javascript" src="//use.typekit.net/kky1ncp.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<!--[if lt IE 9]-->
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	
+	<link rel="stylesheet" href="assets/css/compiled/style.css" type="text/css" />
 
 	<!--homescreen icons-->
 	<link rel="shortcut icon" href="images/favicon.ico">
@@ -114,12 +98,21 @@
          and (orientation: portrait)
          and (-webkit-device-pixel-ratio: 2)"
          rel="apple-touch-startup-image">       
-       <!------------------->
 
        <!--RSS--> 
        <link rel="alternate" type="application/rss+xml" title="Follow this website with RSS" href="index.php?id=48" />  
        <!-- Version Date: 2013-04-03 -->
-       
+
+<!--typekit-->
+        <script type="text/javascript" src="//use.typekit.net/itk1olx.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<!--[if lt IE 9]-->
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+        <script type="application/javascript" src="assets/js/add2home.js"></script>  
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
        <script type="text/javascript">
         // Mobile Safari in standalone mode
         if(("standalone" in window.navigator) && window.navigator.standalone){
@@ -176,7 +169,7 @@ $(\'.stored\').keyup(function () {
 <div class="container">			
 <header class="sixteen columns" id="header_branding">
 <a href="index.php?id=1" title="Living Octave Research">
-<h1>living octave <span id="header_branding_research">research</span></h1>
+<h1>octave <span id="header_branding_research">research</span></h1>
 </a>
 </header>
 [[!SimpleSearchForm? &landing=`14` &tpl=`customSearchForm`]]  
@@ -235,7 +228,7 @@ $(\'.stored\').keyup(function () {
   array (
     '[[~48]]' => 'index.php?id=48',
     '[[$head]]' => '<head>
-        <base href="http://livingoctaveresearch.us/" />
+        <base href="http://127.0.0.1:8080/living_octave_research/" />
 	<meta charset="utf-8">
 	<title>Living Octave Research</title>
 	<meta name="description" content="">
@@ -246,25 +239,9 @@ $(\'.stored\').keyup(function () {
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-title" content="livingOctave">
-        <!------------------------>
 
         <!--style sheets-->
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/typography.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/base.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/layout.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/framework.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/add2home.css" />
-        <!------------------------>
-
-        <script type="application/javascript" src="assets/js/add2home.js"></script>
-	
-        <!--typekit-->
-        <script type="text/javascript" src="//use.typekit.net/kky1ncp.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<!--[if lt IE 9]-->
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	
+	<link rel="stylesheet" href="assets/css/compiled/style.css" type="text/css" />
 
 	<!--homescreen icons-->
 	<link rel="shortcut icon" href="images/favicon.ico">
@@ -300,12 +277,21 @@ $(\'.stored\').keyup(function () {
          and (orientation: portrait)
          and (-webkit-device-pixel-ratio: 2)"
          rel="apple-touch-startup-image">       
-       <!------------------->
 
        <!--RSS--> 
        <link rel="alternate" type="application/rss+xml" title="Follow this website with RSS" href="index.php?id=48" />  
        <!-- Version Date: 2013-04-03 -->
-       
+
+<!--typekit-->
+        <script type="text/javascript" src="//use.typekit.net/itk1olx.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<!--[if lt IE 9]-->
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+        <script type="application/javascript" src="assets/js/add2home.js"></script>  
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
        <script type="text/javascript">
         // Mobile Safari in standalone mode
         if(("standalone" in window.navigator) && window.navigator.standalone){
@@ -361,7 +347,7 @@ $(\'.stored\').keyup(function () {
     '[[~1]]' => 'index.php?id=1',
     '[[$header]]' => '<header class="sixteen columns" id="header_branding">
 <a href="index.php?id=1" title="Living Octave Research">
-<h1>living octave <span id="header_branding_research">research</span></h1>
+<h1>octave <span id="header_branding_research">research</span></h1>
 </a>
 </header>',
     '[[$search]]' => '[[!SimpleSearchForm? &landing=`14` &tpl=`customSearchForm`]]  ',
@@ -387,6 +373,9 @@ $(\'.stored\').keyup(function () {
     '[[*id]]' => 33,
     '[[~14]]' => 'index.php?id=14',
     '[[%sisea.search? &namespace=`sisea` &topic=`default`]]' => 'Search',
+    '[[~82]]' => 'index.php?id=82',
+    '[[~83]]' => 'index.php?id=83',
+    '[[~84]]' => 'index.php?id=84',
     '[[~74]]' => 'index.php?id=74',
     '[[~57]]' => 'index.php?id=57',
   ),
@@ -418,25 +407,9 @@ $(\'.stored\').keyup(function () {
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-title" content="livingOctave">
-        <!------------------------>
 
         <!--style sheets-->
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/typography.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/base.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/layout.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/framework.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/add2home.css" />
-        <!------------------------>
-
-        <script type="application/javascript" src="assets/js/add2home.js"></script>
-	
-        <!--typekit-->
-        <script type="text/javascript" src="//use.typekit.net/kky1ncp.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<!--[if lt IE 9]-->
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	
+	<link rel="stylesheet" href="assets/css/compiled/style.css" type="text/css" />
 
 	<!--homescreen icons-->
 	<link rel="shortcut icon" href="images/favicon.ico">
@@ -472,12 +445,21 @@ $(\'.stored\').keyup(function () {
          and (orientation: portrait)
          and (-webkit-device-pixel-ratio: 2)"
          rel="apple-touch-startup-image">       
-       <!------------------->
 
        <!--RSS--> 
        <link rel="alternate" type="application/rss+xml" title="Follow this website with RSS" href="[[~48]]" />  
        <!-- Version Date: 2013-04-03 -->
-       
+
+<!--typekit-->
+        <script type="text/javascript" src="//use.typekit.net/itk1olx.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<!--[if lt IE 9]-->
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+        <script type="application/javascript" src="assets/js/add2home.js"></script>  
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
        <script type="text/javascript">
         // Mobile Safari in standalone mode
         if(("standalone" in window.navigator) && window.navigator.standalone){
@@ -548,25 +530,9 @@ $(\'.stored\').keyup(function () {
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-title" content="livingOctave">
-        <!------------------------>
 
         <!--style sheets-->
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/typography.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/base.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/layout.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/framework.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/add2home.css" />
-        <!------------------------>
-
-        <script type="application/javascript" src="assets/js/add2home.js"></script>
-	
-        <!--typekit-->
-        <script type="text/javascript" src="//use.typekit.net/kky1ncp.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<!--[if lt IE 9]-->
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	
+	<link rel="stylesheet" href="assets/css/compiled/style.css" type="text/css" />
 
 	<!--homescreen icons-->
 	<link rel="shortcut icon" href="images/favicon.ico">
@@ -602,12 +568,21 @@ $(\'.stored\').keyup(function () {
          and (orientation: portrait)
          and (-webkit-device-pixel-ratio: 2)"
          rel="apple-touch-startup-image">       
-       <!------------------->
 
        <!--RSS--> 
        <link rel="alternate" type="application/rss+xml" title="Follow this website with RSS" href="[[~48]]" />  
        <!-- Version Date: 2013-04-03 -->
-       
+
+<!--typekit-->
+        <script type="text/javascript" src="//use.typekit.net/itk1olx.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<!--[if lt IE 9]-->
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+        <script type="application/javascript" src="assets/js/add2home.js"></script>  
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
        <script type="text/javascript">
         // Mobile Safari in standalone mode
         if(("standalone" in window.navigator) && window.navigator.standalone){
@@ -663,9 +638,6 @@ $(\'.stored\').keyup(function () {
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -685,7 +657,7 @@ $(\'.stored\').keyup(function () {
           'cache_type' => 0,
           'snippet' => '<header class="sixteen columns" id="header_branding">
 <a href="[[~1]]" title="[[++site_name]]">
-<h1>living octave <span id="header_branding_research">research</span></h1>
+<h1>octave <span id="header_branding_research">research</span></h1>
 </a>
 </header>',
           'locked' => false,
@@ -696,15 +668,12 @@ $(\'.stored\').keyup(function () {
           'static_file' => '',
           'content' => '<header class="sixteen columns" id="header_branding">
 <a href="[[~1]]" title="[[++site_name]]">
-<h1>living octave <span id="header_branding_research">research</span></h1>
+<h1>octave <span id="header_branding_research">research</span></h1>
 </a>
 </header>',
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -733,9 +702,6 @@ $(\'.stored\').keyup(function () {
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -764,9 +730,6 @@ $(\'.stored\').keyup(function () {
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -825,9 +788,6 @@ $(\'.stored\').keyup(function () {
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -1056,9 +1016,6 @@ return $search->output($output,$scriptProperties[\'toPlaceholder\']);',
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -2944,9 +2901,6 @@ return $output;',
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -3756,9 +3710,6 @@ if ($wf->_config[\'ph\']) {
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (
@@ -3882,9 +3833,6 @@ return $controller->run($scriptProperties);',
         ),
         'policies' => 
         array (
-          'web' => 
-          array (
-          ),
         ),
         'source' => 
         array (

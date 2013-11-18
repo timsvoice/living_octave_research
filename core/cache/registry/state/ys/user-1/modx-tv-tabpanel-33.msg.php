@@ -1,4 +1,4 @@
 <?php
 return array (
-  'activeTab' => 6,
+  'activeTab' => 3,
 );

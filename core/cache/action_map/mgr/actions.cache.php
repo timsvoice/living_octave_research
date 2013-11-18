@@ -9,7 +9,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'batcher',
-    'namespace_path' => '/home/content/53/11112053/html/core/components/batcher/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/core/components/batcher/',
     'namespace_assets_path' => '',
   ),
   3 => 
@@ -22,7 +22,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   73 => 
@@ -35,7 +35,7 @@
     'assets' => '',
     'help_url' => 'Contexts',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   4 => 
@@ -48,7 +48,7 @@
     'assets' => '',
     'help_url' => 'Contexts',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   5 => 
@@ -61,7 +61,7 @@
     'assets' => '',
     'help_url' => 'Contexts',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   6 => 
@@ -74,7 +74,7 @@
     'assets' => '',
     'help_url' => 'Contexts',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   7 => 
@@ -87,7 +87,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   8 => 
@@ -100,7 +100,7 @@
     'assets' => '',
     'help_url' => 'Chunks',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   9 => 
@@ -113,7 +113,7 @@
     'assets' => '',
     'help_url' => 'Chunks',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   10 => 
@@ -126,7 +126,7 @@
     'assets' => '',
     'help_url' => 'Chunks',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   11 => 
@@ -139,7 +139,7 @@
     'assets' => '',
     'help_url' => 'Plugins',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   12 => 
@@ -152,7 +152,7 @@
     'assets' => '',
     'help_url' => 'Plugins',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   13 => 
@@ -165,7 +165,7 @@
     'assets' => '',
     'help_url' => 'Plugins',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   62 => 
@@ -178,7 +178,7 @@
     'assets' => '',
     'help_url' => 'Properties+and+Property+Sets',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   14 => 
@@ -191,7 +191,7 @@
     'assets' => '',
     'help_url' => 'Snippets',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   15 => 
@@ -204,7 +204,7 @@
     'assets' => '',
     'help_url' => 'Snippets',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   16 => 
@@ -217,7 +217,7 @@
     'assets' => '',
     'help_url' => 'Snippets',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   17 => 
@@ -230,7 +230,7 @@
     'assets' => '',
     'help_url' => 'Templates',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   18 => 
@@ -243,7 +243,7 @@
     'assets' => '',
     'help_url' => 'Templates',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   20 => 
@@ -256,7 +256,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   19 => 
@@ -269,7 +269,7 @@
     'assets' => '',
     'help_url' => 'Templates',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   21 => 
@@ -282,7 +282,7 @@
     'assets' => '',
     'help_url' => 'Template+Variables',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   22 => 
@@ -295,7 +295,7 @@
     'assets' => '',
     'help_url' => 'Template+Variables',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   23 => 
@@ -308,7 +308,7 @@
     'assets' => '',
     'help_url' => 'Template+Variables',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   24 => 
@@ -321,7 +321,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   68 => 
@@ -334,7 +334,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   25 => 
@@ -347,7 +347,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   55 => 
@@ -360,7 +360,7 @@
     'assets' => '',
     'help_url' => 'Resource',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   28 => 
@@ -373,7 +373,7 @@
     'assets' => '',
     'help_url' => 'Resource',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   29 => 
@@ -386,7 +386,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   64 => 
@@ -399,7 +399,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   38 => 
@@ -412,7 +412,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   30 => 
@@ -425,7 +425,7 @@
     'assets' => '',
     'help_url' => 'Resource',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   54 => 
@@ -438,7 +438,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   31 => 
@@ -451,7 +451,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   43 => 
@@ -464,7 +464,7 @@
     'assets' => '',
     'help_url' => 'PolicyTemplates',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   41 => 
@@ -477,7 +477,7 @@
     'assets' => '',
     'help_url' => 'Policies',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   59 => 
@@ -490,7 +490,7 @@
     'assets' => '',
     'help_url' => 'Customizing+The+Manager',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   44 => 
@@ -503,7 +503,7 @@
     'assets' => '',
     'help_url' => 'Form+Customization+Profiles',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   45 => 
@@ -516,7 +516,7 @@
     'assets' => '',
     'help_url' => 'Form+Customization+Sets',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   35 => 
@@ -529,7 +529,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   77 => 
@@ -542,7 +542,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   57 => 
@@ -555,7 +555,7 @@
     'assets' => '',
     'help_url' => 'Security',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   76 => 
@@ -568,7 +568,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   58 => 
@@ -581,7 +581,7 @@
     'assets' => '',
     'help_url' => 'Resource+Groups',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   32 => 
@@ -594,7 +594,7 @@
     'assets' => '',
     'help_url' => 'Roles',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   56 => 
@@ -607,7 +607,7 @@
     'assets' => '',
     'help_url' => 'Users',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   33 => 
@@ -620,7 +620,7 @@
     'assets' => '',
     'help_url' => 'Users',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   34 => 
@@ -633,7 +633,7 @@
     'assets' => '',
     'help_url' => 'Users',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   26 => 
@@ -646,7 +646,7 @@
     'assets' => '',
     'help_url' => 'User+Groups',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   27 => 
@@ -659,7 +659,7 @@
     'assets' => '',
     'help_url' => 'User+Groups',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   50 => 
@@ -672,7 +672,7 @@
     'assets' => '',
     'help_url' => 'Media+Sources',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   63 => 
@@ -685,7 +685,7 @@
     'assets' => '',
     'help_url' => 'Media+Sources',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   51 => 
@@ -698,7 +698,7 @@
     'assets' => '',
     'help_url' => 'Media+Sources',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   2 => 
@@ -711,7 +711,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   74 => 
@@ -724,7 +724,7 @@
     'assets' => '',
     'help_url' => 'Actions+and+Menus',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   72 => 
@@ -737,7 +737,7 @@
     'assets' => '',
     'help_url' => 'Content+Types',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   53 => 
@@ -750,7 +750,7 @@
     'assets' => '',
     'help_url' => 'Dashboards',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   47 => 
@@ -763,7 +763,7 @@
     'assets' => '',
     'help_url' => 'Dashboards',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   46 => 
@@ -776,7 +776,7 @@
     'assets' => '',
     'help_url' => 'Dashboards',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   49 => 
@@ -789,7 +789,7 @@
     'assets' => '',
     'help_url' => 'Dashboard+Widgets',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   48 => 
@@ -802,7 +802,7 @@
     'assets' => '',
     'help_url' => 'Dashboard+Widgets',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   66 => 
@@ -815,7 +815,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   39 => 
@@ -828,7 +828,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   52 => 
@@ -841,7 +841,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   40 => 
@@ -854,7 +854,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   60 => 
@@ -867,7 +867,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   61 => 
@@ -880,7 +880,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   67 => 
@@ -893,7 +893,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   65 => 
@@ -906,7 +906,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   37 => 
@@ -919,7 +919,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   36 => 
@@ -932,7 +932,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   70 => 
@@ -945,7 +945,7 @@
     'assets' => '',
     'help_url' => 'Settings',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   1 => 
@@ -958,7 +958,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   69 => 
@@ -971,7 +971,7 @@
     'assets' => '',
     'help_url' => 'Package+Management',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   71 => 
@@ -984,7 +984,7 @@
     'assets' => '',
     'help_url' => 'Internationalization',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   75 => 
@@ -997,7 +997,7 @@
     'assets' => '',
     'help_url' => 'Namespaces',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   42 => 
@@ -1010,7 +1010,7 @@
     'assets' => '',
     'help_url' => 'Package+Management',
     'namespace_name' => 'core',
-    'namespace_path' => '/home/content/53/11112053/html/manager/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/',
     'namespace_assets_path' => '{assets_path}',
   ),
   80 => 
@@ -1023,7 +1023,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'gallery',
-    'namespace_path' => '/home/content/53/11112053/html/core/components/gallery/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/core/components/gallery/',
     'namespace_assets_path' => NULL,
   ),
   81 => 
@@ -1036,7 +1036,7 @@
     'assets' => '',
     'help_url' => '',
     'namespace_name' => 'quip',
-    'namespace_path' => '/home/content/53/11112053/html/core/components/quip/',
+    'namespace_path' => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/core/components/quip/',
     'namespace_assets_path' => NULL,
   ),
 );

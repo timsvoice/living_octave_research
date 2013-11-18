@@ -3,48 +3,48 @@
  *  MODX Configuration file
  */
 $database_type = 'mysql';
-$database_server = 'octaveresearch.db.11112053.hostedresource.com';
-$database_user = 'octaveresearch';
-$database_password = 'Sunshine!01';
+$database_server = 'localhost';
+$database_user = 'root';
+$database_password = 'password';
 $database_connection_charset = 'utf8';
 $dbase = 'octaveresearch';
 $table_prefix = 'modx_';
-$database_dsn = 'mysql:host=octaveresearch.db.11112053.hostedresource.com;dbname=octaveresearch;charset=utf8';
+$database_dsn = 'mysql:host=localhost;dbname=octaveresearch;charset=utf8';
 $config_options = array (
 );
 $driver_options = array (
 );
 
-$lastInstallTime = 1376683037;
+$lastInstallTime = 1384379907;
 
-$site_id = 'modx520e841d214450.28952662';
+$site_id = 'modx5283f603744cd3.16593336';
 $site_sessionname = 'SN515c4b6c4d862';
 $https_port = '443';
-$uuid = '60687d49-2d91-4f8d-8d7f-de354c841f8a';
+$uuid = 'ca58c0f4-3be4-402a-bb8a-74bd4756aee2';
 
 if (!defined('MODX_CORE_PATH')) {
-    $modx_core_path= '/home/content/53/11112053/html/core/';
+    $modx_core_path= '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/core/';
     define('MODX_CORE_PATH', $modx_core_path);
 }
 if (!defined('MODX_PROCESSORS_PATH')) {
-    $modx_processors_path= '/home/content/53/11112053/html/core/model/modx/processors/';
+    $modx_processors_path= '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/core/model/modx/processors/';
     define('MODX_PROCESSORS_PATH', $modx_processors_path);
 }
 if (!defined('MODX_CONNECTORS_PATH')) {
-    $modx_connectors_path= '/home/content/53/11112053/html/connectors/';
-    $modx_connectors_url= '/connectors/';
+    $modx_connectors_path= '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/connectors/';
+    $modx_connectors_url= '/living_octave_research/connectors/';
     define('MODX_CONNECTORS_PATH', $modx_connectors_path);
     define('MODX_CONNECTORS_URL', $modx_connectors_url);
 }
 if (!defined('MODX_MANAGER_PATH')) {
-    $modx_manager_path= '/home/content/53/11112053/html/manager/';
-    $modx_manager_url= '/manager/';
+    $modx_manager_path= '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/';
+    $modx_manager_url= '/living_octave_research/manager/';
     define('MODX_MANAGER_PATH', $modx_manager_path);
     define('MODX_MANAGER_URL', $modx_manager_url);
 }
 if (!defined('MODX_BASE_PATH')) {
-    $modx_base_path= '/home/content/53/11112053/html/';
-    $modx_base_url= '/';
+    $modx_base_path= '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/';
+    $modx_base_url= '/living_octave_research/';
     define('MODX_BASE_PATH', $modx_base_path);
     define('MODX_BASE_URL', $modx_base_url);
 }
@@ -59,7 +59,7 @@ if (!defined('MODX_URL_SCHEME')) {
 }
 if (!defined('MODX_HTTP_HOST')) {
     if(defined('PHP_SAPI') && (PHP_SAPI == "cli" || PHP_SAPI == "embed")) {
-        $http_host='livingoctaveresearch.us';
+        $http_host='127.0.0.1:8080';
         define('MODX_HTTP_HOST', $http_host);
     } else {
         $http_host= $_SERVER['HTTP_HOST'];
@@ -75,8 +75,8 @@ if (!defined('MODX_SITE_URL')) {
     define('MODX_SITE_URL', $site_url);
 }
 if (!defined('MODX_ASSETS_PATH')) {
-    $modx_assets_path= '/home/content/53/11112053/html/assets/';
-    $modx_assets_url= '/assets/';
+    $modx_assets_path= '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/';
+    $modx_assets_url= '/living_octave_research/assets/';
     define('MODX_ASSETS_PATH', $modx_assets_path);
     define('MODX_ASSETS_URL', $modx_assets_url);
 }

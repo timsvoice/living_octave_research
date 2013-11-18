@@ -1,0 +1,1 @@
+[2013-11-13 13:44:30] (ERROR in xPDOConnection::connect @ /Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/core/xpdo/xpdo.class.php : 3003) SQLSTATE[HY000] [2002] Operation timed out
