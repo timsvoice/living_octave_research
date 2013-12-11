@@ -1,0 +1,1224 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"list",
+				"list-n	list-style-type: none;"
+			],
+			[
+				"opaci",
+				"opacity	opacity()"
+			],
+			[
+				"o",
+				"opacify	opacify()"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"hsl",
+				"hsla	hsla()"
+			],
+			[
+				"m",
+				"mixin	@mixin"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"vendor",
+				"vendor_profile"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"product_",
+				"product_profile"
+			],
+			[
+				"ma",
+				"main_nav_background"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"hea",
+				"header_banner_menu_container"
+			],
+			[
+				"bor",
+				"borderThick"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"fron",
+				"frontpage_story"
+			],
+			[
+				"backgru",
+				"background-color"
+			],
+			[
+				"front",
+				"frontpage_story_category"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"color",
+				"colorA"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"colo",
+				"colorC"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"back",
+				"branding_background"
+			],
+			[
+				"brad",
+				"branding_background"
+			],
+			[
+				"icon_",
+				"icon_twitter"
+			],
+			[
+				"icon",
+				"icon_twitter"
+			],
+			[
+				"brand",
+				"branding_background"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"colr",
+				"colorA"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"branding",
+				"branding_height"
+			],
+			[
+				"button",
+				"button_color"
+			],
+			[
+				"a",
+				"a	Tag"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"cl",
+				"colorB"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"Open",
+				"OpenSans-light"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"n",
+				"nav	Tag"
+			],
+			[
+				"se",
+				"section	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "assets/css/raw/style.scss",
+			"settings":
+			{
+				"buffer_size": 5206,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n    <head>\n        <title>Site is down for maintenence - [Client Name]</title>\n        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n        <style>\n        body { text-align: center; padding: 150px; }\n        h1 { font-size: 50px; }\n        body { font: 20px Helvetica, sans-serif; color: #333; }\n        article { display: block; text-align: left; width: 650px; margin: 0 auto; }\n        a { color: #dc8100; text-decoration: none; }\n        a:hover { color: #333; text-decoration: none; }\n</style>\n    </head>\n    <body>\n    <article>\n        <h1>Site is temporary unavailable.</h1>\n        <p>We are currently performing scheduled maintenance. Site will back soon.</p>\n        <p>We apologize for any inconvenience.</p>\n        <p>&mdash; Octave New York</p>\n    </article>\n    </body>\n</html>",
+			"file": "maintenance.html",
+			"file_size": 841,
+			"file_write_time": 1386629169000000,
+			"settings":
+			{
+				"buffer_size": 841,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/Choose Browser.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"zurb",
+				"Snippet: ZURB Foundation Half Grid"
+			],
+			[
+				"snippet full",
+				"Snippet: ZURB Foundation Full Grid"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"SNIP",
+				"Snippet: post"
+			],
+			[
+				"sn oc",
+				"Snippet: octave_image"
+			],
+			[
+				"mou",
+				"Markdown: Open with Mou.app"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"MOU",
+				"Markdown: Open with Mou.app"
+			],
+			[
+				"marke",
+				"Markdown: Open with Mou.app"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"case",
+				"Convert Case: Upper Case"
+			],
+			[
+				"copy as",
+				"File: Copy as Tag style"
+			],
+			[
+				"path",
+				"File: Copy Path From Project"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"gist",
+				"Gist: Update File"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"live",
+				"LiveStyle: Install WebKit extension"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			],
+			[
+				"fetch",
+				"Fetch: Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"snipp zurb butt",
+				"Snippet: Zurb Large Button"
+			],
+			[
+				"snipp zurb butto",
+				"Snippet: Zurb Large Button"
+			],
+			[
+				"snipp zurb drop",
+				"Snippet: Zurb Dropdown Button"
+			],
+			[
+				"zurb butto",
+				"Snippet: Zurb Button"
+			],
+			[
+				"zurb bu",
+				"Snippet: Zurb Dropdown Button"
+			],
+			[
+				"snipp zurb",
+				"Snippet: Zurb Side Nav"
+			],
+			[
+				"zurb 2",
+				"Snippet: Zurb 2 Column Layout"
+			],
+			[
+				"snipp foun",
+				"Snippet: Zurb Foundation - New Page"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"founda",
+				"Snippet: Zurb Foundation - ul Block Grid - Two up"
+			],
+			[
+				"snip foun",
+				"Snippet: Zurb Foundation - New Page"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"snip if",
+				"Snippet: if()"
+			],
+			[
+				"snipp imp",
+				"Snippet: @import"
+			],
+			[
+				"snippet",
+				"Snippet: @import"
+			],
+			[
+				"snipp",
+				"Snippet: round()"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"snipet",
+				"Snippet: html"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"synta sa",
+				"Set Syntax: Sass"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"sas",
+				"Set Syntax: Sass"
+			],
+			[
+				"Package Control: s",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"CSS",
+				"Set Syntax: CSS"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"syn",
+				"Set Syntax: Groovy"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/131205_issue #2_cenceptual dining.html",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/HTML/furtherreading.sublime-snippet",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/hospitality/131205_issue #2_retail restaurants.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/hospitality/131204_issue #2_destination restaurants.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/hospitality/131204_issue#2_community builders.html",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/HTML/link.sublime-snippet",
+		"/Applications/mampstack-5.3.17-0/php/etc/php.ini",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/raw/_typography.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/compiled/style.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/raw/_layout.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/config.core.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/maintenance.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/131204_issue#2_market restaurants",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/style.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/hospitality/131204_Issue #2-Destination Restaurants.mdown",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/131204_issue#2_community focused restaurants",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/131204_issue#2_community focused restaurants.html",
+		"/Volumes/Projects/8888-Octave New York/Research/Image Library/Stone Barns/131121_farmersBarn.png",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/HTML/post.sublime-snippet",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/hospitality/131204_issue #2-destination restaurants.html",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/HTML/image.sublime-snippet",
+		"/Users/timsvoice/Desktop/index.html",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/Mou.app Markdown/Readme.md",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/markdowntest",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/css/style.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/raw/style.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/style",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/style.css",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/PlainTasks/PlainTasks (OSX).sublime-settings",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/Gist/Gist.sublime-settings",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/Gist.sublime-settings",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/sublime_commands.mdown",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/timothy_voice/buttons.css",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/Git/README.markdown",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/readme.md",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/stylesheets/app.css",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/boiler_plate/README.md",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/boiler_plate/index.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/bower_components/foundation/scss/foundation/components/_accordion.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/bower_components/modernizr/test/caniuse_files/style.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/scss/_settings.scss",
+		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/HTML/hello.sublime-snippet",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/index.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/scss/app.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/scss/_style.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/scss/_settings.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/_media.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/core/config/remote_config.inc.php",
+		"/Users/timsvoice/Desktop/config.inc.php",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/bower_components/foundation/css/foundation.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/bower_components/foundation/css/foundation.min.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/README.md",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/typography.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/style.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/typography.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/_reset.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/_states.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/style.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/vendors.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/products.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/products_plants.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/_base.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/_module.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/index.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/js/test.js",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/assets/fonts/ionicons-1.2.3/readme.md",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/style_guide.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/new_project_template/css/sass/raw/_base.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/new_project_template copy/css/sass/raw/_base.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/css/sass/compiled/base.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/css/sass/compiled/layout.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/css/sass/compiled/skeleton.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/services.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/NEW PROJECT TEMPLATE/css/sass/raw/style.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/NEW PROJECT TEMPLATE/css/sass/raw/_layout.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/new_project_template/css/sass/compiled/_reset.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/js/color_animation.js",
+		"/Users/timsvoice/Dropbox/TWDKS/2_Playbook/131014_Questions",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/compiled/style.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/compiled/base.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/mediaPortrait.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/mediaLandscape.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/mediaTablet.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/_variables_mixins.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/_branding.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/README.md",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/_typography.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/css/sass/raw/_ui_elements.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/compiled/style.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/project_css.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/raw/_ggs_baseline.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/compiled/layout.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/raw/mediaLandscape.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/raw/_imagery.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/raw/_typography.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/raw/_branding.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/style_guide.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/compiled/skeleton.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/raw/_resets.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/raw/_layout.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/index.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/project.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/raw/compiled",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/project_js.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/project_html.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/README.md",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/compiled/grid.css",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/about.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/NEW PROJECT TEMPLATE/index.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/playbook.mdown",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/NEW PROJECT TEMPLATE/css/sass/raw/_color_scheme.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/NEW PROJECT TEMPLATE/css/sass/raw/_elements.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/NEW PROJECT TEMPLATE/css/sass/raw/_ggs_baseline.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/NEW PROJECT TEMPLATE/css/sass/raw/_typography.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/NEW PROJECT TEMPLATE/css/sass/raw/_variables_mixins.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/rev_engineer/css/sass/raw/_variables_mixins.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/NEW PROJECT TEMPLATE/css/sass/raw/_branding.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/index.html",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/_typography.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/style.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/_variables_mixins.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/_ggs_baseline.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/_elements.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/git_common_actions.md",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/NEW PROJECT TEMPLATE/README.md",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/great_green_sources/skeleton/stylesheets/sass/_branding.scss"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#header_banner",
+			"#header_banner_",
+			".feature_image_small_top",
+			".fea",
+			"strong",
+			"h3",
+			"strong",
+			"<p><strong>",
+			"<h3>Further Reading:</h3>",
+			"0.75",
+			"main_st",
+			"main_so",
+			"hover",
+			"frontpage",
+			"main_story",
+			"logout",
+			"nav",
+			"article_su",
+			"article_summary",
+			"main_",
+			"ul",
+			"add",
+			"add   ",
+			"li   ",
+			"ul   ",
+			"ul  ",
+			"li ",
+			"li",
+			"heavy",
+			"i ",
+			"i",
+			"front",
+			"frontpage",
+			"front",
+			"error_reporting",
+			"display_errors",
+			"display",
+			"tagret",
+			"p>",
+			"p",
+			" \"",
+			"*",
+			"tagret",
+			"p",
+			"strong",
+			"__",
+			"Room",
+			"__",
+			"<li>",
+			"li",
+			"*",
+			"</p>",
+			"i>",
+			"<i",
+			"Mr",
+			"__",
+			"strong",
+			"__Momofuku",
+			"&",
+			"__",
+			"Boar",
+			"[*",
+			"[*]",
+			"h1",
+			"<<",
+			"i>",
+			"em>",
+			"em",
+			"<p>",
+			"article",
+			"push-2",
+			"10",
+			"6",
+			"12",
+			"9",
+			"3",
+			"bio",
+			"small-2 column",
+			"class=\"icon_",
+			"class=\"icon_images\"",
+			"small-2 column",
+			"/li>",
+			"</li>\n              </ul> <!-- social_icon_list -->\n",
+			"</a",
+			"<img",
+			"<a",
+			"social_icon_list_item",
+			"<li>",
+			"copy",
+			"option",
+			"-",
+			" -",
+			"link",
+			"width",
+			"TIMOTHY",
+			"localhost",
+			"vend",
+			"footer",
+			"info",
+			"info_",
+			"info_about",
+			"info_bout",
+			".main_nav_item",
+			"main",
+			"menu",
+			"clear",
+			"8em",
+			"8em\\",
+			"web",
+			"vendor",
+			"page",
+			"product",
+			"button",
+			"product_profile",
+			"border",
+			"product",
+			"||",
+			")",
+			"(",
+			"vendor",
+			"vendroe",
+			"vendor",
+			"main_story",
+			"main",
+			"report",
+			"front",
+			"front_page",
+			"header_"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"&amp;",
+			"&"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assets/css/raw/style.scss",
+					"settings":
+					{
+						"buffer_size": 5206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								518,
+								518
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "maintenance.html",
+					"settings":
+					{
+						"buffer_size": 841,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								567,
+								567
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"main",
+				"maintenance.html"
+			],
+			[
+				"config",
+				"config.core.php"
+			],
+			[
+				"destin",
+				"assets/research assets/hospitality/131204_issue #2_destination restaurants.html"
+			],
+			[
+				"commu",
+				"assets/research assets/hospitality/131204_issue#2_community builders.html"
+			],
+			[
+				"retail",
+				"assets/research assets/hospitality/131205_issue #2_retail restaurants.html"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"style",
+				"assets/css/raw/style.scss"
+			],
+			[
+				"comma",
+				"/Applications/mampstack-5.3.17-0/apache2/htdocs/sublime_commands.mdown"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				".css",
+				"stylesheets/app.css"
+			],
+			[
+				"scssscss",
+				"bower_components/foundation/scss/foundation/components/_accordion.scss"
+			],
+			[
+				"scssstyle",
+				"bower_components/modernizr/test/caniuse_files/style.css"
+			],
+			[
+				"scss",
+				"scss/_settings.scss"
+			],
+			[
+				"",
+				"index.html"
+			],
+			[
+				"brandi",
+				"skeleton/stylesheets/sass/_branding.scss"
+			],
+			[
+				"elem",
+				"skeleton/stylesheets/sass/_elements.scss"
+			],
+			[
+				"ggs",
+				"skeleton/stylesheets/sass/_ggs_baseline.scss"
+			],
+			[
+				"two",
+				"great_green_sources.sublime-workspace"
+			],
+			[
+				"<!",
+				"<!DOCTYPE html>"
+			],
+			[
+				"prod",
+				"products.html"
+			],
+			[
+				"page",
+				"skeleton/stylesheets/sass/_page-layout.scss"
+			],
+			[
+				"home",
+				"skeleton/home.html"
+			],
+			[
+				"bas",
+				"skeleton/stylesheets/sass/_ggs_baseline.scss"
+			],
+			[
+				"typo",
+				"skeleton/stylesheets/sass/_typography.scss"
+			],
+			[
+				"base",
+				"skeleton/stylesheets/.sass-cache/fa5552e642f994ac9941b7f77c7bfdf1bb579a96/_base.scssc"
+			],
+			[
+				"hone",
+				"skeleton/stylesheets/sass/bourbon/helpers/_gradient-positions-parser.scss"
+			],
+			[
+				"ty",
+				"skeleton/stylesheets/sass/_typography.scss"
+			],
+			[
+				"ele",
+				"skeleton/stylesheets/sass/_elements.scss"
+			],
+			[
+				"typogra",
+				"skeleton/stylesheets/sass/_typography.scss"
+			],
+			[
+				"hom",
+				"skeleton/home.html"
+			],
+			[
+				"sty",
+				"skeleton/stylesheets/compiled/style.css"
+			],
+			[
+				"logi",
+				"skeleton/login.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 324.0,
+	"status_bar_visible": true
+}

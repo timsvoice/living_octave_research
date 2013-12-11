@@ -1,2 +1,2 @@
 <?php
-return '/Media/wellness';
+return '/Media/hospitality';

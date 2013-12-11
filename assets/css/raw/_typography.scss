@@ -9,11 +9,16 @@ body {
   font: 20px/24px "franklin-gothic-urw", Helvetica, Arial, sans-serif;
     p {
        font-size:18px;
+       font-weight:$lightText;
     }
 }
 
 ul li {
   font-weight:$lightText;
+}
+
+.inline {
+  display:inline;
 }
 
 #header_branding h1{
@@ -114,7 +119,7 @@ ul li {
 margin-top: 10px;
 padding: 10px 0px 0px 0px;
 border-top: 1px #e5e2d6 solid;
-height: 315px;
+height: 22em;
 
   h3 {
   text-transform:uppercase;
@@ -143,4 +148,14 @@ height: 315px;
       font-size:22px;
       margin-left:10px;
     }
+}
+
+.quote {
+  font-weight: $lightText;
+  font-style: italic;
+}
+
+.main_story ul {
+  list-style-type: disc;
+  display:block;
 }

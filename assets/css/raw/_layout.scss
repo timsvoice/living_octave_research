@@ -27,6 +27,7 @@
 	@media only screen and (max-width: 959px) {
 		#header_banner_menu_container.sixteen.columns {top:7.5em; display:inherit;}
 		#newsfeed_container.one-third ul { overflow:hidden; max-height:348px}
+		.feature_image_small_top, .feature_image_small_bottom { width: 14.75em;}
 	}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
@@ -35,13 +36,13 @@
 		#main_story_container {margin-top:3.1em !important;}
 		#header_banner_menu_container { top:5em; }
 		#newsfeed_container.one-third ul { max-height:500px}
-		#newsfeed_item #newsfeed_teaser p {font-size:14px;}	
+		#newsfeed_item #newsfeed_teaser p {font-size:14px;}
 	}
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
 		#newsfeed_container.one-third { margin: 20px 0px 0px 0px;}
-		#header_banner_menu_container.sixteen.columns { position:static; display:inherit;}
+		#header_banner_menu_container.sixteen.columns { display: none; height: 0;}
 		#header_branding.sixteen.columns {border-bottom:2px black solid; padding-bottom:5px;}
 		#main_story_container {margin: 10px 0px 0px 0px; padding: 20px 0px 0px 0px;}
 		header#header_branding h1 { font-size: 65px; line-height: 70px; margin-bottom: 0px;}
@@ -51,7 +52,8 @@
 		#frontpage_story {border:none; height:auto;}
 		#report_container {margin-top:10px;}
                 a.news_download {visibility:hidden;}
-        .related_post_container {visibility:hidden; height:0; width:0;}
+        .related_post_container {display:none; height:0; width:0;}
+        		.feature_image_small_top, .feature_image_small_bottom { height:0em; display: none; visibility: hidden;}	
 	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -59,6 +61,7 @@
 		header#header_branding h1 { font-size: 3.2em; line-height: 1em; margin-bottom: 0.2em; }
 		#main_story_container {margin-top: 0 !important;}
 		#searchForm { display:none; float:left; clear:both; margin-top:0px; margin-bottom:0px;}
+		.related_post_container {display:none; height:0; width:0;}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -66,6 +69,7 @@
 		header#header_branding h1 { font-size: 2.2em; line-height: 1em; margin-bottom: 0px; }
 		#main_story_container {margin-top: 0 !important;}
 		#searchForm { display:none; bottom:0; float:left; clear:both; margin-top:0px; margin-bottom:0px;}
+		.related_post_container {display:none; height:0; width:0;}
 	}
 
 
