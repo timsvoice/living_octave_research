@@ -1,1 +1,0 @@
-[2013-11-13 13:49:56] (ERROR in xPDOConnection::connect @ /Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/core/xpdo/xpdo.class.php : 3003) SQLSTATE[28000] [1045] Access denied for user 'octaveresearch'@'localhost' (using password: YES)

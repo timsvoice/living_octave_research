@@ -216,21 +216,26 @@
 	"buffers":
 	[
 		{
-			"file": "assets/css/raw/style.scss",
+			"file": "scss/app.scss",
 			"settings":
 			{
-				"buffer_size": 5206,
+				"buffer_size": 66,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<!DOCTYPE html>\n<html>\n    <head>\n        <title>Site is down for maintenence - [Client Name]</title>\n        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n        <style>\n        body { text-align: center; padding: 150px; }\n        h1 { font-size: 50px; }\n        body { font: 20px Helvetica, sans-serif; color: #333; }\n        article { display: block; text-align: left; width: 650px; margin: 0 auto; }\n        a { color: #dc8100; text-decoration: none; }\n        a:hover { color: #333; text-decoration: none; }\n</style>\n    </head>\n    <body>\n    <article>\n        <h1>Site is temporary unavailable.</h1>\n        <p>We are currently performing scheduled maintenance. Site will back soon.</p>\n        <p>We apologize for any inconvenience.</p>\n        <p>&mdash; Octave New York</p>\n    </article>\n    </body>\n</html>",
-			"file": "maintenance.html",
-			"file_size": 841,
-			"file_write_time": 1386629169000000,
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 841,
+				"buffer_size": 4184,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		}
@@ -243,15 +248,27 @@
 		[
 			[
 				"zurb",
-				"Snippet: ZURB Foundation Half Grid"
+				"Snippet: Zurb 2 Column Layout"
 			],
 			[
-				"snippet full",
+				"zurb full",
 				"Snippet: ZURB Foundation Full Grid"
 			],
 			[
 				"html",
-				"Set Syntax: HTML"
+				"Snippet: htmlstart"
+			],
+			[
+				"snipp",
+				"Snippet: html"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"snippet full",
+				"Snippet: ZURB Foundation Full Grid"
 			],
 			[
 				"SNIP",
@@ -398,10 +415,6 @@
 				"Snippet: @import"
 			],
 			[
-				"snipp",
-				"Snippet: round()"
-			],
-			[
 				"scss",
 				"Set Syntax: SCSS"
 			],
@@ -495,6 +508,8 @@
 	},
 	"file_history":
 	[
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/raw/style.scss",
+		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/maintenance.html",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/131205_issue #2_cenceptual dining.html",
 		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/User/HTML/furtherreading.sublime-snippet",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/hospitality/131205_issue #2_retail restaurants.html",
@@ -506,7 +521,6 @@
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/compiled/style.css",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/raw/_layout.scss",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/config.core.php",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/maintenance.html",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/131204_issue#2_market restaurants",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/style.css",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/research assets/hospitality/131204_Issue #2-Destination Restaurants.mdown",
@@ -520,7 +534,6 @@
 		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/Mou.app Markdown/Readme.md",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/markdowntest",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/css/style.css",
-		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/raw/style.scss",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/assets/css/style",
 		"/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice/style.css",
 		"/Users/timsvoice/Library/Application Support/Sublime Text 2/Packages/PlainTasks/PlainTasks (OSX).sublime-settings",
@@ -640,6 +653,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"arrival",
+			"css",
 			"#header_banner",
 			"#header_banner_",
 			".feature_image_small_top",
@@ -765,9 +780,7 @@
 			"main_story",
 			"main",
 			"report",
-			"front",
-			"front_page",
-			"header_"
+			"front"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -792,18 +805,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "assets/css/raw/style.scss",
+					"file": "scss/app.scss",
 					"settings":
 					{
-						"buffer_size": 5206,
+						"buffer_size": 66,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								518,
-								518
+								66,
+								66
 							]
 						],
 						"settings":
@@ -897,9 +910,7 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -909,18 +920,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "maintenance.html",
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 841,
+						"buffer_size": 4184,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								567,
-								567
+								1988,
+								2051
 							]
 						],
 						"settings":
@@ -1015,8 +1026,123 @@
 							},
 							"sublimelinter_wrap_find": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 645.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_name": "",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1073,6 +1199,14 @@
 		"selected_items":
 		[
 			[
+				"inde",
+				"index.html"
+			],
+			[
+				"app",
+				"scss/app.scss"
+			],
+			[
 				"main",
 				"maintenance.html"
 			],
@@ -1091,10 +1225,6 @@
 			[
 				"retail",
 				"assets/research assets/hospitality/131205_issue #2_retail restaurants.html"
-			],
-			[
-				"inde",
-				"index.html"
 			],
 			[
 				"style",
@@ -1218,7 +1348,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 324.0,
+	"side_bar_visible": false,
+	"side_bar_width": 203.0,
 	"status_bar_visible": true
 }

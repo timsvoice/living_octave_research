@@ -1,7 +1,0 @@
-[2013-08-16 12:57:17] (ERROR in xPDOManager_mysql::addIndex @ /home/content/53/11112053/html/core/xpdo/om/mysql/xpdomanager.class.php : 329) Error adding index tv_cnt to modTemplateVarResource: Array
-(
-    [0] => 42000
-    [1] => 1061
-    [2] => Duplicate key name 'tv_cnt'
-)
-

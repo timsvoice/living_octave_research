@@ -1,0 +1,170 @@
+@import "settings";
+@import "foundation";
+@import "foundation/functions";
+
+/* global variables */
+$gray: hsla(0,0,91%,1);
+$whiteTransparent:rgba(254,254,254,0.6);
+$dark-gray: #888;
+$black: #000;
+$border-thick: 2px $black solid;
+$border-thin:  1px $gray solid;
+$red:red;
+
+/* typography variables */
+
+$body-font-family: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
+$light-text:200;
+$heavy-text:900;
+$background:#FBFBF9;
+$navy-black:#001741;
+
+//
+//global
+//
+
+hr {
+	margin: 0;
+}
+
+:focus {
+	background:white;
+}
+
+// ----------
+// typography
+// ----------
+
+body {
+	height:100rem;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, a {
+	font-family:$body-font-family;
+}
+
+h3 {
+	font-size:2rem;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+}
+
+// articles
+
+header h4 {
+	color:black;
+	font-size:1.25rem;
+	margin-bottom: 0.5rem;
+	padding-top: 0rem;
+	font-weight: $heavy-text;
+}
+
+p.small {
+	font-size: 0.9rem;
+	margin-bottom: 0.5rem;
+	text-decoration: underline;
+}
+
+a {
+	
+}
+
+
+// ----------
+// issue - orbit styles
+// ----------
+
+.current-issue {
+	margin-top: 2rem;
+}
+
+.orbit-container {
+	margin-top: 1rem;
+}
+
+div .row.issue {
+	padding-left: 0;
+	padding-right: 0;
+
+}
+
+.orbit-container .orbit-slides-container > * .orbit-caption {
+	color:black;
+	font-size:1em;
+	left: 0;
+	background:white;
+	padding: 0 2rem 0 0;
+	max-width:33.33%;
+	height: 100%;
+	p {
+		font-family: "Times New Roman", Times, serif;
+	}
+}
+
+.orbit-container .orbit-next :focus {
+	height: 93%;
+	top: 0;
+	background-color:#444;
+	margin-top: 0;
+	opacity:0.8;
+}
+
+.orbit-container .orbit-slide-number {
+	display: none;
+	height:0;
+}
+
+// ----------
+// navigation
+// ----------
+
+.contain-to-grid {
+	background: #fff;
+}
+
+nav.top-bar.categories {
+	/* border-top: 1px solid black;
+	border-bottom: 2px solid black; */
+	/* height: 4rem; */
+}
+
+.contain-to-grid .top-bar.branding {
+	margin-top: 2rem;
+	padding-bottom: 1rem;
+}
+
+.contain-to-grid .top-bar {
+	height:auto;
+	border-bottom: 1px solid #999;
+	li a:not(.button) {
+		text-transform: uppercase;
+		background-color:white;
+		color:$black;
+		padding-right: 1rem;
+	}
+
+	li a:not(.button):hover {
+		background-color:$gray;
+	}
+
+	.name h1 a {
+		font-size: 3rem;
+		font-weight: $heavy-text;
+		text-transform: uppercase;
+		margin-bottom: 1rem;
+		background:inherit;
+		color:$black;
+	}
+	
+	.branding-research {
+		font-weight: $light-text;
+	}
+}
+
+nav.top-bar {
+	background:white;
+}
+
+.top-bar-section .has-dropdown > a:after {
+	border-color:#000 transparent transparent transparent;
+}
