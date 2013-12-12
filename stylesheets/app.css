@@ -6489,8 +6489,8 @@ meta.foundation-mq-topbar {
   display: block;
   width: 16px;
   height: 0;
-  -webkit-box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;
-  box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;
+  -webkit-box-shadow: 0 10px 0 1px black, 0 16px 0 1px black, 0 22px 0 1px black;
+  box-shadow: 0 10px 0 1px black, 0 16px 0 1px black, 0 22px 0 1px black;
 }
 /* line 230, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded {
@@ -7741,49 +7741,44 @@ h3 {
   font-family: "Times New Roman", Times, serif;
 }
 
-/* line 67, ../scss/app.scss */
-header h4 {
-  color: black;
-  font-size: 1.75rem;
-  margin-bottom: 0.5rem;
-  padding-top: 0rem;
-  font-weight: 400;
-}
-
 /* line 75, ../scss/app.scss */
-p.small {
-  font-size: 0.9rem;
-  margin-bottom: 0.5rem;
+.current-issue-intro h3, .current-issue-intro-small h3 {
+  font-size: 3rem;
+  font-style: italic;
+  margin-bottom: 0rem;
+  margin-top: 4.5rem;
   text-decoration: underline;
+}
+/* line 82, ../scss/app.scss */
+.current-issue-intro p, .current-issue-intro-small p {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 1.5rem;
 }
 
 /* line 91, ../scss/app.scss */
-.current-issue-intro h3 {
-  font-size: 2.5rem;
-  font-style: italic;
-  margin-bottom: 0.5rem;
-  margin-top: 3rem;
-  text-decoration: underline;
+.current-issue-intro-small h3 {
+  font-size: 2rem;
+  margin-top: 1rem;
 }
-/* line 98, ../scss/app.scss */
-.current-issue-intro p {
-  font-family: "Times New Roman", Times, serif;
-  font-style: italic;
-  font-size: 1.3rem;
+/* line 95, ../scss/app.scss */
+.current-issue-intro-small p {
+  font-size: 1rem;
+  font-style: normal;
 }
 
-/* line 105, ../scss/app.scss */
+/* line 101, ../scss/app.scss */
 .orbit-container {
   margin-top: 1rem;
 }
 
-/* line 109, ../scss/app.scss */
+/* line 105, ../scss/app.scss */
 div .row.issue {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 115, ../scss/app.scss */
+/* line 111, ../scss/app.scss */
 .orbit-container .orbit-slides-container > * .orbit-caption {
   color: black;
   font-size: 1em;
@@ -7792,17 +7787,34 @@ div .row.issue {
   max-width: 33.33%;
   height: 100%;
 }
-/* line 122, ../scss/app.scss */
+/* line 118, ../scss/app.scss */
 .orbit-container .orbit-slides-container > * .orbit-caption p {
   font-family: "Times New Roman", Times, serif;
 }
 
-/* line 127, ../scss/app.scss */
+/* line 123, ../scss/app.scss */
+header h4 {
+  color: black;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  padding-top: 0rem;
+  font-weight: 400;
+}
+
+/* line 131, ../scss/app.scss */
+p.small {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  text-decoration: underline;
+  font-weight: 200;
+}
+
+/* line 142, ../scss/app.scss */
 .orbit-container .orbit-prev, .orbit-container .orbit-next {
   background: none;
 }
 
-/* line 131, ../scss/app.scss */
+/* line 146, ../scss/app.scss */
 .orbit-container .orbit-next :focus {
   height: 93%;
   top: 0;
@@ -7811,30 +7823,30 @@ div .row.issue {
   opacity: 0.8;
 }
 
-/* line 140, ../scss/app.scss */
+/* line 155, ../scss/app.scss */
 .orbit-container .orbit-next > span, .orbit-container .orbit-prev > span, .orbit-container .orbit-timer, .orbit-container .orbit-timer span {
   background: none;
 }
 
-/* line 146, ../scss/app.scss */
+/* line 161, ../scss/app.scss */
 .orbit-container .orbit-slide-number {
   display: none;
   height: 0;
 }
 
-/* line 151, ../scss/app.scss */
+/* line 166, ../scss/app.scss */
 .orbit-bullets-container {
   /* display: none;
   height:0; */
 }
 
-/* line 156, ../scss/app.scss */
+/* line 171, ../scss/app.scss */
 ul.issue-orbit-list {
   margin-left: 0;
   margin-right: 0;
   float: right;
 }
-/* line 160, ../scss/app.scss */
+/* line 175, ../scss/app.scss */
 ul.issue-orbit-list li {
   list-style: none;
   display: inline-block;
@@ -7843,136 +7855,183 @@ ul.issue-orbit-list li {
   margin-top: 1rem;
 }
 
-/* line 169, ../scss/app.scss */
+/* line 184, ../scss/app.scss */
 li.issue-orbit-list-article:last-child {
   border-right: 1px solid #444;
   padding-right: 1rem;
 }
 
-/* line 178, ../scss/app.scss */
+/* line 193, ../scss/app.scss */
 .contain-to-grid .top-bar .name h1 a :focus {
   background: inherit;
 }
 
-/* line 182, ../scss/app.scss */
+/* line 197, ../scss/app.scss */
 .contain-to-grid {
   background: inherit;
 }
 
-/* line 186, ../scss/app.scss */
+/* line 201, ../scss/app.scss */
 nav.top-bar.categories {
   /* border-top: 1px solid black;
   border-bottom: 2px solid black; */
-  /* height: 4rem; */
+  height: 2.9rem;
 }
 
-/* line 192, ../scss/app.scss */
+/* line 207, ../scss/app.scss */
 .contain-to-grid .top-bar.branding {
   margin-top: 2rem;
   padding-bottom: 0rem;
   border-bottom: none;
+  background: inherit;
 }
 
-/* line 198, ../scss/app.scss */
+/* line 214, ../scss/app.scss */
 .contain-to-grid .top-bar.categories {
   border-bottom: none;
   border-bottom: 1px solid #999;
-}
-
-/* line 203, ../scss/app.scss */
-.contain-to-grid .top-bar {
-  height: auto;
   background: inherit;
 }
-/* line 206, ../scss/app.scss */
-.contain-to-grid .top-bar li a:not(.button) {
+
+/* line 220, ../scss/app.scss */
+.top-bar .title-area {
+  float: none;
+}
+
+/* line 224, ../scss/app.scss */
+.top-bar.branding, .top-bar.small.branding, .top-bar.categories {
+  background: inherit;
+}
+/* line 227, ../scss/app.scss */
+.top-bar.branding li a:not(.button), .top-bar.categories li a:not(.button) {
   text-transform: uppercase;
   color: black;
   padding-right: 1rem;
   background: inherit;
 }
-/* line 213, ../scss/app.scss */
-.contain-to-grid .top-bar li a:not(.button):hover {
+/* line 234, ../scss/app.scss */
+.top-bar.branding li a:not(.button):hover, .top-bar.categories li a:not(.button):hover {
   color: red;
 }
-/* line 217, ../scss/app.scss */
-.contain-to-grid .top-bar .name {
+/* line 238, ../scss/app.scss */
+.top-bar.branding .name, .top-bar.categories .name {
+  border-bottom: 1px solid #999;
   height: 3rem;
 }
-/* line 219, ../scss/app.scss */
-.contain-to-grid .top-bar .name h1 a {
-  font-size: 4rem;
+/* line 241, ../scss/app.scss */
+.top-bar.branding .name h1 a, .top-bar.categories .name h1 a {
+  font-size: 3.75rem;
   font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 2rem;
   background: inherit;
   color: black;
 }
-/* line 227, ../scss/app.scss */
-.contain-to-grid .top-bar .name h1 a:hover {
+/* line 249, ../scss/app.scss */
+.top-bar.branding .name h1 a:hover, .top-bar.categories .name h1 a:hover {
   background: inherit;
   color: inherit;
 }
-/* line 234, ../scss/app.scss */
-.contain-to-grid .top-bar .branding-research {
+/* line 256, ../scss/app.scss */
+.top-bar.branding .branding-research, .top-bar.categories .branding-research {
   font-weight: 200;
 }
 
-/* line 241, ../scss/app.scss */
+/* line 261, ../scss/app.scss */
+.small.top-bar.branding {
+  border-bottom: solid 1px #4d4d4d;
+  margin-bottom: 2rem;
+}
+/* line 265, ../scss/app.scss */
+.small.top-bar.branding li a:not(.button) {
+  text-transform: uppercase;
+  color: black;
+  padding-right: 0rem;
+  background: inherit;
+}
+/* line 273, ../scss/app.scss */
+.small.top-bar.branding .name h1 a {
+  font-size: 1.25rem;
+  margin: 0;
+  width: auto;
+}
+/* line 279, ../scss/app.scss */
+.small.top-bar.branding .menu-icon {
+  color: black;
+}
+
+/* line 285, ../scss/app.scss */
 nav.top-bar {
   background: white;
 }
 
-/* line 245, ../scss/app.scss */
+/* line 289, ../scss/app.scss */
 .top-bar-section .has-dropdown > a:after {
   border-color: #000 transparent transparent transparent;
 }
 
-/* line 249, ../scss/app.scss */
+/* line 293, ../scss/app.scss */
 .top-bar-section .dropdown li a {
   border-right: solid 1px #4d4d4d;
   border-left: solid 1px #4d4d4d;
   border-bottom: solid 1px #4d4d4d;
 }
 
-/* line 259, ../scss/app.scss */
-.featured-articles {
-  margin-bottom: 2rem;
+/* line 303, ../scss/app.scss */
+.featured-articles, .article-category {
+  margin-bottom: 0rem;
 }
-/* line 261, ../scss/app.scss */
-.featured-articles h3 {
+/* line 305, ../scss/app.scss */
+.featured-articles h3, .article-category h3 {
   font-family: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   margin-bottom: 1rem;
   margin-top: 2rem;
 }
 
-/* line 269, ../scss/app.scss */
-.article {
-  height: 28rem;
+/* line 314, ../scss/app.scss */
+.article, .article-category-featured {
+  margin-top: 2rem;
 }
-/* line 271, ../scss/app.scss */
-.article h7.article-type, .article h7.article-category {
+/* line 316, ../scss/app.scss */
+.article h7.article-type, .article-category-featured h7.article-type, .article h7.article-category, .article-category-featured h7.article-category {
+  margin-top: 0.5rem;
+  display: inline-block;
+  font-weight: 200;
+  font-size: 0.75rem;
+  color: black;
+}
+/* line 324, ../scss/app.scss */
+.article h5.article-title, .article-category-featured h5.article-title {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+}
+/* line 328, ../scss/app.scss */
+.article p, .article-category-featured p {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+/* line 333, ../scss/app.scss */
+.article time, .article-category-featured time, .article .byline.author.vcard, .article-category-featured .byline.author.vcard, .article .fn, .article-category-featured .fn {
+  color: black;
+  font-weight: 200;
+  font-size: 0.75rem;
+}
+
+/* line 340, ../scss/app.scss */
+.article-category-featured {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+/* line 344, ../scss/app.scss */
+.article-category-featured h6 {
+  margin-top: 0.5rem;
   display: inline-block;
   font-weight: 200;
   color: black;
 }
-/* line 277, ../scss/app.scss */
-.article h5.article-title {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 900;
-}
-/* line 281, ../scss/app.scss */
-.article p {
-  font-family: "Times New Roman", Times, serif;
-  color: black;
-}
-/* line 286, ../scss/app.scss */
-.article time {
-  color: black;
-  font-weight: 200;
-}
-/* line 290, ../scss/app.scss */
-.article .byline.author.vcard, .article .fn {
-  color: black;
-  font-weight: 200;
+
+/* line 352, ../scss/app.scss */
+.articles {
+  margin-top: 0rem;
 }
