@@ -2,8 +2,12 @@
 @import "foundation";
 @import "foundation/functions";
 
+/* foundation variables  */
+
+
 /* global variables */
 $gray: hsla(0,0,91%,1);
+$light-gray: hsla(0,0,50%,0.2);
 $whiteTransparent:rgba(254,254,254,0.6);
 $dark-gray: #888;
 $black: #000;
@@ -13,8 +17,10 @@ $red:red;
 
 /* typography variables */
 
-$body-font-family: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
+$body-font: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
+$text-font: "Times New Roman", Times, serif;
 $light-text:200;
+$medium-text:400;
 $heavy-text:900;
 $background:#FBFBF9;
 $navy-black:#001741;
@@ -31,32 +37,39 @@ hr {
 	background:white;
 }
 
+.vcard {
+	border:none;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
 // ----------
 // typography
 // ----------
 
-body {
-	height:100rem;
+* {
+	background: url("assets/images/white_wall_hash.png");
+
 }
 
 body, h1, h2, h3, h4, h5, h6, p, a {
-	font-family:$body-font-family;
+	font-family:$body-font;
 }
 
 h3 {
 	font-size:2rem;
-	font-family: "Times New Roman", Times, serif;
-	font-style: italic;
+	font-family: $text-font;
 }
 
 // articles
 
 header h4 {
 	color:black;
-	font-size:1.25rem;
+	font-size:1.75rem;
 	margin-bottom: 0.5rem;
 	padding-top: 0rem;
-	font-weight: $heavy-text;
+	font-weight: $medium-text;
 }
 
 p.small {
@@ -74,8 +87,19 @@ a {
 // issue - orbit styles
 // ----------
 
-.current-issue {
-	margin-top: 2rem;
+.current-issue-intro {
+	h3 {
+		font-size:2.5rem;
+		font-style: italic;
+		margin-bottom: 0.5rem;
+		margin-top: 3rem;
+		text-decoration: underline;
+	}
+	p {
+		font-family: $text-font;
+		font-style: italic;
+		font-size: 1.3rem;
+	}
 }
 
 .orbit-container {
@@ -92,7 +116,6 @@ div .row.issue {
 	color:black;
 	font-size:1em;
 	left: 0;
-	background:white;
 	padding: 0 2rem 0 0;
 	max-width:33.33%;
 	height: 100%;
@@ -101,12 +124,23 @@ div .row.issue {
 	}
 }
 
+.orbit-container .orbit-prev, .orbit-container .orbit-next {
+	background:none;
+}
+
 .orbit-container .orbit-next :focus {
 	height: 93%;
 	top: 0;
-	background-color:#444;
+	background:inherit;
 	margin-top: 0;
 	opacity:0.8;
+}
+
+.orbit-container {
+	.orbit-next > span, .orbit-prev > span, .orbit-timer, .orbit-timer span {
+		background:none;
+	}
+	
 }
 
 .orbit-container .orbit-slide-number {
@@ -114,12 +148,39 @@ div .row.issue {
 	height:0;
 }
 
+.orbit-bullets-container {
+	/* display: none;
+	height:0; */
+}
+
+ul.issue-orbit-list {
+	margin-left: 0;
+	margin-right: 0;
+	float: right;
+	li {
+		list-style: none;
+		display: inline-block;
+		padding: 0 0 0 1rem;
+		border-left: 1px solid #444;
+		margin-top: 1rem;
+	}
+}
+
+li.issue-orbit-list-article:last-child {
+		border-right: 1px solid #444;
+		padding-right: 1rem;
+	}
+
 // ----------
 // navigation
 // ----------
 
+.contain-to-grid .top-bar .name h1 a :focus {
+	background: inherit;
+}
+
 .contain-to-grid {
-	background: #fff;
+	background: inherit;
 }
 
 nav.top-bar.categories {
@@ -130,36 +191,52 @@ nav.top-bar.categories {
 
 .contain-to-grid .top-bar.branding {
 	margin-top: 2rem;
-	padding-bottom: 1rem;
+	padding-bottom: 0rem;
+	border-bottom: none;
+}
+
+.contain-to-grid .top-bar.categories {
+	border-bottom: none;
+	border-bottom: 1px solid #999;
 }
 
 .contain-to-grid .top-bar {
 	height:auto;
-	border-bottom: 1px solid #999;
+	background:inherit;
 	li a:not(.button) {
 		text-transform: uppercase;
-		background-color:white;
 		color:$black;
 		padding-right: 1rem;
+		background:inherit;
 	}
 
 	li a:not(.button):hover {
-		background-color:$gray;
+		color:red;
 	}
 
-	.name h1 a {
-		font-size: 3rem;
+	.name {
+		height: 3rem;
+		h1 a {
+		font-size: 4rem;
 		font-weight: $heavy-text;
 		text-transform: uppercase;
-		margin-bottom: 1rem;
+		margin-bottom: 2rem;
 		background:inherit;
 		color:$black;
+
+		&:hover {
+        background: inherit;
+        color: inherit;
+      }
 	}
-	
+	}
+
 	.branding-research {
 		font-weight: $light-text;
 	}
 }
+
+
 
 nav.top-bar {
 	background:white;
@@ -168,3 +245,51 @@ nav.top-bar {
 .top-bar-section .has-dropdown > a:after {
 	border-color:#000 transparent transparent transparent;
 }
+
+.top-bar-section .dropdown li a {
+	border-right: solid 1px #4d4d4d;
+	border-left: solid 1px #4d4d4d;
+	border-bottom: solid 1px #4d4d4d;
+}
+
+// ------
+// articles
+// ------
+
+.featured-articles {
+	margin-bottom: 2rem;
+	h3 {
+		font-family: $body-font;
+		margin-bottom: 1rem;
+		margin-top: 2rem;
+
+	}
+}
+
+.article {
+	height:28rem;
+	h7.article-type, h7.article-category {
+		display: inline-block;
+		font-weight: $light-text;
+		color:$black;
+	}
+
+	h5.article-title {
+		font-family: $text-font;
+		font-weight: $heavy-text;
+	}
+	p {
+		font-family: $text-font;
+		color:$black;
+	}
+
+	time {
+		color:$black;
+		font-weight: $light-text;
+	}
+	.byline.author.vcard, .fn {
+		color:$black;
+		font-weight: $light-text;
+	}
+}
+

@@ -7704,151 +7704,275 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
+/* foundation variables  */
 /* global variables */
 /* typography variables */
-/* line 26, ../scss/app.scss */
+/* line 32, ../scss/app.scss */
 hr {
   margin: 0;
 }
 
-/* line 30, ../scss/app.scss */
+/* line 36, ../scss/app.scss */
 :focus {
   background: white;
 }
 
-/* line 38, ../scss/app.scss */
-body {
-  height: 100rem;
+/* line 40, ../scss/app.scss */
+.vcard {
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: block;
 }
 
-/* line 42, ../scss/app.scss */
+/* line 51, ../scss/app.scss */
+* {
+  background: url("assets/images/white_wall_hash.png");
+}
+
+/* line 56, ../scss/app.scss */
 body, h1, h2, h3, h4, h5, h6, p, a {
   font-family: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
 }
 
-/* line 46, ../scss/app.scss */
+/* line 60, ../scss/app.scss */
 h3 {
   font-size: 2rem;
   font-family: "Times New Roman", Times, serif;
-  font-style: italic;
 }
 
-/* line 54, ../scss/app.scss */
+/* line 67, ../scss/app.scss */
 header h4 {
   color: black;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   margin-bottom: 0.5rem;
   padding-top: 0rem;
-  font-weight: 900;
+  font-weight: 400;
 }
 
-/* line 62, ../scss/app.scss */
+/* line 75, ../scss/app.scss */
 p.small {
   font-size: 0.9rem;
   margin-bottom: 0.5rem;
   text-decoration: underline;
 }
 
-/* line 77, ../scss/app.scss */
-.current-issue {
-  margin-top: 2rem;
+/* line 91, ../scss/app.scss */
+.current-issue-intro h3 {
+  font-size: 2.5rem;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+  margin-top: 3rem;
+  text-decoration: underline;
+}
+/* line 98, ../scss/app.scss */
+.current-issue-intro p {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 1.3rem;
 }
 
-/* line 81, ../scss/app.scss */
+/* line 105, ../scss/app.scss */
 .orbit-container {
   margin-top: 1rem;
 }
 
-/* line 85, ../scss/app.scss */
+/* line 109, ../scss/app.scss */
 div .row.issue {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 91, ../scss/app.scss */
+/* line 115, ../scss/app.scss */
 .orbit-container .orbit-slides-container > * .orbit-caption {
   color: black;
   font-size: 1em;
   left: 0;
-  background: white;
   padding: 0 2rem 0 0;
   max-width: 33.33%;
   height: 100%;
 }
-/* line 99, ../scss/app.scss */
+/* line 122, ../scss/app.scss */
 .orbit-container .orbit-slides-container > * .orbit-caption p {
   font-family: "Times New Roman", Times, serif;
 }
 
-/* line 104, ../scss/app.scss */
+/* line 127, ../scss/app.scss */
+.orbit-container .orbit-prev, .orbit-container .orbit-next {
+  background: none;
+}
+
+/* line 131, ../scss/app.scss */
 .orbit-container .orbit-next :focus {
   height: 93%;
   top: 0;
-  background-color: #444;
+  background: inherit;
   margin-top: 0;
   opacity: 0.8;
 }
 
-/* line 112, ../scss/app.scss */
+/* line 140, ../scss/app.scss */
+.orbit-container .orbit-next > span, .orbit-container .orbit-prev > span, .orbit-container .orbit-timer, .orbit-container .orbit-timer span {
+  background: none;
+}
+
+/* line 146, ../scss/app.scss */
 .orbit-container .orbit-slide-number {
   display: none;
   height: 0;
 }
 
-/* line 121, ../scss/app.scss */
-.contain-to-grid {
-  background: #fff;
+/* line 151, ../scss/app.scss */
+.orbit-bullets-container {
+  /* display: none;
+  height:0; */
 }
 
-/* line 125, ../scss/app.scss */
+/* line 156, ../scss/app.scss */
+ul.issue-orbit-list {
+  margin-left: 0;
+  margin-right: 0;
+  float: right;
+}
+/* line 160, ../scss/app.scss */
+ul.issue-orbit-list li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 0 0 1rem;
+  border-left: 1px solid #444;
+  margin-top: 1rem;
+}
+
+/* line 169, ../scss/app.scss */
+li.issue-orbit-list-article:last-child {
+  border-right: 1px solid #444;
+  padding-right: 1rem;
+}
+
+/* line 178, ../scss/app.scss */
+.contain-to-grid .top-bar .name h1 a :focus {
+  background: inherit;
+}
+
+/* line 182, ../scss/app.scss */
+.contain-to-grid {
+  background: inherit;
+}
+
+/* line 186, ../scss/app.scss */
 nav.top-bar.categories {
   /* border-top: 1px solid black;
   border-bottom: 2px solid black; */
   /* height: 4rem; */
 }
 
-/* line 131, ../scss/app.scss */
+/* line 192, ../scss/app.scss */
 .contain-to-grid .top-bar.branding {
   margin-top: 2rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0rem;
+  border-bottom: none;
 }
 
-/* line 136, ../scss/app.scss */
-.contain-to-grid .top-bar {
-  height: auto;
+/* line 198, ../scss/app.scss */
+.contain-to-grid .top-bar.categories {
+  border-bottom: none;
   border-bottom: 1px solid #999;
 }
-/* line 139, ../scss/app.scss */
+
+/* line 203, ../scss/app.scss */
+.contain-to-grid .top-bar {
+  height: auto;
+  background: inherit;
+}
+/* line 206, ../scss/app.scss */
 .contain-to-grid .top-bar li a:not(.button) {
   text-transform: uppercase;
-  background-color: white;
   color: black;
   padding-right: 1rem;
+  background: inherit;
 }
-/* line 146, ../scss/app.scss */
+/* line 213, ../scss/app.scss */
 .contain-to-grid .top-bar li a:not(.button):hover {
-  background-color: #e8e8e8;
+  color: red;
 }
-/* line 150, ../scss/app.scss */
+/* line 217, ../scss/app.scss */
+.contain-to-grid .top-bar .name {
+  height: 3rem;
+}
+/* line 219, ../scss/app.scss */
 .contain-to-grid .top-bar .name h1 a {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 900;
   text-transform: uppercase;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   background: inherit;
   color: black;
 }
-/* line 159, ../scss/app.scss */
+/* line 227, ../scss/app.scss */
+.contain-to-grid .top-bar .name h1 a:hover {
+  background: inherit;
+  color: inherit;
+}
+/* line 234, ../scss/app.scss */
 .contain-to-grid .top-bar .branding-research {
   font-weight: 200;
 }
 
-/* line 164, ../scss/app.scss */
+/* line 241, ../scss/app.scss */
 nav.top-bar {
   background: white;
 }
 
-/* line 168, ../scss/app.scss */
+/* line 245, ../scss/app.scss */
 .top-bar-section .has-dropdown > a:after {
   border-color: #000 transparent transparent transparent;
+}
+
+/* line 249, ../scss/app.scss */
+.top-bar-section .dropdown li a {
+  border-right: solid 1px #4d4d4d;
+  border-left: solid 1px #4d4d4d;
+  border-bottom: solid 1px #4d4d4d;
+}
+
+/* line 259, ../scss/app.scss */
+.featured-articles {
+  margin-bottom: 2rem;
+}
+/* line 261, ../scss/app.scss */
+.featured-articles h3 {
+  font-family: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+/* line 269, ../scss/app.scss */
+.article {
+  height: 28rem;
+}
+/* line 271, ../scss/app.scss */
+.article h7.article-type, .article h7.article-category {
+  display: inline-block;
+  font-weight: 200;
+  color: black;
+}
+/* line 277, ../scss/app.scss */
+.article h5.article-title {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+}
+/* line 281, ../scss/app.scss */
+.article p {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+/* line 286, ../scss/app.scss */
+.article time {
+  color: black;
+  font-weight: 200;
+}
+/* line 290, ../scss/app.scss */
+.article .byline.author.vcard, .article .fn {
+  color: black;
+  font-weight: 200;
 }
