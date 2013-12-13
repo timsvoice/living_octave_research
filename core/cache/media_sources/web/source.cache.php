@@ -1106,4 +1106,51 @@
     'context_key' => 'web',
     'source_class_key' => 'sources.modFileMediaSource',
   ),
+  40 => 
+  array (
+    'basePath' => 'assets/research assets/',
+    'basePathRelative' => true,
+    'baseUrl' => 'assets/research assets/',
+    'baseUrlRelative' => true,
+    'allowedFileTypes' => '',
+    'imageExtensions' => 'jpg,jpeg,png,gif',
+    'thumbnailType' => 'png',
+    'thumbnailQuality' => 90,
+    'skipFiles' => '.svn,.git,_notes,nbproject,.idea,.DS_Store',
+    'id' => NULL,
+    'name' => 'Research Assets',
+    'description' => 'Assets for creating content',
+    'class_key' => 'modFileMediaSource',
+    'properties' => 
+    array (
+      'basePath' => 
+      array (
+        'name' => 'basePath',
+        'desc' => 'prop_file.basePath_desc',
+        'type' => 'textfield',
+        'options' => 
+        array (
+        ),
+        'value' => 'assets/research assets/',
+        'lexicon' => 'core:source',
+      ),
+      'baseUrl' => 
+      array (
+        'name' => 'baseUrl',
+        'desc' => 'prop_file.baseUrl_desc',
+        'type' => 'textfield',
+        'options' => 
+        array (
+        ),
+        'value' => 'assets/research assets/',
+        'lexicon' => 'core:source',
+      ),
+    ),
+    'is_stream' => true,
+    'source' => 2,
+    'object_class' => 'modTemplateVar',
+    'object' => 40,
+    'context_key' => 'web',
+    'source_class_key' => 'sources.modFileMediaSource',
+  ),
 );

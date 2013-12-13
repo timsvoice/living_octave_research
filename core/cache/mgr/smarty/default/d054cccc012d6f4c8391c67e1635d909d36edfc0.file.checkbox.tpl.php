@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.0.4, created on 2013-11-14 08:55:28
+<?php /* Smarty version Smarty-3.0.4, created on 2013-12-12 12:22:38
          compiled from "/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/templates/default/element/tv/renders/input/checkbox.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1360717367528500809afca4-99241302%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:26758998252aa1b0e100565-47516074%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'd054cccc012d6f4c8391c67e1635d909d36edfc0' => 
     array (
       0 => '/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/templates/default/element/tv/renders/input/checkbox.tpl',
-      1 => 1383951455,
+      1 => 1386879296,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1360717367528500809afca4-99241302',
+  'nocache_hash' => '26758998252aa1b0e100565-47516074',
   'function' => 
   array (
   ),
