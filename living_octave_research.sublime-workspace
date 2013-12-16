@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"fs",
+				"fs-n	font-style: normal;"
+			],
+			[
 				"d",
 				"d-b	display: block;"
 			],
@@ -227,7 +231,15 @@
 			"file": "scss/app.scss",
 			"settings":
 			{
-				"buffer_size": 4352,
+				"buffer_size": 6653,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".sass-cache/148c993882ab461f3bbfb41e5bba1131751547ca/app.scssc",
+			"settings":
+			{
+				"buffer_size": 101445,
 				"line_ending": "Unix"
 			}
 		},
@@ -243,7 +255,18 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 12147,
+				"buffer_size": 14916,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<!--[if lt IE 7 ]><html class=\"ie ie6\" lang=\"en\"> <![endif]-->\n<!--[if IE 7 ]><html class=\"ie ie7\" lang=\"en\"> <![endif]-->\n<!--[if IE 8 ]><html class=\"ie ie8\" lang=\"en\"> <![endif]-->\n<!--[if (gte IE 9)|!(IE)]><!--><html class=\"no-js\" lang=\"en\"><!--<![endif]-->\n    \n    <title>Octave Research</title>\n\n  <head>\n    <meta charset=\"utf-8\"/>\n    <meta name=\"description\" content=\"Timothy Voice\">\n    <meta name=\"author\" content=\"Timothy Voice\">\n    \n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/>\n    <link rel=\"stylesheet\" href=\"css/foundation.css\" />\n    <link rel=\"stylesheet\" href=\"stylesheets/app.css\" />\n    <script src=\"bower_components/modernizr/modernizr.js\"></script>\n  <!-- TYPOGRAPHY\n    ================================================== -->  \n    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700,300' rel='stylesheet' type='text/css'>  \n      \n    <!-- Favicons\n    ================================================== -->\n    <link rel=\"shortcut icon\" href=\"stylesheets/assets/images/favicon.ico\">\n    <link rel=\"apple-touch-icon\" href=\"stylesheets/assets/images/apple-touch-icon.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"stylesheets/assets/images/apple-touch-icon-72x72.png\">\n    <link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"stylesheets/assets/images/apple-touch-icon-114x114.png\">\n    \n    <!-- Analytics\n    ================================================== -->\n\n    <!-- \n      This script enables structural HTML5 elements in old IE.\n      http://code.google.com/p/html5shim/\n    -->\n    <!--[if lt IE 9]>\n      <script src=\"//html5shim.googlecode.com/svn/trunk/html5.js\"></script>\n    <![endif]-->\n\n  </head>\n  <body>\n   <!DOCTYPE html>\n   <!--[if IE 8]> <html class=\"no-js lt-ie9\" lang=\"en\"> <![endif]-->\n   <!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en\"> <!--<![endif]-->\n   \n   <div class=\"container\">\n        \n      <div class=\"contain-to-grid sticky\">\n        <nav class=\"top-bar branding\" data-topbar>\n          <ul class=\"title-area\">\n            <li class=\"name\">\n              <h1><a href=\"#\">octave <span class=\"branding-research\">research</span></a></h1>\n            </li>\n          </ul>  \n        </nav>\n      </div>\n      \n      <div class=\"contain-to-grid sticky\">\n        <nav class=\"top-bar categories\" data-topbar>\n        \n          <section class=\"top-bar-section\">\n            <!-- Right Nav Section -->\n            <ul class=\"title-area\">\n              <li><a href=\"#\">hospitality</a></li>            \n              <li><a href=\"#\">wellness</a></li>               \n              <li><a href=\"#\">learning</a></li>               \n              <li><a href=\"#\">design</a></li>                \n              <li><a href=\"#\">family</a></li>                \n            </ul>\n\n            <!-- Right Nav Section -->\n            <ul class=\"right\">\n\n              <li class=\"has-dropdown\">\n                <a href=\"#\">Issues</a>\n                <ul class=\"dropdown\">\n                  <li><a href=\"#\">Issue #2</a></li>\n                  <li><a href=\"#\">Issue #1</a></li>\n                </ul>\n              </li><!-- has-dropdown -->\n              \n            </ul>\n            \n          </section>\n        </nav>\n      </div>\n\n      <div class=\"row articles\"> \n\n        <div class=\"small-12 columns article-category\">\n          <h3 >[[+category]]</h3>\n          <p>[[+categoryIntro]]Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, et, quis, quos ex animi natus</p>\n        </div><!-- featured articles -->\n        \n        <div class=\"row small-12 columns clearfix\">\n          <article class=\"article-category-featured clearfix\">\n              <div class=\"small-12 large-7 medium-7 columns article-img\">\n                [[+featureImage]]\n              </div>\n              <div class=\"small-12 large-5 medium-5 columns article-text\">\n              <header class=\"article-header\">\n                <h7 class=\"show-for-medium-up\">Latest in [[+category]]</h7>\n                <h4 class=\"article-title\">[[+pagetitle]]</h4>\n                <h6 class=\"article-type\">[[+postType]]</h6>\n                <h6 class=\"article-category\">filed under [[+category]]</h6> \n              </header>\n              <p class=\"article-blurb\">\n                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus voluptatem harum tempora officia eos obcaecati blanditiis nesciunt enim quia quasi.\n              </p>\n              \n              <h7 class=\"byline author vcard\">\n                by <span class=\"fn\">[[+createdby:userinfo=`fullname`]]</span>\n              </h7>\n\n              <h7>\n                <time class=\"updated\" datetime=\"2010-08-07 11:11:03-0400\" pubdate> on [[+createdon:strtotime:date=`%m/%d`]]</time>\n              </h7>\n              </div><!-- article-text -->\n            </a>\n          </article>\n        </div>\n\n        <hr>\n        \n        <div class=\"articles\">\n          <div class=\"large-4 medium-4 small-12 columns\">\n            <article class=\"article\">\n              <a href=\"[[~[[+id]]]]\">\n                <img src=\"stylesheets/assets/images/131210_article-image.png\" alt=\"\" class=\"article-img\" /> \n                <!--[[+frontPageImage]] class=\"article-img\" -->\n              <header class=\"article-header\">\n                <h7 class=\"article-type\">[[+postType]]</h7>\n                <h7 class=\"article-category\">filed under [[+category]]</h7> \n                <h5 class=\"article-title\">[[+pagetitle]]</h5>\n              </header>\n                <p class=\"article-blurb\">\n                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus voluptatem harum tempora officia eos obcaecati blanditiis nesciunt enim quia quasi.\n                </p>\n                \n                <h7 class=\"byline author vcard\">\n                  by <span class=\"fn\">[[+createdby:userinfo=`fullname`]]</span>\n                </h7>\n\n                <h7>\n                  <time class=\"updated\" datetime=\"2010-08-07 11:11:03-0400\" pubdate> on [[+createdon:strtotime:date=`%m/%d`]]</time>\n                </h7>\n                \n            </article><!-- article -->\n          </div> <!--  -->\n          \n          <div class=\"large-4 medium-4 small-12 columns\">\n            <article class=\"article\">\n              <a href=\"[[~[[+id]]]]\">\n                <img src=\"stylesheets/assets/images/131210_article-image.png\" alt=\"\" class=\"article-img\" /> \n                <!--[[+frontPageImage]] class=\"article-img\" -->\n              <header class=\"article-header\">\n                <h7 class=\"article-type\">[[+postType]]</h7>\n                <h7 class=\"article-category\">filed under [[+category]]</h7> \n                <h5 class=\"article-title\">[[+pagetitle]]</h5>\n              </header>\n                <p class=\"article-blurb\">\n                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus voluptatem harum tempora officia eos obcaecati blanditiis nesciunt enim quia quasi.\n                </p>\n                \n                <h7 class=\"byline author vcard\">\n                  by <span class=\"fn\">[[+createdby:userinfo=`fullname`]]</span>\n                </h7>\n\n                <h7>\n                  <time class=\"updated\" datetime=\"2010-08-07 11:11:03-0400\" pubdate> on [[+createdon:strtotime:date=`%m/%d`]]</time>\n                </h7>\n                \n            </article><!-- article -->\n          </div> <!--  -->\n          \n          <div class=\"large-4 medium-4 small-12 columns\">\n            <article class=\"article\">\n              <a href=\"[[~[[+id]]]]\">\n                <img src=\"stylesheets/assets/images/131210_article-image.png\" alt=\"\" class=\"article-img\" /> \n                <!--[[+frontPageImage]] class=\"article-img\" -->\n              <header class=\"article-header\">\n                <h7 class=\"article-type\">[[+postType]]</h7>\n                <h7 class=\"article-category\">filed under [[+category]]</h7> \n                <h5 class=\"article-title\">[[+pagetitle]]</h5>\n              </header>\n                <p class=\"article-blurb\">\n                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus voluptatem harum tempora officia eos obcaecati blanditiis nesciunt enim quia quasi.\n                </p>\n                \n                <h7 class=\"byline author vcard\">\n                  by <span class=\"fn\">[[+createdby:userinfo=`fullname`]]</span>\n                </h7>\n\n                <h7>\n                  <time class=\"updated\" datetime=\"2010-08-07 11:11:03-0400\" pubdate> on [[+createdon:strtotime:date=`%m/%d`]]</time>\n                </h7>\n                \n            </article><!-- article -->\n          </div> <!--  -->\n\n        </div><!-- articles -->\n\n     </div><!-- conatiner -->\n\n  <script type=\"text/javascript\" src=\"//use.typekit.net/itk1olx.js\"></script>\n  <script type=\"text/javascript\">try{Typekit.load();}catch(e){}</script>\n\n  <script src=\"bower_components/jquery/jquery.js\"></script>\n  <script src=\"bower_components/foundation/js/foundation.min.js\"></script>\n  <script src=\"js/app.js\"></script>\n  <script src=\"js/jquery.js\"></script>\n  <script src=\"js/foundation.js\"></script>\n  <script src=\"js/foundation.orbit.js\"></script>\n  <script src=\"bower_components/jquery/jquery.js\"></script>\n  <script src=\"js/foundation.alerts.js\"></script>\n  <script src=\"js/foundation.clearing.js\"></script>\n  <script src=\"js/foundation.cookie.js\"></script>\n  <script src=\"js/foundation.dropdown.js\"></script>\n  <script src=\"js/foundation.forms.js\"></script>\n  <script src=\"js/foundation.joyride.js\"></script>\n  <script src=\"js/foundation.js\"></script>\n  <script src=\"js/foundation.magellan.js\"></script>\n  <script src=\"./js/foundation.orbit.js\"></script>\n  <script src=\"js/foundation.placeholder.js\"></script>\n  <script src=\"js/foundation.reveal.js\"></script>\n  <script src=\"js/foundation.section.js\"></script>\n  <script src=\"js/foundation.tooltips.js\"></script>\n  <script src=\"js/foundation.topbar.js\"></script>\n  <script src=\"js/app.js\"></script>\n </body>\n</html>",
+			"file": "articles.html",
+			"file_size": 10014,
+			"file_write_time": 1386877229000000,
+			"settings":
+			{
+				"buffer_size": 10003,
 				"line_ending": "Unix"
 			}
 		},
@@ -259,7 +282,7 @@
 			"file": "scss/_settings.scss",
 			"settings":
 			{
-				"buffer_size": 32350,
+				"buffer_size": 32348,
 				"line_ending": "Unix"
 			}
 		},
@@ -267,7 +290,7 @@
 			"file": "stylesheets/app.css",
 			"settings":
 			{
-				"buffer_size": 244730,
+				"buffer_size": 248843,
 				"line_ending": "Unix"
 			}
 		},
@@ -307,9 +330,13 @@
 	"build_system": "Packages/User/Choose Browser.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 207.0,
 		"selected_items":
 		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
 			[
 				"zurb",
 				"Snippet: ZURB Foundation Half Grid"
@@ -333,10 +360,6 @@
 			[
 				"zurb full",
 				"Snippet: ZURB Foundation Full Grid"
-			],
-			[
-				"html",
-				"Snippet: htmlstart"
 			],
 			[
 				"snipp",
@@ -571,7 +594,7 @@
 				"Set Syntax: Groovy"
 			]
 		],
-		"width": 575.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -733,6 +756,43 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"issue-post",
+			"body",
+			"issue page",
+			"h7",
+			"issue",
+			"h7",
+			"article",
+			"articl",
+			"featured",
+			"reading",
+			"what",
+			".article",
+			".article h5",
+			".article h5.article-title, .article-category-featured h5.article-title",
+			"current",
+			"articles",
+			"show-for-medium-up",
+			"float",
+			"float: left;",
+			"float:left;",
+			"article",
+			"$topbar-menu-icon-color",
+			"menu",
+			"border",
+			".contain-to-grid",
+			"navig",
+			"current",
+			"h7",
+			"h5",
+			"small-6",
+			"text",
+			"featured",
+			"large-4",
+			"medium-6",
+			"h4",
+			"orbit",
+			"1.3",
 			"p",
 			"h5",
 			"$text-font-family",
@@ -823,44 +883,7 @@
 			"strong",
 			"<p><strong>",
 			"<h3>Further Reading:</h3>",
-			"0.75",
-			"main_st",
-			"main_so",
-			"hover",
-			"frontpage",
-			"main_story",
-			"logout",
-			"nav",
-			"article_su",
-			"article_summary",
-			"main_",
-			"ul",
-			"add",
-			"add   ",
-			"li   ",
-			"ul   ",
-			"ul  ",
-			"li ",
-			"li",
-			"heavy",
-			"i ",
-			"i",
-			"front",
-			"frontpage",
-			"front",
-			"error_reporting",
-			"display_errors",
-			"display",
-			"tagret",
-			"p>",
-			"p",
-			" \"",
-			"*",
-			"tagret",
-			"p",
-			"strong",
-			"__",
-			"Room"
+			"0.75"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -880,7 +903,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -888,15 +911,15 @@
 					"file": "scss/app.scss",
 					"settings":
 					{
-						"buffer_size": 4352,
+						"buffer_size": 6653,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3974,
-								3974
+								3971,
+								3971
 							]
 						],
 						"settings":
@@ -994,13 +1017,128 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1083.0,
+						"translation.y": 4105.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": ".sass-cache/148c993882ab461f3bbfb41e5bba1131751547ca/app.scssc",
+					"settings":
+					{
+						"buffer_size": 101445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "/Applications/mampstack-5.3.17-0/apache2/htdocs/timothy_voice_v2/stylesheets/app.css",
 					"settings":
 					{
@@ -1111,25 +1249,142 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1298.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 12147,
+						"buffer_size": 14916,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10804,
-								10804
+								10201,
+								10201
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4655.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "articles.html",
+					"settings":
+					{
+						"buffer_size": 10003,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								910,
+								910
 							]
 						],
 						"settings":
@@ -1234,7 +1489,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "bower_components/foundation/scss/foundation/components/_orbit.scss",
 					"settings":
 					{
@@ -1351,19 +1606,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "scss/_settings.scss",
 					"settings":
 					{
-						"buffer_size": 32350,
+						"buffer_size": 32348,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17944,
-								17949
+								31630,
+								31630
 							]
 						],
 						"settings":
@@ -1460,17 +1715,17 @@
 							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 9663.0,
+						"translation.y": 16876.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
 					"file": "stylesheets/app.css",
 					"settings":
 					{
-						"buffer_size": 244730,
+						"buffer_size": 248843,
 						"regions":
 						{
 						},
@@ -1583,7 +1838,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "bower_components/foundation/scss/foundation/components/_functions.scss",
 					"settings":
 					{
@@ -1700,7 +1955,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": ".sass-cache/4a84409ce5d3b6dbf14ef3ce3a6dd1c7d33073e7/_buttons.scssc",
 					"settings":
 					{
@@ -1815,7 +2070,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "bower_components/foundation/scss/foundation/components/_buttons.scss",
 					"settings":
 					{
@@ -1932,7 +2187,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 11,
 					"file": "bower_components/foundation/js/foundation/foundation.orbit.js",
 					"settings":
 					{

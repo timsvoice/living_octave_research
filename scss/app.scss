@@ -16,9 +16,8 @@ $border-thin:  1px $gray solid;
 $red:red;
 
 /* typography variables */
-
 $body-font: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
-$text-font: "Times New Roman", Times, serif;
+$text-font: "minion-pro", serif;
 $light-text:200;
 $medium-text:400;
 $heavy-text:900;
@@ -45,10 +44,32 @@ hr {
 }
 
 // ----------
+// UI
+// ----------
+
+.button {
+	background:$dark-gray;
+	height: 3rem;
+}
+
+.button:hover {
+	background:$black;
+}
+
+// ----------
+// forms
+// ----------
+
+input[type="text"], input[type="password"] {
+	height:3rem;
+	font-size: 2rem;
+}
+
+// ----------
 // typography
 // ----------
 
-* {
+*, body {
 	background: url("assets/images/white_wall_hash.png");
 
 }
@@ -72,10 +93,12 @@ a {
 
 
 // ----------
-// issue - orbit styles
+// issue
 // ----------
 
-.current-issue-intro {
+/* orbit styles */
+
+.current-issue-intro, .featured-issues {
 	h3 {
 		font-size:2rem;
 		font-style: italic;
@@ -139,8 +162,8 @@ p.small {
 	font-weight: $light-text;
 }
 
-a {
-	
+a:hover {
+	color:red;
 }
 
 .orbit-container .orbit-prev, .orbit-container .orbit-next {
@@ -190,6 +213,84 @@ li.issue-orbit-list-article:last-child {
 		padding-right: 1rem;
 	}
 
+
+//issue page
+
+.issue-post {
+	@extend .current-issue-intro;
+	margin-top: 2rem;
+	h7 {
+		margin-top: 0rem;
+		margin-bottom: 1rem;
+		padding-left: 0rem;
+		display: inline-block;
+		font-weight: $light-text;
+		font-size: 0.75rem;
+		color:$black;
+	}
+	h2 {
+		font-family: $body-font;
+		font-style: normal;
+		font-weight: $medium-text;
+		text-decoration: none;
+		margin-bottom: 0;
+	}
+	h3 {
+		font-family: $body-font;
+		font-style: normal;
+		font-weight: $medium-text;
+		text-decoration: none;
+	}
+	.report-intro p {
+		font-family: $text-font;
+		font-style: italic;
+	}
+	p {
+		font-family: $text-font;
+		font-style: normal;
+	}
+	i {
+		font-family: $text-font;
+		font-style: normal;
+		font-size: 1.25rem;
+	}
+	img {
+		margin-bottom: 1rem;
+		margin-top: 0.5rem;
+	}
+}
+
+.issue-post-related {
+	float:right;
+	opacity:0.6;
+	padding-left: 1rem;
+	border-left: 1px solid #999;
+	h3 {
+		font-family: $body-font;
+		font-size: 1.5rem;
+		font-weight: $medium-text;
+		text-decoration: underline;
+		margin-bottom: 1.5rem;
+		margin-top: 2rem;
+	}
+}
+
+.issue-post-related:hover {
+	opacity:1;
+}
+
+.article-post-random {
+	@extend .issue-post-related;
+	opacity:1;
+	padding-left: 0;
+	border-left:none;
+	border-top: 1px solid #999;
+	article {
+		height:auto;
+	}
+}
+
+
 // ----------
 // navigation
 // ----------
@@ -215,6 +316,18 @@ nav.top-bar.categories {
 	background:inherit;
 }
 
+.top-bar.branding {
+	margin-top: 2rem;
+	padding-bottom: 0rem;
+	border-bottom: none;
+	background:inherit;
+}
+
+.top-bar.branding.small {
+	@extend .top-bar.branding;
+	margin-top: 0;
+}
+
 .contain-to-grid .top-bar.categories {
 	border-bottom: none;
 	border-bottom: 1px solid #999;
@@ -237,6 +350,7 @@ nav.top-bar.categories {
 
 	li a:not(.button):hover {
 		color:red;
+		background:inherit;
 	}
 
 	.name {
@@ -260,6 +374,20 @@ nav.top-bar.categories {
 	.branding-research {
 		font-weight: $light-text;
 	}
+}
+
+.login-branding .top-bar.branding {
+	@extend .top-bar.branding;
+	.name {
+		border:none;
+		h1 a {
+			text-align: center;
+		}
+	}
+}
+
+.loginLogin {
+	margin-top: 3rem;
 }
 
 .top-bar.small.branding {
@@ -322,7 +450,7 @@ nav.top-bar {
 .article {
 	margin-top: 2rem;
 	height:25rem;
-	h7.article-type, h7.article-category {
+	.article-type, .article-category {
 		margin-top: 0.5rem;
 		display: inline-block;
 		font-weight: $light-text;
@@ -347,6 +475,7 @@ nav.top-bar {
 
 .article-category-featured {
 	@extend .article;
+	height: auto;
 	margin-top: 1rem;
 	margin-bottom: 2rem;
 	h6 {

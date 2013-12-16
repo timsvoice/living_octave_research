@@ -909,3 +909,103 @@ OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpt
 [2013-12-12 21:19:16] (ERROR @ /living_octave_research/index.php) `[[id]]` is not a valid integer and may not be passed to makeUrl()
 [2013-12-12 21:19:16] (ERROR @ /living_octave_research/index.php) `[[id]]` is not a valid integer and may not be passed to makeUrl()
 [2013-12-12 21:19:16] (ERROR @ /living_octave_research/index.php) `[[id]]` is not a valid integer and may not be passed to makeUrl()
+[2013-12-16 13:19:33] (ERROR @ /living_octave_research/manager/index.php) Could not find action file at: /Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/core/components/batcher/index
+[2013-12-16 13:19:44] (ERROR @ /living_octave_research/connectors/workspace/packages.php) Could not open file for reading: batcher-1.1.1-pl.transport.zip?revolution_version=Revolution-2.2.8-pl
+[2013-12-16 13:19:44] (ERROR @ /living_octave_research/connectors/workspace/packages.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2013-12-16 13:19:44] (ERROR @ /living_octave_research/connectors/workspace/packages.php) Could not transfer package batcher-1.1.1-pl.transport.zip to /Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/core/packages/.
+[2013-12-16 13:24:16] (ERROR @ /living_octave_research/connectors/security/user.php) Could not get table class for class: modAccess
+[2013-12-16 13:24:16] (ERROR @ /living_octave_research/connectors/security/user.php) Could not get table name for class: modAccess
+[2013-12-16 13:24:16] (ERROR @ /living_octave_research/connectors/security/user.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 37' at line 1
+)
+
+[2013-12-16 13:24:40] (ERROR @ /living_octave_research/connectors/security/user.php) Could not get table class for class: modAccess
+[2013-12-16 13:24:40] (ERROR @ /living_octave_research/connectors/security/user.php) Could not get table name for class: modAccess
+[2013-12-16 13:24:40] (ERROR @ /living_octave_research/connectors/security/user.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 34' at line 1
+)
+
+[2013-12-16 13:24:40] (ERROR @ /living_octave_research/connectors/security/user.php) Could not get table class for class: modAccess
+[2013-12-16 13:24:40] (ERROR @ /living_octave_research/connectors/security/user.php) Could not get table name for class: modAccess
+[2013-12-16 13:24:40] (ERROR @ /living_octave_research/connectors/security/user.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 36' at line 1
+)
+
+[2013-12-16 13:24:40] (ERROR @ /living_octave_research/connectors/security/user.php) Could not get table class for class: modAccess
+[2013-12-16 13:24:40] (ERROR @ /living_octave_research/connectors/security/user.php) Could not get table name for class: modAccess
+[2013-12-16 13:24:40] (ERROR @ /living_octave_research/connectors/security/user.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 10' at line 1
+)
+
+[2013-12-16 13:24:40] (ERROR @ /living_octave_research/connectors/security/user.php) Could not get table class for class: modAccess
+[2013-12-16 13:24:40] (ERROR @ /living_octave_research/connectors/security/user.php) Could not get table name for class: modAccess
+[2013-12-16 13:24:40] (ERROR @ /living_octave_research/connectors/security/user.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 5' at line 1
+)
+
+[2013-12-16 13:24:40] (ERROR @ /living_octave_research/connectors/security/user.php) Could not get table class for class: modAccess
+[2013-12-16 13:24:40] (ERROR @ /living_octave_research/connectors/security/user.php) Could not get table name for class: modAccess
+[2013-12-16 13:24:40] (ERROR @ /living_octave_research/connectors/security/user.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 32' at line 1
+)
+
+[2013-12-16 13:56:04] (ERROR @ /living_octave_research/connectors/security/user.php) Could not get table class for class: modAccess
+[2013-12-16 13:56:04] (ERROR @ /living_octave_research/connectors/security/user.php) Could not get table name for class: modAccess
+[2013-12-16 13:56:04] (ERROR @ /living_octave_research/connectors/security/user.php) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AS `modAccess` WHERE `modAccess`.`principal` = 14' at line 1
+)
+
+[2013-12-16 14:05:58] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:06:37] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:07:59] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:08:24] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:08:46] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:09:08] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:09:31] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:10:04] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:10:31] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:10:57] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:11:17] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:11:36] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:11:53] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:12:14] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:12:53] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:13:15] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:13:35] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:14:06] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:14:45] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:15:07] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:15:27] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:17:21] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:18:21] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:18:51] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:22:58] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL
+[2013-12-16 14:43:51] (ERROR @ /living_octave_research/connectors/security/user.php) modUserProfile: Attempt to set NOT NULL field internalKey to NULL

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.0.4, created on 2013-12-12 12:18:48
+<?php /* Smarty version Smarty-3.0.4, created on 2013-12-16 13:18:34
          compiled from "/Applications/mampstack-5.3.17-0/apache2/htdocs/living_octave_research/manager/templates/default/welcome.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:99656777252aa1a283f8c13-80334794%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:107531085552af6e2ac9a9b2-39068589%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '99656777252aa1a283f8c13-80334794',
+  'nocache_hash' => '107531085552af6e2ac9a9b2-39068589',
   'function' => 
   array (
   ),

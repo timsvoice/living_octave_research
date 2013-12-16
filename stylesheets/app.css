@@ -7707,17 +7707,17 @@ th.hide-for-touch {
 /* foundation variables  */
 /* global variables */
 /* typography variables */
-/* line 32, ../scss/app.scss */
+/* line 31, ../scss/app.scss */
 hr {
   margin: 0;
 }
 
-/* line 36, ../scss/app.scss */
+/* line 35, ../scss/app.scss */
 :focus {
   background: white;
 }
 
-/* line 40, ../scss/app.scss */
+/* line 39, ../scss/app.scss */
 .vcard {
   border: none;
   padding: 0;
@@ -7725,65 +7725,83 @@ hr {
   display: block;
 }
 
-/* line 51, ../scss/app.scss */
-* {
+/* line 50, ../scss/app.scss */
+.button {
+  background: #888888;
+  height: 3rem;
+}
+
+/* line 55, ../scss/app.scss */
+.button:hover {
+  background: black;
+}
+
+/* line 63, ../scss/app.scss */
+input[type="text"], input[type="password"] {
+  height: 3rem;
+  font-size: 2rem;
+}
+
+/* line 72, ../scss/app.scss */
+*, body {
   background: url("assets/images/white_wall_hash.png");
 }
 
-/* line 56, ../scss/app.scss */
+/* line 77, ../scss/app.scss */
 body, h1, h2, h3, h4, h5, h6, p, a {
   font-family: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
 }
 
-/* line 60, ../scss/app.scss */
+/* line 81, ../scss/app.scss */
 h3 {
   font-size: 2rem;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "minion-pro", serif;
 }
 
-/* line 65, ../scss/app.scss */
+/* line 86, ../scss/app.scss */
 a {
   color: black;
 }
 
-/* line 79, ../scss/app.scss */
-.current-issue-intro h3, .current-issue-intro-small h3 {
+/* orbit styles */
+/* line 102, ../scss/app.scss */
+.current-issue-intro h3, .current-issue-intro-small h3, .issue-post h3, .featured-issues h3 {
   font-size: 2rem;
   font-style: italic;
   margin-bottom: 0rem;
   margin-top: 2rem;
   text-decoration: underline;
 }
-/* line 86, ../scss/app.scss */
-.current-issue-intro p, .current-issue-intro-small p {
-  font-family: "Times New Roman", Times, serif;
+/* line 109, ../scss/app.scss */
+.current-issue-intro p, .current-issue-intro-small p, .issue-post p, .featured-issues p {
+  font-family: "minion-pro", serif;
   font-style: italic;
   font-size: 1.25rem;
 }
 
-/* line 95, ../scss/app.scss */
+/* line 118, ../scss/app.scss */
 .current-issue-intro-small h3 {
   font-size: 2rem;
   margin-top: 1rem;
 }
-/* line 99, ../scss/app.scss */
+/* line 122, ../scss/app.scss */
 .current-issue-intro-small p {
   font-size: 1rem;
   font-style: normal;
 }
 
-/* line 105, ../scss/app.scss */
+/* line 128, ../scss/app.scss */
 .orbit-container {
   margin-top: 1rem;
 }
 
-/* line 109, ../scss/app.scss */
+/* line 132, ../scss/app.scss */
 div .row.issue {
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 115, ../scss/app.scss */
+/* line 138, ../scss/app.scss */
 .orbit-container .orbit-slides-container > * .orbit-caption {
   color: black;
   font-size: 1em;
@@ -7792,12 +7810,12 @@ div .row.issue {
   max-width: 33.33%;
   height: 100%;
 }
-/* line 122, ../scss/app.scss */
+/* line 145, ../scss/app.scss */
 .orbit-container .orbit-slides-container > * .orbit-caption p {
   font-family: "Times New Roman", Times, serif;
 }
 
-/* line 127, ../scss/app.scss */
+/* line 150, ../scss/app.scss */
 header h4 {
   color: black;
   font-size: 1.5rem;
@@ -7806,7 +7824,7 @@ header h4 {
   font-weight: 400;
 }
 
-/* line 135, ../scss/app.scss */
+/* line 158, ../scss/app.scss */
 p.small {
   font-size: 1rem;
   margin-bottom: 0.5rem;
@@ -7814,12 +7832,17 @@ p.small {
   font-weight: 200;
 }
 
-/* line 146, ../scss/app.scss */
+/* line 165, ../scss/app.scss */
+a:hover {
+  color: red;
+}
+
+/* line 169, ../scss/app.scss */
 .orbit-container .orbit-prev, .orbit-container .orbit-next {
   background: none;
 }
 
-/* line 150, ../scss/app.scss */
+/* line 173, ../scss/app.scss */
 .orbit-container .orbit-next :focus {
   height: 93%;
   top: 0;
@@ -7828,30 +7851,30 @@ p.small {
   opacity: 0.8;
 }
 
-/* line 159, ../scss/app.scss */
+/* line 182, ../scss/app.scss */
 .orbit-container .orbit-next > span, .orbit-container .orbit-prev > span, .orbit-container .orbit-timer, .orbit-container .orbit-timer span {
   background: none;
 }
 
-/* line 165, ../scss/app.scss */
+/* line 188, ../scss/app.scss */
 .orbit-container .orbit-slide-number {
   display: none;
   height: 0;
 }
 
-/* line 170, ../scss/app.scss */
+/* line 193, ../scss/app.scss */
 .orbit-bullets-container {
   /* display: none;
   height:0; */
 }
 
-/* line 175, ../scss/app.scss */
+/* line 198, ../scss/app.scss */
 ul.issue-orbit-list {
   margin-left: 0;
   margin-right: 0;
   float: right;
 }
-/* line 179, ../scss/app.scss */
+/* line 202, ../scss/app.scss */
 ul.issue-orbit-list li {
   list-style: none;
   display: inline-block;
@@ -7860,30 +7883,115 @@ ul.issue-orbit-list li {
   margin-top: 1rem;
 }
 
-/* line 188, ../scss/app.scss */
+/* line 211, ../scss/app.scss */
 li.issue-orbit-list-article:last-child {
   border-right: 1px solid #444;
   padding-right: 1rem;
 }
 
-/* line 197, ../scss/app.scss */
+/* line 219, ../scss/app.scss */
+.issue-post {
+  margin-top: 2rem;
+}
+/* line 222, ../scss/app.scss */
+.issue-post h7 {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  padding-left: 0rem;
+  display: inline-block;
+  font-weight: 200;
+  font-size: 0.75rem;
+  color: black;
+}
+/* line 231, ../scss/app.scss */
+.issue-post h2 {
+  font-family: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+/* line 238, ../scss/app.scss */
+.issue-post h3 {
+  font-family: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+/* line 244, ../scss/app.scss */
+.issue-post .report-intro p {
+  font-family: "minion-pro", serif;
+  font-style: italic;
+}
+/* line 248, ../scss/app.scss */
+.issue-post p {
+  font-family: "minion-pro", serif;
+  font-style: normal;
+}
+/* line 252, ../scss/app.scss */
+.issue-post i {
+  font-family: "minion-pro", serif;
+  font-style: normal;
+  font-size: 1.25rem;
+}
+/* line 257, ../scss/app.scss */
+.issue-post img {
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* line 263, ../scss/app.scss */
+.issue-post-related, .article-post-random {
+  float: right;
+  opacity: 0.6;
+  padding-left: 1rem;
+  border-left: 1px solid #999;
+}
+/* line 268, ../scss/app.scss */
+.issue-post-related h3, .article-post-random h3 {
+  font-family: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: underline;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* line 278, ../scss/app.scss */
+.issue-post-related:hover, .article-post-random:hover {
+  opacity: 1;
+}
+
+/* line 282, ../scss/app.scss */
+.article-post-random {
+  opacity: 1;
+  padding-left: 0;
+  border-left: none;
+  border-top: 1px solid #999;
+}
+/* line 288, ../scss/app.scss */
+.article-post-random article {
+  height: auto;
+}
+
+/* line 298, ../scss/app.scss */
 .contain-to-grid .top-bar .name h1 a :focus {
   background: inherit;
 }
 
-/* line 201, ../scss/app.scss */
+/* line 302, ../scss/app.scss */
 .contain-to-grid {
   background: inherit;
 }
 
-/* line 205, ../scss/app.scss */
+/* line 306, ../scss/app.scss */
 nav.top-bar.categories {
   /* border-top: 1px solid black;
   border-bottom: 2px solid black; */
   height: 2.9rem;
 }
 
-/* line 211, ../scss/app.scss */
+/* line 312, ../scss/app.scss */
 .contain-to-grid .top-bar.branding {
   margin-top: 2rem;
   padding-bottom: 0rem;
@@ -7891,39 +7999,53 @@ nav.top-bar.categories {
   background: inherit;
 }
 
-/* line 218, ../scss/app.scss */
+/* line 319, ../scss/app.scss */
+.top-bar.branding, .top-bar.branding.small, .login-branding .top-bar.branding {
+  margin-top: 2rem;
+  padding-bottom: 0rem;
+  border-bottom: none;
+  background: inherit;
+}
+
+/* line 326, ../scss/app.scss */
+.small.top-bar.branding {
+  margin-top: 0;
+}
+
+/* line 331, ../scss/app.scss */
 .contain-to-grid .top-bar.categories {
   border-bottom: none;
   border-bottom: 1px solid #999;
   background: inherit;
 }
 
-/* line 224, ../scss/app.scss */
+/* line 337, ../scss/app.scss */
 .top-bar .title-area {
   float: none;
 }
 
-/* line 228, ../scss/app.scss */
-.top-bar.branding, .top-bar.small.branding, .top-bar.categories {
+/* line 341, ../scss/app.scss */
+.top-bar.branding, .top-bar.branding.small, .login-branding .top-bar.branding, .top-bar.categories {
   background: inherit;
 }
-/* line 231, ../scss/app.scss */
+/* line 344, ../scss/app.scss */
 .top-bar.branding li a:not(.button), .top-bar.categories li a:not(.button) {
   text-transform: uppercase;
   color: black;
   padding-right: 1rem;
   background: inherit;
 }
-/* line 238, ../scss/app.scss */
+/* line 351, ../scss/app.scss */
 .top-bar.branding li a:not(.button):hover, .top-bar.categories li a:not(.button):hover {
   color: red;
+  background: inherit;
 }
-/* line 242, ../scss/app.scss */
+/* line 356, ../scss/app.scss */
 .top-bar.branding .name, .top-bar.categories .name {
   border-bottom: 1px solid #999;
   height: 3rem;
 }
-/* line 245, ../scss/app.scss */
+/* line 359, ../scss/app.scss */
 .top-bar.branding .name h1 a, .top-bar.categories .name h1 a {
   font-size: 3.75rem;
   font-weight: 900;
@@ -7932,108 +8054,123 @@ nav.top-bar.categories {
   background: inherit;
   color: black;
 }
-/* line 253, ../scss/app.scss */
+/* line 367, ../scss/app.scss */
 .top-bar.branding .name h1 a:hover, .top-bar.categories .name h1 a:hover {
   background: inherit;
   color: inherit;
 }
-/* line 260, ../scss/app.scss */
+/* line 374, ../scss/app.scss */
 .top-bar.branding .branding-research, .top-bar.categories .branding-research {
   font-weight: 200;
 }
 
-/* line 265, ../scss/app.scss */
+/* line 381, ../scss/app.scss */
+.login-branding .top-bar.branding .name {
+  border: none;
+}
+/* line 383, ../scss/app.scss */
+.login-branding .top-bar.branding .name h1 a {
+  text-align: center;
+}
+
+/* line 389, ../scss/app.scss */
+.loginLogin {
+  margin-top: 3rem;
+}
+
+/* line 393, ../scss/app.scss */
 .small.top-bar.branding {
   border-bottom: solid 1px #4d4d4d;
   margin-bottom: 2rem;
 }
-/* line 269, ../scss/app.scss */
+/* line 397, ../scss/app.scss */
 .small.top-bar.branding li a:not(.button) {
   text-transform: uppercase;
   color: black;
   padding-right: 0rem;
   background: inherit;
 }
-/* line 277, ../scss/app.scss */
+/* line 405, ../scss/app.scss */
 .small.top-bar.branding .name h1 a {
   font-size: 1.25rem;
   margin: 0;
   width: auto;
 }
-/* line 283, ../scss/app.scss */
+/* line 411, ../scss/app.scss */
 .small.top-bar.branding .menu-icon {
   color: black;
 }
 
-/* line 289, ../scss/app.scss */
+/* line 417, ../scss/app.scss */
 nav.top-bar {
   background: white;
 }
 
-/* line 293, ../scss/app.scss */
+/* line 421, ../scss/app.scss */
 .top-bar-section .has-dropdown > a:after {
   border-color: #000 transparent transparent transparent;
 }
 
-/* line 297, ../scss/app.scss */
+/* line 425, ../scss/app.scss */
 .top-bar-section .dropdown li a {
   border-right: solid 1px #4d4d4d;
   border-left: solid 1px #4d4d4d;
   border-bottom: solid 1px #4d4d4d;
 }
 
-/* line 307, ../scss/app.scss */
+/* line 435, ../scss/app.scss */
 .featured-articles, .article-category {
   margin-bottom: 0rem;
 }
-/* line 309, ../scss/app.scss */
+/* line 437, ../scss/app.scss */
 .featured-articles h3, .article-category h3 {
   font-family: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
   font-weight: 400;
   margin-bottom: 0;
   margin-top: 2rem;
 }
-/* line 316, ../scss/app.scss */
+/* line 444, ../scss/app.scss */
 .featured-articles p, .article-category p {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "minion-pro", serif;
   font-weight: 400;
 }
 
-/* line 322, ../scss/app.scss */
+/* line 450, ../scss/app.scss */
 .article, .article-category-featured {
   margin-top: 2rem;
   height: 25rem;
 }
-/* line 325, ../scss/app.scss */
-.article h7.article-type, .article-category-featured h7.article-type, .article h7.article-category, .article-category-featured h7.article-category {
+/* line 453, ../scss/app.scss */
+.article .article-type, .article-category-featured .article-type, .article .article-category, .article-category-featured .article-category {
   margin-top: 0.5rem;
   display: inline-block;
   font-weight: 200;
   font-size: 0.75rem;
   color: black;
 }
-/* line 333, ../scss/app.scss */
+/* line 461, ../scss/app.scss */
 .article h5.article-title, .article-category-featured h5.article-title {
   font-weight: 400;
 }
-/* line 336, ../scss/app.scss */
+/* line 464, ../scss/app.scss */
 .article p, .article-category-featured p {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "minion-pro", serif;
   color: black;
 }
-/* line 341, ../scss/app.scss */
+/* line 469, ../scss/app.scss */
 .article time, .article-category-featured time, .article .byline.author.vcard, .article-category-featured .byline.author.vcard, .article .fn, .article-category-featured .fn {
   color: black;
   font-weight: 200;
   font-size: 0.75rem;
 }
 
-/* line 348, ../scss/app.scss */
+/* line 476, ../scss/app.scss */
 .article-category-featured {
+  height: auto;
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
-/* line 352, ../scss/app.scss */
+/* line 481, ../scss/app.scss */
 .article-category-featured h6 {
   margin-top: 0.5rem;
   display: inline-block;
@@ -8041,7 +8178,7 @@ nav.top-bar {
   color: black;
 }
 
-/* line 360, ../scss/app.scss */
+/* line 489, ../scss/app.scss */
 .articles {
   margin-top: 0rem;
 }
