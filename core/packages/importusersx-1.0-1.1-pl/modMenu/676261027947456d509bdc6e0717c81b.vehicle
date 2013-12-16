@@ -1,0 +1,50 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Action' => 
+    array (
+      'ef8fbe61d494d1ac6b4f98d445670563' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'namespace',
+          1 => 'controller',
+        ),
+        'class' => 'modAction',
+        'object' => '{"id":1,"namespace":"importusersx","controller":"index","haslayout":1,"lang_topics":"importusersx:default","assets":"","help_url":"","parent":0}',
+        'guid' => 'b79103e2be987ec753876f70afe3a96c',
+        'native_key' => 1,
+        'signature' => '0a3f5dff10a844527401838bb89a829d',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'importusersx',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'fc93e008a145c665c16a434ce2b8d690',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '676261027947456d509bdc6e0717c81b',
+  'native_key' => 'importusersx',
+  'object' => '{"text":"importusersx","parent":"components","action":1,"description":"importusersx.desc","icon":"images\\/icons\\/plugin.gif","menuindex":0,"params":"","handler":"","permissions":""}',
+);

@@ -1,0 +1,59 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      'd4f2a6cfa57bf4e484c4ae90ea42385f' => 
+      array (
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"UserEmailChunk","description":"Chunk for the email which will be sent to the user.","editor_type":0,"category":0,"cache_type":0,"snippet":"<p>Hello,<\\/p>\\r\\n\\r\\n    <p>An account was created for you in [[+sname]]. Here are your login details :<\\/p>\\r\\n\\r\\n    <p><strong>Username:<\\/strong> [[+alias]]<br \\/>\\r\\n    <strong>Password:<\\/strong> [[+password]]<\\/p>\\r\\n\\r\\n    <p>Once you log into [[+sname]] at [[+surl]], you can change your password.<\\/p>","locked":0,"properties":null,"static":0,"static_file":"","content":"<p>Hello,<\\/p>\\r\\n\\r\\n    <p>An account was created for you in [[+sname]]. Here are your login details :<\\/p>\\r\\n\\r\\n    <p><strong>Username:<\\/strong> [[+alias]]<br \\/>\\r\\n    <strong>Password:<\\/strong> [[+password]]<\\/p>\\r\\n\\r\\n    <p>Once you log into [[+sname]] at [[+surl]], you can change your password.<\\/p>"}',
+        'guid' => 'e1b388d8848b8ca3f3ff9adab44e23d5',
+        'native_key' => NULL,
+        'signature' => 'fd166f0a631437ee82ba557f9be246d9',
+      ),
+      '3f9f9028efed8405f2c9b586472562d5' => 
+      array (
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"AdminEmailChunk","description":"Chunk for the email which will be sent to the administrator.","editor_type":0,"category":0,"cache_type":0,"snippet":" <p>Hello,<\\/p>\\r\\n\\r\\n    [[+addCount:gt=`0`:then=`<p>[[+addCount]] account[[+addCount:gt=`1`:then=`s`:else=``]] has been created : <\\/p>\\r\\n    \\t<p>[[+addLog]]<\\/p><br\\/>`:else=``]]\\r\\n\\r\\n\\t[[+changeCount:gt=`0`:then=`<p>[[+changeCount]] account[[+changeCount:gt=`1`:then=`s`:else=``]] has been changed : <\\/p>\\r\\n    \\t<p>[[+changeLog]]<\\/p><br\\/>`:else=``]]","locked":0,"properties":null,"static":0,"static_file":"","content":" <p>Hello,<\\/p>\\r\\n\\r\\n    [[+addCount:gt=`0`:then=`<p>[[+addCount]] account[[+addCount:gt=`1`:then=`s`:else=``]] has been created : <\\/p>\\r\\n    \\t<p>[[+addLog]]<\\/p><br\\/>`:else=``]]\\r\\n\\r\\n\\t[[+changeCount:gt=`0`:then=`<p>[[+changeCount]] account[[+changeCount:gt=`1`:then=`s`:else=``]] has been changed : <\\/p>\\r\\n    \\t<p>[[+changeLog]]<\\/p><br\\/>`:else=``]]"}',
+        'guid' => '1c205331fd01589e0616497f1ac5b835',
+        'native_key' => NULL,
+        'signature' => 'ac07015e8d85af3795a4447699827c05',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'importusersx',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"importusersx-1.0.1-pl\\/modCategory\\/447c070c805e3adc063df4531eee8f66\\/0\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"importusersx"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"importusersx-1.0.1-pl\\/modCategory\\/447c070c805e3adc063df4531eee8f66\\/1\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"importusersx"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'fc3521321301f9e342f1238b5a771c68',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '447c070c805e3adc063df4531eee8f66',
+  'native_key' => NULL,
+  'object' => '{"id":null,"parent":0,"category":"ImportUsersX"}',
+);
