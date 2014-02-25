@@ -16,9 +16,14 @@ $border-thin:  1px $gray solid;
 $red:red;
 
 /* typography variables */
+<<<<<<< HEAD
 
 $body-font: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
 $text-font: "Times New Roman", Times, serif;
+=======
+$body-font: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
+$text-font: "minion-pro", serif;
+>>>>>>> 2a9c7ac85c058bdd584f64ba3b90d5460bc99350
 $light-text:200;
 $medium-text:400;
 $heavy-text:900;
@@ -45,10 +50,39 @@ hr {
 }
 
 // ----------
+<<<<<<< HEAD
 // typography
 // ----------
 
 * {
+=======
+// UI
+// ----------
+
+.button {
+	background:$dark-gray;
+	height: 3rem;
+}
+
+.button:hover {
+	background:$black;
+}
+
+// ----------
+// forms
+// ----------
+
+input[type="text"], input[type="password"] {
+	height:3rem;
+	font-size: 2rem;
+}
+
+// ----------
+// typography
+// ----------
+
+*, body {
+>>>>>>> 2a9c7ac85c058bdd584f64ba3b90d5460bc99350
 	background: url("assets/images/white_wall_hash.png");
 
 }
@@ -62,12 +96,20 @@ h3 {
 	font-family: $text-font;
 }
 
+<<<<<<< HEAD
+=======
+a {
+	color:$black;
+}
+
+>>>>>>> 2a9c7ac85c058bdd584f64ba3b90d5460bc99350
 // articles
 
 
 
 
 // ----------
+<<<<<<< HEAD
 // issue - orbit styles
 // ----------
 
@@ -77,12 +119,29 @@ h3 {
 		font-style: italic;
 		margin-bottom: 0rem;
 		margin-top: 4.5rem;
+=======
+// issue
+// ----------
+
+/* orbit styles */
+
+.current-issue-intro, .featured-issues {
+	h3 {
+		font-size:2rem;
+		font-style: italic;
+		margin-bottom: 0rem;
+		margin-top: 2rem;
+>>>>>>> 2a9c7ac85c058bdd584f64ba3b90d5460bc99350
 		text-decoration: underline;
 	}
 	p {
 		font-family: $text-font;
 		font-style: italic;
+<<<<<<< HEAD
 		font-size: 1.5rem;
+=======
+		font-size: 1.25rem;
+>>>>>>> 2a9c7ac85c058bdd584f64ba3b90d5460bc99350
 	}
 }
 
@@ -135,8 +194,13 @@ p.small {
 	font-weight: $light-text;
 }
 
+<<<<<<< HEAD
 a {
 	
+=======
+a:hover {
+	color:red;
+>>>>>>> 2a9c7ac85c058bdd584f64ba3b90d5460bc99350
 }
 
 .orbit-container .orbit-prev, .orbit-container .orbit-next {
@@ -186,6 +250,87 @@ li.issue-orbit-list-article:last-child {
 		padding-right: 1rem;
 	}
 
+<<<<<<< HEAD
+=======
+
+//issue page
+
+.issue-post {
+	@extend .current-issue-intro;
+	margin-top: 2rem;
+	h7 {
+		margin-top: 0rem;
+		margin-bottom: 1rem;
+		padding-left: 0rem;
+		display: inline-block;
+		font-weight: $light-text;
+		font-size: 0.75rem;
+		color:$black;
+	}
+	h2 {
+		font-family: $body-font;
+		font-style: normal;
+		font-weight: $medium-text;
+		text-decoration: none;
+		margin-bottom: 0;
+	}
+	h3 {
+		font-family: $body-font;
+		font-style: normal;
+		font-weight: $medium-text;
+		text-decoration: none;
+	}
+	.report-intro p {
+		font-family: $text-font;
+		font-style: italic;
+	}
+	p {
+		font-family: $text-font;
+		font-style: normal;
+	}
+	i {
+		font-family: $text-font;
+		font-style: normal;
+		font-size: 1.25rem;
+	}
+	img {
+		margin-bottom: 1rem;
+		margin-top: 0.5rem;
+	}
+}
+
+.issue-post-related {
+	float:right;
+	opacity:0.6;
+	padding-left: 1rem;
+	border-left: 1px solid #999;
+	h3 {
+		font-family: $body-font;
+		font-size: 1.5rem;
+		font-weight: $medium-text;
+		text-decoration: underline;
+		margin-bottom: 1.5rem;
+		margin-top: 2rem;
+	}
+}
+
+.issue-post-related:hover {
+	opacity:1;
+}
+
+.article-post-random {
+	@extend .issue-post-related;
+	opacity:1;
+	padding-left: 0;
+	border-left:none;
+	border-top: 1px solid #999;
+	article {
+		height:auto;
+	}
+}
+
+
+>>>>>>> 2a9c7ac85c058bdd584f64ba3b90d5460bc99350
 // ----------
 // navigation
 // ----------
@@ -211,6 +356,21 @@ nav.top-bar.categories {
 	background:inherit;
 }
 
+<<<<<<< HEAD
+=======
+.top-bar.branding {
+	margin-top: 2rem;
+	padding-bottom: 0rem;
+	border-bottom: none;
+	background:inherit;
+}
+
+.top-bar.branding.small {
+	@extend .top-bar.branding;
+	margin-top: 0;
+}
+
+>>>>>>> 2a9c7ac85c058bdd584f64ba3b90d5460bc99350
 .contain-to-grid .top-bar.categories {
 	border-bottom: none;
 	border-bottom: 1px solid #999;
@@ -233,6 +393,10 @@ nav.top-bar.categories {
 
 	li a:not(.button):hover {
 		color:red;
+<<<<<<< HEAD
+=======
+		background:inherit;
+>>>>>>> 2a9c7ac85c058bdd584f64ba3b90d5460bc99350
 	}
 
 	.name {
@@ -258,6 +422,23 @@ nav.top-bar.categories {
 	}
 }
 
+<<<<<<< HEAD
+=======
+.login-branding .top-bar.branding {
+	@extend .top-bar.branding;
+	.name {
+		border:none;
+		h1 a {
+			text-align: center;
+		}
+	}
+}
+
+.loginLogin {
+	margin-top: 3rem;
+}
+
+>>>>>>> 2a9c7ac85c058bdd584f64ba3b90d5460bc99350
 .top-bar.small.branding {
 	@extend .top-bar.branding;
 	border-bottom: solid 1px #4d4d4d;
@@ -305,15 +486,31 @@ nav.top-bar {
 	h3 {
 		font-family: $body-font;
 		font-weight: $medium-text;
+<<<<<<< HEAD
 		margin-bottom: 1rem;
 		margin-top: 2rem;
 
 	}
+=======
+		margin-bottom: 0;
+		margin-top: 2rem;
+
+	}
+	p {
+		font-family: $text-font;
+		font-weight: $medium-text;
+	}
+>>>>>>> 2a9c7ac85c058bdd584f64ba3b90d5460bc99350
 }
 
 .article {
 	margin-top: 2rem;
+<<<<<<< HEAD
 	h7.article-type, h7.article-category {
+=======
+	height:25rem;
+	.article-type, .article-category {
+>>>>>>> 2a9c7ac85c058bdd584f64ba3b90d5460bc99350
 		margin-top: 0.5rem;
 		display: inline-block;
 		font-weight: $light-text;
@@ -322,8 +519,12 @@ nav.top-bar {
 	}
 
 	h5.article-title {
+<<<<<<< HEAD
 		font-family: $text-font;
 		font-weight: $heavy-text;
+=======
+		font-weight: $medium-text;
+>>>>>>> 2a9c7ac85c058bdd584f64ba3b90d5460bc99350
 	}
 	p {
 		font-family: $text-font;
@@ -339,6 +540,10 @@ nav.top-bar {
 
 .article-category-featured {
 	@extend .article;
+<<<<<<< HEAD
+=======
+	height: auto;
+>>>>>>> 2a9c7ac85c058bdd584f64ba3b90d5460bc99350
 	margin-top: 1rem;
 	margin-bottom: 2rem;
 	h6 {
