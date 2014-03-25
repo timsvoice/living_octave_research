@@ -35,7 +35,7 @@ function create_article() {
  
             'public' => true,
             'menu_position' => 4,
-            'supports' => array( 'title', 'editor', 'comments', 'thumbnail', 'custom-fields' ),
+            'supports' => array( 'title', 'editor', 'author', 'comments', 'thumbnail', 'custom-fields' ),
             'taxonomies' => array( 'category', 'post_tag', 'issue_number' ),
             'menu_icon' => plugins_url( 'images/image.png', __FILE__ ),
             'has_archive' => true
