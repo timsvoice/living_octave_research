@@ -1,0 +1,73 @@
+
+.issue {
+	margin-top: 2rem;
+	&-meta {
+		margin-bottom: 2rem;
+	}
+	&-contents {
+		margin-bottom: 2rem;
+	}
+}
+
+.issue-post {
+	@extend .current-issue-intro;
+	margin-top: 2rem;
+	h7 {
+		margin-top: 0rem;
+		margin-bottom: 1rem;
+		padding-left: 0rem;
+		display: inline-block;
+		font-weight: $light-text;
+		font-size: 0.75rem;
+		color:$black;
+	}
+	h2 {
+		font-family: $body-font;
+		font-style: normal;
+		font-weight: $medium-text;
+		text-decoration: none;
+		margin-bottom: 0;
+	}
+	h3 {
+		font-family: $body-font;
+		font-style: normal;
+		font-weight: $medium-text;
+		text-decoration: none;
+	}
+	.report-intro p {
+		font-family: $text-font;
+		font-style: italic;
+	}
+	p {
+		font-family: $text-font;
+		font-style: normal;
+	}
+	i {
+		font-family: $text-font;
+		font-style: normal;
+		font-size: 1.25rem;
+	}
+	img {
+		margin-bottom: 1rem;
+		margin-top: 0.5rem;
+	}
+}
+
+.issue-post-related {
+	float:right;
+	opacity:0.6;
+	padding-left: 1rem;
+	border-left: 1px solid #999;
+	h3 {
+		font-family: $body-font;
+		font-size: 1.5rem;
+		font-weight: $medium-text;
+		text-decoration: underline;
+		margin-bottom: 1.5rem;
+		margin-top: 2rem;
+	}
+}
+
+.issue-post-related:hover {
+	opacity:1;
+}

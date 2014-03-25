@@ -1,0 +1,87 @@
+.navigation {
+	&-title-area {
+		@extend .title-area
+	}
+	&-title-area-title {
+		display: inline-block;
+		margin-top: 0.25rem;
+	}
+	&-title-area-image {
+		margin-left: 0.9375rem;
+		margin-top: -0.75rem;
+	}
+	&-top-bar, .top-bar {
+		@extend .top-bar;
+		padding-top: 1rem;
+		background: $white;
+		height: 5rem;		
+	}
+	&-top-bar-section, .top-bar-section {
+		@extend .top-bar-section;
+	}
+	&.contain-to-grid {
+		background: $white;
+	}
+}
+
+.next-article {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	i {
+		font-size: 3rem;
+		vertical-align: middle;
+	}
+	&-left {
+		float: left;
+		p {
+			display: inline-block;
+			font-weight: $light-text;
+			color: $dark-gray;
+			font-size: 1.5rem;
+			font-style: italic;
+			margin-left: 1rem;
+			line-height: 3rem;
+			margin-bottom: 0;
+			vertical-align: middle;
+		}
+	}
+	&-right {
+		float: right;
+		p {
+			display: inline-block;
+			font-weight: $light-text;
+			color: $dark-gray;
+			font-size: 1.5rem;
+			font-style: italic;
+			margin-right: 1rem;
+			line-height: 3rem;
+			margin-bottom: 0;
+			vertical-align: middle;
+		}
+	}
+}
+
+.index {
+	margin-top: 2rem;
+	&-side-nav, .side-nav {
+		@extend .side-nav;
+		padding: 0;
+		li a:not(.button) {
+			color: $black;
+		}
+	}
+	&-side-nav-teaser {
+	}
+}
+
+.article-index {
+	@extend .index;
+	margin-top: 2rem;
+	&-side-nav, .side-nav {
+		@extend .side-nav;
+		padding: 0;
+		li a:not(.button) {
+			color: $black;
+		}
+	}
+}

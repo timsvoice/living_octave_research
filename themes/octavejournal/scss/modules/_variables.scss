@@ -1,0 +1,34 @@
+/* ============================ 
+	Colors
+============================ */
+
+$gray: hsla(0,0,91%,1);
+$light-gray: hsla(0,0,60%,1);
+$white: hsla(0,0,100%,1);
+$dark-gray: hsla(0,0,53%,1);
+$black: hsla(0,0,0%,1);
+$navy-black: hsla(219,100,13%,1);
+
+/* ============================ 
+	Typography
+============================ */
+
+$body-font: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
+$text-font: "Times New Roman", Times, serif;
+
+$heavy-text:900;
+$medium-text:400;
+$light-text:200;
+
+/* ============================ 
+	Borders
+============================ */
+
+$border-thick: 0.125rem $black solid;
+$border-thin:  0.0625rem $gray solid;
+
+/* ============================ 
+	Backgrounds
+============================ */
+
+$background: url("assets/images/white_wall_hash.png");

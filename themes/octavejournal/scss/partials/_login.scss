@@ -1,0 +1,13 @@
+.login-branding .top-bar.branding {
+	@extend .top-bar.branding;
+	.name {
+		border:none;
+		h1 a {
+			text-align: center;
+		}
+	}
+}
+
+.loginLogin {
+	margin-top: 3rem;
+}
