@@ -8,6 +8,14 @@ Version: 1.0
 Tags: publishing, magazine, Octave, clean, readability
 */
 
+//vendor
+
+@import "vendor/settings";
+@import "foundation";
+@import "normalize";
+@import "compass";
+@import "vendor/owl-carousel";
+
 //modules
 
 @import "modules/variables";
@@ -25,13 +33,7 @@ Tags: publishing, magazine, Octave, clean, readability
 @import "partials/navigation";
 @import "partials/login";
 @import "partials/category";
-
-//vendor
-
-@import "vendor/settings";
-@import "foundation";
-@import "normalize";
-@import "compass";
+@import "partials/carousel";
 
 
 /* Table of Contents

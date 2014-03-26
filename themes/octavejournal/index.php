@@ -2,68 +2,42 @@
 
 <div class="container">
 	
-	<div class="row">
-		<div class="issue large-12 columns">
-			<h2 class="issue-title">
-				<a href="#">Big Bold Title</a>
-			</h2>
-			<h3 class="issue-number">
-				<a href="#">Issue #1</a>
-			</h3>
-			<h3 class="issue-date">November 2013</h3>
-			<!-- <h3 class="issue-date">13/12/13</h3> -->
-			
-			<div class="issue-contents">
-				<img src="http://placehold.it/1000x516" alt="" class="issue-contents-image">
-				<p class="issue-contents-teaser">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, deleniti modi quas sit reprehenderit inventore voluptate dolorum consequuntur accusantium cumque! Eaque, quas, ipsam assumenda veritatis tempora repellendus animi perferendis amet error facilis fugiat reiciendis dolorum placeat necessitatibus autem rem sed dolorem magni odit impedit eveniet consequuntur commodi debitis asperiores nemo. <a href="#">read more</a>
-				</p>
-			</div><!-- issue-contents -->
 
-		</div><!-- issue -->
-	</div><!-- row -->
+	<div class="issue">
+		
+		<div class="row">
+			<div class="issue-meta large-12 columns">
+				<h3 class="issue-title"><a href="#">Big Bold Title</a></h3>
+				<h3 class="issue-date">November 2013</h3>
+			</div><!-- issue-meta -->
+		</div><!-- row -->
+		
+		<div class="issue-contents">
+			<div class="issue-contents-carousel">
+				<div id="issue-carousel" class="owl-carousel">
+					<div class="item"><img alt="" class="lazyOwl" data-src="http://placehold.it/800x800/bfbfbf/fff">
+						<div class="issue-contents-carousel-item-content">
+							<h3 class="issue-contents-carousel-item-title">Article Title</h3>
+							<p class="issue-contents-carousel-item-teaser">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolorem.
+							</p>
+						</div>
+					</div>
+					<div class="item"><img alt="" class="lazyOwl" data-src="http://placehold.it/800x800/bfbfbf/fff"></div>
+					<div class="item"><img alt="" class="lazyOwl" data-src="http://placehold.it/800x800/bfbfbf/fff"></div>						
+					<div class="item"><img alt="" class="lazyOwl" data-src="http://placehold.it/800x800/bfbfbf/fff"></div>
+					<div class="item"><img alt="" class="lazyOwl" data-src="http://placehold.it/800x800/bfbfbf/fff"></div>
+					<div class="item"><img alt="" class="lazyOwl" data-src="http://placehold.it/800x800/bfbfbf/fff"></div>						
+				</div>
+			</div>
+		</div><!-- issue-contents -->
+
+	</div><!-- issue -->
+
 	
-	<div class="row panel">
-		<div class="past-issues large-12 columns">
-			<h2 class="past-issues-header">Past Issues</h2>
-			<ul class="past-issues-list small-block-grid-3">
-				
-                <li>
-                	<img src="http://placehold.it/300x168/bfbfbf/fff" alt="slide 1" />
-					<h3 class="past-issues-title">
-						Lorem ipsum dolor.
-					</h3>                     
-					<p class="past-issues-teaser">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, magnam ex aperiam asperiores maiores sequi nam optio illo inventore sunt?
-					</p>                                             
-				</li>
-
-			  	<li>
-			    	<img src="http://placehold.it/300x168/bfbfbf/fff" alt="slide 2" />
-			    	<h3 class="past-issues-title">
-			    		Lorem ipsum dolor.
-			    	</h3>
-			    	<p class="past-issues-teaser">
-			    		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, cum, odit consectetur dolorem eveniet qui nemo quidem quaerat rem a.
-			    	</p>		  
-			  	</li>
-
-			  	<li>
-			    	<img src="http://placehold.it/300x168/bfbfbf/fff" alt="slide 3" />
-			    	<h3 class="past-issues-title">
-			    		Lorem ipsum dolor.
-			    	</h3>
-			    	<p class="past-issues-teaser">
-			    		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, officiis saepe non eveniet placeat velit dolore perspiciatis sint provident eaque.
-			    	</p>		    
-			  	</li>		
-
-			</ul>
-		</div> <!-- past issues -->
-	</div><!-- row -->
+	
 	<div class="row">
 		<div class="articles small-12 columns alpha beta">
-			<hr class="section">
 			<h2 class="articles-header small-12 columns alpha beta">
 				Articles
 			</h2>

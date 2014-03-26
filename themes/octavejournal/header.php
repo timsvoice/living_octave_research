@@ -44,8 +44,10 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     
     <!-- Load Custom JS script -->
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendors/OwlCarousel/owl-carousel/owl.carousel.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/app.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-waypoints/waypoints.min.js"></script>
+
   
 
 
@@ -75,7 +77,7 @@
 </head>
 <body>
 
-    <div class="navigation contain-to-grid fixed">
+    <div class="navigation fixed">
         <nav class="navigation-top-bar" data-topbar>
             <ul class="navigation-title-area">
               <li class="">

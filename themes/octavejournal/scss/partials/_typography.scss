@@ -58,9 +58,9 @@ p.small {
 .issue {
 
 	&-title {
-		font-size: 4rem;
-		line-height: 4rem;
-
+		font-size: 3rem;
+		line-height: 3rem;
+		text-align: center;
 		a, a:hover {
 			color: $black;
 		}
@@ -70,17 +70,17 @@ p.small {
 		font-weight: $light-text;
 		line-height: 2rem;
 		display: inline-block;
+		text-align: center;
 		a, a:hover {
 			color: $dark-gray;
 		}
 	}
 	&-date {
-		font-size: 2rem;
+		font-size: 1.5rem;
 		font-weight: $light-text;
 		line-height: 2rem;
-		display: inline-block;
+		text-align: center;
 		color: $gray;
-		margin-left: 2rem;
 	}
 	&-contents-title {
 		margin-top: 0;
@@ -105,8 +105,15 @@ p.small {
 
 // articles
 
+.articles {
+	&-header {
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+}
+
 .article {
-	margin-top: 2rem;
+	margin-top: 32rem;
 	&-title {
 		@extend .issue-title;
 	}
