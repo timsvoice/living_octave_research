@@ -16,18 +16,63 @@
 			<div class="issue-contents-carousel">
 				<div id="issue-carousel" class="owl-carousel">
 					<div class="item"><img alt="" class="lazyOwl" data-src="http://placehold.it/800x800/bfbfbf/fff">
-						<div class="issue-contents-carousel-item-content">
-							<h3 class="issue-contents-carousel-item-title">Article Title</h3>
-							<p class="issue-contents-carousel-item-teaser">
+						<div class="issue-contents-carousel-item-content hidden">
+							<h3 class="issue-contents-carousel-item-content-title">Article Title</h3>
+							<p class="issue-contents-carousel-item-content-teaser">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolorem.
 							</p>
 						</div>
 					</div>
-					<div class="item"><img alt="" class="lazyOwl" data-src="http://placehold.it/800x800/bfbfbf/fff"></div>
-					<div class="item"><img alt="" class="lazyOwl" data-src="http://placehold.it/800x800/bfbfbf/fff"></div>						
-					<div class="item"><img alt="" class="lazyOwl" data-src="http://placehold.it/800x800/bfbfbf/fff"></div>
-					<div class="item"><img alt="" class="lazyOwl" data-src="http://placehold.it/800x800/bfbfbf/fff"></div>
-					<div class="item"><img alt="" class="lazyOwl" data-src="http://placehold.it/800x800/bfbfbf/fff"></div>						
+					<div class="item"><img alt="" class="lazyOwl" data-src="http://placehold.it/800x800/bfbfbf/fff">
+						<div class="issue-contents-carousel-item-content hidden">
+							<h3 class="issue-contents-carousel-item-content-title">Article Title</h3>
+							<p class="issue-contents-carousel-item-content-teaser">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolorem.
+							</p>
+						</div>
+					</div><div class="item"><img alt="" class="lazyOwl" data-src="http://placehold.it/800x800/bfbfbf/fff">
+						<div class="issue-contents-carousel-item-content hidden">
+							<h3 class="issue-contents-carousel-item-content-title">Article Title</h3>
+							<p class="issue-contents-carousel-item-content-teaser">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolorem.
+							</p>
+						</div>
+					</div><div class="item"><img alt="" class="lazyOwl" data-src="http://placehold.it/800x800/bfbfbf/fff">
+						<div class="issue-contents-carousel-item-content hidden">
+							<h3 class="issue-contents-carousel-item-content-title">Article Title</h3>
+							<p class="issue-contents-carousel-item-content-teaser">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolorem.
+							</p>
+						</div>
+					</div><div class="item"><img alt="" class="lazyOwl" data-src="http://placehold.it/800x800/bfbfbf/fff">
+						<div class="issue-contents-carousel-item-content hidden">
+							<h3 class="issue-contents-carousel-item-content-title">Article Title</h3>
+							<p class="issue-contents-carousel-item-content-teaser">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolorem.
+							</p>
+						</div>
+					</div><div class="item"><img alt="" class="lazyOwl" data-src="http://placehold.it/800x800/bfbfbf/fff">
+						<div class="issue-contents-carousel-item-content hidden">
+							<h3 class="issue-contents-carousel-item-content-title">Article Title</h3>
+							<p class="issue-contents-carousel-item-content-teaser">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolorem.
+							</p>
+						</div>
+					</div><div class="item"><img alt="" class="lazyOwl" data-src="http://placehold.it/800x800/bfbfbf/fff">
+						<div class="issue-contents-carousel-item-content hidden">
+							<h3 class="issue-contents-carousel-item-content-title">Article Title</h3>
+							<p class="issue-contents-carousel-item-content-teaser">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolorem.
+							</p>
+						</div>
+					</div><div class="item"><img alt="" class="lazyOwl" data-src="http://placehold.it/800x800/bfbfbf/fff">
+						<div class="issue-contents-carousel-item-content hidden">
+							<h3 class="issue-contents-carousel-item-content-title">Article Title</h3>
+							<p class="issue-contents-carousel-item-content-teaser">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, dolorem.
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div><!-- issue-contents -->
@@ -37,38 +82,38 @@
 	
 	
 	<div class="row">
-		<div class="articles small-12 columns alpha beta">
+		<div class="articles small-12 columns">
 			<h2 class="articles-header small-12 columns alpha beta">
 				Articles
 			</h2>
-			<ul class="large-block-grid-3 medium-block-grid-2 small-block-grid-1">
+			<ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-1">
 				<li class="articles-article">
-				<img src="http://placehold.it/300x168/bfbfbf/fff" alt="">
+				<img src="http://placehold.it/360x202/bfbfbf/fff" alt="">
 				<h3 class="articles-article-title">Article Title</h3>
 				<p class="articles-article-teaser">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, similique ad autem laborum voluptates voluptatibus aliquam nemo fugit! Impedit, quia!</p>
 			</li>
 			<li class="articles-article">
-				<img src="http://placehold.it/300x168/bfbfbf/fff" alt="">
+				<img src="http://placehold.it/360x202/bfbfbf/fff" alt="">
 				<h3 class="articles-article-title">Article Title</h3>
 				<p class="articles-article-teaser">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, similique ad autem laborum voluptates voluptatibus aliquam nemo fugit! Impedit, quia!</p>
 			</li>
 			<li class="articles-article">
-				<img src="http://placehold.it/300x168/bfbfbf/fff" alt="">
+				<img src="http://placehold.it/360x202/bfbfbf/fff" alt="">
 				<h3 class="articles-article-title">Article Title</h3>
 				<p class="articles-article-teaser">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, similique ad autem laborum voluptates voluptatibus aliquam nemo fugit! Impedit, quia!</p>
 			</li>
 			<li class="articles-article">
-				<img src="http://placehold.it/300x168/bfbfbf/fff" alt="">
+				<img src="http://placehold.it/360x202/bfbfbf/fff" alt="">
 				<h3 class="articles-article-title">Article Title</h3>
 				<p class="articles-article-teaser">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, similique ad autem laborum voluptates voluptatibus aliquam nemo fugit! Impedit, quia!</p>
 			</li>
 			<li class="articles-article">
-				<img src="http://placehold.it/300x168/bfbfbf/fff" alt="">
+				<img src="http://placehold.it/360x202/bfbfbf/fff" alt="">
 				<h3 class="articles-article-title">Article Title</h3>
 				<p class="articles-article-teaser">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, similique ad autem laborum voluptates voluptatibus aliquam nemo fugit! Impedit, quia!</p>
 			</li>
 			<li class="articles-article">
-				<img src="http://placehold.it/300x168/bfbfbf/fff" alt="">
+				<img src="http://placehold.it/360x202/bfbfbf/fff" alt="">
 				<h3 class="articles-article-title">Article Title</h3>
 				<p class="articles-article-teaser">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, similique ad autem laborum voluptates voluptatibus aliquam nemo fugit! Impedit, quia!</p>
 			</li>

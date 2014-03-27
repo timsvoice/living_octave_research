@@ -1,7 +1,7 @@
 <div class="index large-3 columns">
 	<ul class="index-side-nav">
-		<li class="index-side-nav-header">
-			<h3>Issue Index</h3>
+		<li>
+			<h3 class="index-side-nav-header">Issue Index</h3>
 		</li>
 		<li class="index-side-nav-item">
 			<h5 class="index-side-nav-title">

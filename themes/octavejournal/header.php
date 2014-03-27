@@ -54,7 +54,8 @@
 
     <!-- TYPOGRAPHY
     ================================================== -->  
-     
+    <script type="text/javascript" src="//use.typekit.net/itk1olx.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
       
     <!-- Favicons
     ================================================== -->
@@ -84,7 +85,7 @@
                 <img class="navigation-title-area-image" src="http://placehold.it/40x40/bfbfbf/fff" alt="">
                 <h1 class="navigation-title-area-title"><a href="#">Octave Journal</a></h1>
               </li>
-              <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+              <li class="navigation toggle-topbar menu-icon"><a href="#"></a></li>
             </ul>
 
           <section class="navigation-top-bar-section">

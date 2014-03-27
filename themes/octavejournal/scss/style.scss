@@ -15,6 +15,9 @@ Tags: publishing, magazine, Octave, clean, readability
 @import "normalize";
 @import "compass";
 @import "vendor/owl-carousel";
+@import "vendor/owl.theme";
+@import "vendor/owl.carousel";
+
 
 //modules
 
@@ -24,6 +27,7 @@ Tags: publishing, magazine, Octave, clean, readability
 
 //partials
 
+@import "partials/base";
 @import "partials/grid";
 @import "partials/typography";
 @import "partials/forms";

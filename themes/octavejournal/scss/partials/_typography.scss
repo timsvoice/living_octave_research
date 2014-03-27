@@ -29,6 +29,25 @@ p.small {
 	font-weight: $light-text;
 }
 
+.pull-quote {
+	margin-right: 1.5rem;
+	width: 12.5rem;
+	clear: both;
+	float: left;
+	right: -2rem;
+	display: inline-block;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	&-text, p {
+		font-size: 1.75rem;
+		font-weight: $heavy-text;
+		text-align: left;
+		margin-top: 0;
+		margin-bottom: 0;
+		font-style: italic;	
+	}
+}
+
 // top-bar navigation
 
 .navigation {
@@ -38,9 +57,25 @@ p.small {
 		a, a:hover {
 			color: $black;
 			text-transform: uppercase;
+			@media only screen and (max-width: 40em) { 
+			font-size: 1.5rem;
+		}
 		}
 	}
 	&-top-bar-section, .top-bar-section {
+		ul {
+			
+			@media only screen and (max-width: 40em) { 
+				margin-top: 0.5rem;
+				margin-bottom: 1rem;
+				border-top: $border-thin;
+			}
+			li {
+				@media only screen and (max-width: 40em) {
+					border-bottom: $border-thin;
+				}
+			}
+		}
 		li:not(.has-form) a:not(.button) {
 			background: $white;
 			color: $black;
@@ -51,6 +86,25 @@ p.small {
 			}
 		}
 	}
+	&-toggle-topbar, .toggle-topbar {
+		@extend .toggle-topbar;
+		&.menu-icon {
+			margin-top: -21px;
+		}
+		&.menu-icon {
+			color: $black;
+			a::after {
+				width: 1.5rem;
+				-webkit-box-shadow: 0 3px 0 2px $black ,0 12px 0 2px $black ,0 21px 0 2px $black ;
+				-moz-box-shadow: 0 3px 0 2px $black ,0 12px 0 2px $black ,0 21px 0 2px $black ;
+				box-shadow: 0 3px 0 2px $black ,0 12px 0 2px $black ,0 21px 0 2px $black ;
+			}
+		}
+	}
+}
+
+.expanded.navigation-top-bar .navigation-title-area {
+	background: inherit;
 }
 
 // issues 
@@ -61,6 +115,7 @@ p.small {
 		font-size: 3rem;
 		line-height: 3rem;
 		text-align: center;
+		font-family: $body-font;
 		a, a:hover {
 			color: $black;
 		}
@@ -103,17 +158,76 @@ p.small {
 	}
 }
 
+.issue-single {
+	margin-top: 2rem;
+	&-title {
+		@extend .article-single-title;
+		
+	}
+	&-number {
+		@extend .article-single-issue-number;
+		
+	}
+	&-date {
+		@extend .article-single-date;
+		
+	}
+	
+	&-contents {
+
+	}
+
+	&-contents-title {
+		margin-top: 0;
+		a, a:hover {
+			color: $black;
+		}
+	}
+	&-contents-teaser {
+		font-family: $text-font;
+		margin-top: 0.5rem;
+		font-size: 1.25rem;
+	}
+	&-contents-meta {
+		color: $dark-gray;
+		a {
+			color: $light-gray;
+			text-decoration: underline;
+			font-family: $body-font;
+		}
+	}
+}
+
+.issue-contents {
+	&-carousel-item-content {
+		color: $white;
+		line-height: 25pt; 
+	}
+	&-carousel-item-title {
+		color: $white;
+	}
+}
+
 // articles
 
 .articles {
+	&-article-title {
+		font-family: $body-font;
+	}
+	
+	&-article-teaser {
+		font-family: $text-font;
+	}
+
 	&-header {
 		text-align: center;
 		margin-bottom: 2rem;
+		margin-top: 1rem;
 	}
 }
 
 .article {
-	margin-top: 32rem;
+
 	&-title {
 		@extend .issue-title;
 	}
@@ -134,8 +248,66 @@ p.small {
 	}
 
 	&-contents-body {
-		font-family: $text-font;
+
+	}
+}
+
+.article-single {
+	margin-top: 3rem;
+	&-title {
+		@extend .issue-title;
+		text-align: left;
+	}
+	&-issue-number {
+		@extend .issue-number;
+		text-align: left;
+		display: inline-block;
+		font-size: 1.5rem;
+		color: $black;
+		font-weight: $light-text;
+		margin-bottom: 0.25rem;
+		margin-top: 0;
+		a {
+			color: $black;
+		}
+	}
+	&-date {
+		@extend .issue-date;
+		@extend .article-single-issue-number;
+		font-family: $body-font;
+		margin-left: 1.5rem;
+	}
+	&-contents-title {
+		@extend .issue-contents-title;
+	}
+	&-contents-teaser {
+		@extend .issue-contents-teaser;
+	}
+	&-contents-meta {
+		@extend .issue-contents-meta;
+	}
+
+	&-contents-text {
 		margin-top: 2rem;
-		font-size: 1.25rem;
+		&-body {
+			font-family: $text-font;			
+			font-size: 1.25rem;
+		}
+	}
+}
+
+.related-article {
+	&-teaser {
+		font-family: $text-font;
+	}
+}
+
+.category {
+	&-featured-article-title {
+		font-family: $body-font;
+	}
+	&-featured-article-teaser {
+		font-family: $text-font;
+		font-size: 1.1rem;
 	}
 }

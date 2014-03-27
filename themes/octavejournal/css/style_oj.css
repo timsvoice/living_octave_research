@@ -5484,13 +5484,13 @@ meta.foundation-mq-topbar {
   padding: 0 15px;
 }
 /* line 179, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
-.top-bar .toggle-topbar, .navigation-top-bar .toggle-topbar, .top-bar .navigation-toggle-topbar, .navigation-top-bar .navigation-toggle-topbar {
+.top-bar .toggle-topbar, .navigation-top-bar .toggle-topbar {
   position: absolute;
   right: 0;
   top: 0;
 }
 /* line 184, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
-.top-bar .toggle-topbar a, .navigation-top-bar .toggle-topbar a, .top-bar .navigation-toggle-topbar a, .navigation-top-bar .navigation-toggle-topbar a {
+.top-bar .toggle-topbar a, .navigation-top-bar .toggle-topbar a {
   color: white;
   text-transform: uppercase;
   font-size: 0.8125rem;
@@ -5502,14 +5502,14 @@ meta.foundation-mq-topbar {
   line-height: 45px;
 }
 /* line 197, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
-.top-bar .toggle-topbar.menu-icon, .navigation-top-bar .toggle-topbar.menu-icon, .top-bar .menu-icon.navigation-toggle-topbar, .navigation-top-bar .menu-icon.navigation-toggle-topbar {
+.top-bar .toggle-topbar.menu-icon, .navigation-top-bar .toggle-topbar.menu-icon {
   right: 15px;
   top: 50%;
   margin-top: -16px;
   padding-left: 40px;
 }
 /* line 203, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
-.top-bar .toggle-topbar.menu-icon a, .navigation-top-bar .toggle-topbar.menu-icon a, .top-bar .menu-icon.navigation-toggle-topbar a, .navigation-top-bar .menu-icon.navigation-toggle-topbar a {
+.top-bar .toggle-topbar.menu-icon a, .navigation-top-bar .toggle-topbar.menu-icon a {
   height: 34px;
   line-height: 33px;
   padding: 0;
@@ -5518,7 +5518,7 @@ meta.foundation-mq-topbar {
   position: relative;
 }
 /* line 214, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
-.top-bar .toggle-topbar.menu-icon a::after, .navigation-top-bar .toggle-topbar.menu-icon a::after, .top-bar .menu-icon.navigation-toggle-topbar a::after, .navigation-top-bar .menu-icon.navigation-toggle-topbar a::after {
+.top-bar .toggle-topbar.menu-icon a::after, .navigation-top-bar .toggle-topbar.menu-icon a::after {
   content: "";
   position: absolute;
   right: 0;
@@ -5539,11 +5539,11 @@ meta.foundation-mq-topbar {
   background: #333333;
 }
 /* line 244, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
-.top-bar.expanded .toggle-topbar a, .expanded.navigation-top-bar .toggle-topbar a, .top-bar.expanded .navigation-toggle-topbar a, .expanded.navigation-top-bar .navigation-toggle-topbar a {
+.top-bar.expanded .toggle-topbar a, .expanded.navigation-top-bar .toggle-topbar a {
   color: #888888;
 }
 /* line 245, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
-.top-bar.expanded .toggle-topbar a span, .expanded.navigation-top-bar .toggle-topbar a span, .top-bar.expanded .navigation-toggle-topbar a span, .expanded.navigation-top-bar .navigation-toggle-topbar a span {
+.top-bar.expanded .toggle-topbar a span, .expanded.navigation-top-bar .toggle-topbar a span {
   -webkit-box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888;
   box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888;
 }
@@ -5740,7 +5740,7 @@ meta.foundation-mq-topbar {
     clear: both;
   }
   /* line 427, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
-  .top-bar .toggle-topbar, .navigation-top-bar .toggle-topbar, .top-bar .navigation-toggle-topbar, .navigation-top-bar .navigation-toggle-topbar {
+  .top-bar .toggle-topbar, .navigation-top-bar .toggle-topbar {
     display: none;
   }
   /* line 429, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -8153,18 +8153,104 @@ table {
   border-spacing: 0;
 }
 
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.2
+ */
+/* clearfix */
+/* line 7, ../scss/vendor/_owl-carousel.scss */
+.owl-carousel .owl-wrapper:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* display none until init */
+/* line 16, ../scss/vendor/_owl-carousel.scss */
+.owl-carousel {
+  display: none;
+  position: relative;
+  width: 100%;
+  -ms-touch-action: pan-y;
+}
+
+/* line 22, ../scss/vendor/_owl-carousel.scss */
+.owl-carousel .owl-wrapper {
+  display: none;
+  position: relative;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+/* line 27, ../scss/vendor/_owl-carousel.scss */
+.owl-carousel .owl-wrapper-outer {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+/* line 32, ../scss/vendor/_owl-carousel.scss */
+.owl-carousel .owl-wrapper-outer.autoHeight {
+  -webkit-transition: height 500ms ease-in-out;
+  -moz-transition: height 500ms ease-in-out;
+  -ms-transition: height 500ms ease-in-out;
+  -o-transition: height 500ms ease-in-out;
+  transition: height 500ms ease-in-out;
+}
+
+/* line 40, ../scss/vendor/_owl-carousel.scss */
+.owl-carousel .owl-item {
+  float: left;
+}
+
+/* line 43, ../scss/vendor/_owl-carousel.scss */
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div {
+  cursor: pointer;
+}
+
+/* line 47, ../scss/vendor/_owl-carousel.scss */
+.owl-controls {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* mouse grab icon */
+/* line 57, ../scss/vendor/_owl-carousel.scss */
+.grabbing {
+  cursor: url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+/* line 62, ../scss/vendor/_owl-carousel.scss */
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+}
+
 /*
 * 	Owl Carousel Owl Demo Theme 
 *	v1.3.2
 */
-/* line 6, ../scss/vendor/_owl.theme.scss */
+/* line 77, ../scss/vendor/_owl-carousel.scss */
 .owl-theme .owl-controls {
   margin-top: 10px;
   text-align: center;
 }
 
 /* Styling Next and Prev buttons */
-/* line 13, ../scss/vendor/_owl.theme.scss */
+/* line 84, ../scss/vendor/_owl-carousel.scss */
 .owl-theme .owl-controls .owl-buttons div {
   color: #FFF;
   display: inline-block;
@@ -8185,7 +8271,7 @@ table {
 
 /* Clickable class fix problem with hover on touch devices */
 /* Use it for non-touch hover action */
-/* line 30, ../scss/vendor/_owl.theme.scss */
+/* line 101, ../scss/vendor/_owl-carousel.scss */
 .owl-theme .owl-controls.clickable .owl-buttons div:hover {
   filter: Alpha(Opacity=100);
   /*IE7 fix*/
@@ -8194,7 +8280,7 @@ table {
 }
 
 /* Styling Pagination*/
-/* line 38, ../scss/vendor/_owl.theme.scss */
+/* line 109, ../scss/vendor/_owl-carousel.scss */
 .owl-theme .owl-controls .owl-page {
   display: inline-block;
   zoom: 1;
@@ -8202,7 +8288,7 @@ table {
   /*IE7 life-saver */
 }
 
-/* line 43, ../scss/vendor/_owl.theme.scss */
+/* line 114, ../scss/vendor/_owl-carousel.scss */
 .owl-theme .owl-controls .owl-page span {
   display: block;
   width: 12px;
@@ -8217,7 +8303,7 @@ table {
   background: #869791;
 }
 
-/* line 56, ../scss/vendor/_owl.theme.scss */
+/* line 127, ../scss/vendor/_owl-carousel.scss */
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
   filter: Alpha(Opacity=100);
@@ -8226,7 +8312,7 @@ table {
 }
 
 /* If PaginationNumbers is true */
-/* line 64, ../scss/vendor/_owl.theme.scss */
+/* line 135, ../scss/vendor/_owl-carousel.scss */
 .owl-theme .owl-controls .owl-page span.owl-numbers {
   height: auto;
   width: auto;
@@ -8239,96 +8325,10 @@ table {
 }
 
 /* preloading images */
-/* line 76, ../scss/vendor/_owl.theme.scss */
+/* line 147, ../scss/vendor/_owl-carousel.scss */
 .owl-item.loading {
   min-height: 150px;
   background: url(AjaxLoader.gif) no-repeat center center;
-}
-
-/* 
- * 	Core Owl Carousel CSS File
- *	v1.3.2
- */
-/* clearfix */
-/* line 7, ../scss/vendor/_owl.carousel.scss */
-.owl-carousel .owl-wrapper:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
-}
-
-/* display none until init */
-/* line 16, ../scss/vendor/_owl.carousel.scss */
-.owl-carousel {
-  display: none;
-  position: relative;
-  width: 100%;
-  -ms-touch-action: pan-y;
-}
-
-/* line 22, ../scss/vendor/_owl.carousel.scss */
-.owl-carousel .owl-wrapper {
-  display: none;
-  position: relative;
-  -webkit-transform: translate3d(0px, 0px, 0px);
-}
-
-/* line 27, ../scss/vendor/_owl.carousel.scss */
-.owl-carousel .owl-wrapper-outer {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-}
-
-/* line 32, ../scss/vendor/_owl.carousel.scss */
-.owl-carousel .owl-wrapper-outer.autoHeight {
-  -webkit-transition: height 500ms ease-in-out;
-  -moz-transition: height 500ms ease-in-out;
-  -ms-transition: height 500ms ease-in-out;
-  -o-transition: height 500ms ease-in-out;
-  transition: height 500ms ease-in-out;
-}
-
-/* line 40, ../scss/vendor/_owl.carousel.scss */
-.owl-carousel .owl-item {
-  float: left;
-}
-
-/* line 43, ../scss/vendor/_owl.carousel.scss */
-.owl-controls .owl-page,
-.owl-controls .owl-buttons div {
-  cursor: pointer;
-}
-
-/* line 47, ../scss/vendor/_owl.carousel.scss */
-.owl-controls {
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
-}
-
-/* mouse grab icon */
-/* line 57, ../scss/vendor/_owl.carousel.scss */
-.grabbing {
-  cursor: url(grabbing.png) 8 8, move;
-}
-
-/* fix */
-/* line 62, ../scss/vendor/_owl.carousel.scss */
-.owl-carousel .owl-wrapper,
-.owl-carousel .owl-item {
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
 }
 
 /* ============================ 
@@ -8343,34 +8343,6 @@ table {
 /* ============================ 
 	Backgrounds
 ============================ */
-/* line 1, ../scss/partials/_base.scss */
-*, body {
-  background: url("assets/images/white_wall_hash.png");
-}
-
-/* line 5, ../scss/partials/_base.scss */
-hr {
-  margin: 0;
-}
-
-/* line 9, ../scss/partials/_base.scss */
-:focus {
-  background: white;
-}
-
-/* line 13, ../scss/partials/_base.scss */
-.vcard {
-  border: none;
-  padding: 0;
-  margin: 0;
-  display: block;
-}
-
-/* line 20, ../scss/partials/_base.scss */
-.hidden {
-  display: none !important;
-}
-
 /* line 1, ../scss/partials/_grid.scss */
 .alpha {
   padding-left: 0px !important;
@@ -8388,20 +8360,20 @@ hr.section {
 
 /* line 3, ../scss/partials/_typography.scss */
 body, h1, h2, h3, h4, h5, h6, p, a {
-  font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
+  font-family: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
 }
 
 /* line 7, ../scss/partials/_typography.scss */
 h3 {
   font-size: 2rem;
-  font-family: "minion-pro", Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* line 12, ../scss/partials/_typography.scss */
 p a {
   color: #001742;
   text-decoration: underline;
-  font-family: "minion-pro", Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* line 18, ../scss/partials/_typography.scss */
@@ -8420,249 +8392,98 @@ p.small {
   font-weight: 200;
 }
 
-/* line 32, ../scss/partials/_typography.scss */
-.pull-quote {
-  margin-right: 1.5rem;
-  width: 12.5rem;
-  clear: both;
-  float: left;
-  right: -2rem;
-  display: inline-block;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-/* line 41, ../scss/partials/_typography.scss */
-.pull-quote-text, .pull-quote p {
-  font-size: 1.75rem;
-  font-weight: 900;
-  text-align: left;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-style: italic;
-}
-
-/* line 54, ../scss/partials/_typography.scss */
+/* line 35, ../scss/partials/_typography.scss */
 .navigation-title-area-title {
   font-size: 2rem;
   padding-left: 1rem;
 }
-/* line 57, ../scss/partials/_typography.scss */
+/* line 38, ../scss/partials/_typography.scss */
 .navigation-title-area-title a, .navigation-title-area-title a:hover {
   color: black;
   text-transform: uppercase;
 }
-@media only screen and (max-width: 40em) {
-  /* line 57, ../scss/partials/_typography.scss */
-  .navigation-title-area-title a, .navigation-title-area-title a:hover {
-    font-size: 1.5rem;
-  }
-}
-@media only screen and (max-width: 40em) {
-  /* line 66, ../scss/partials/_typography.scss */
-  .navigation-top-bar-section ul, .navigation .navigation-top-bar-section ul, .navigation .top-bar-section ul {
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-    border-top: 0.0625rem #e8e8e8 solid;
-  }
-}
-@media only screen and (max-width: 40em) {
-  /* line 73, ../scss/partials/_typography.scss */
-  .navigation-top-bar-section ul li, .navigation .navigation-top-bar-section ul li, .navigation .top-bar-section ul li {
-    border-bottom: 0.0625rem #e8e8e8 solid;
-  }
-}
-/* line 79, ../scss/partials/_typography.scss */
+/* line 44, ../scss/partials/_typography.scss */
 .navigation-top-bar-section li:not(.has-form) a:not(.button), .navigation .navigation-top-bar-section li:not(.has-form) a:not(.button), .navigation .top-bar-section li:not(.has-form) a:not(.button) {
   background: white;
   color: black;
   font-size: 1rem;
 }
-/* line 83, ../scss/partials/_typography.scss */
+/* line 48, ../scss/partials/_typography.scss */
 .navigation-top-bar-section li:not(.has-form) a:not(.button):hover, .navigation .navigation-top-bar-section li:not(.has-form) a:not(.button):hover, .navigation .top-bar-section li:not(.has-form) a:not(.button):hover {
   background: white;
   text-decoration: underline;
 }
-/* line 91, ../scss/partials/_typography.scss */
-.navigation-toggle-topbar.menu-icon, .navigation .menu-icon.navigation-toggle-topbar, .navigation .menu-icon.toggle-topbar {
-  margin-top: -21px;
-}
-/* line 94, ../scss/partials/_typography.scss */
-.navigation-toggle-topbar.menu-icon, .navigation .menu-icon.navigation-toggle-topbar, .navigation .menu-icon.toggle-topbar {
-  color: black;
-}
-/* line 96, ../scss/partials/_typography.scss */
-.navigation-toggle-topbar.menu-icon a::after, .navigation .menu-icon.navigation-toggle-topbar a::after, .navigation .menu-icon.toggle-topbar a::after {
-  width: 1.5rem;
-  -webkit-box-shadow: 0 3px 0 2px black, 0 12px 0 2px black, 0 21px 0 2px black;
-  -moz-box-shadow: 0 3px 0 2px black, 0 12px 0 2px black, 0 21px 0 2px black;
-  box-shadow: 0 3px 0 2px black, 0 12px 0 2px black, 0 21px 0 2px black;
-}
 
-/* line 106, ../scss/partials/_typography.scss */
-.expanded.navigation-top-bar .navigation-title-area {
-  background: inherit;
-}
-
-/* line 114, ../scss/partials/_typography.scss */
-.issue-title, .article-title, .article-single-title, .issue-single-title {
+/* line 60, ../scss/partials/_typography.scss */
+.issue-title, .article-title {
   font-size: 3rem;
   line-height: 3rem;
   text-align: center;
-  font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
 }
-/* line 119, ../scss/partials/_typography.scss */
-.issue-title a, .article-title a, .article-single-title a, .issue-single-title a, .issue-title a:hover, .article-title a:hover, .article-single-title a:hover, .issue-single-title a:hover {
+/* line 64, ../scss/partials/_typography.scss */
+.issue-title a, .article-title a, .issue-title a:hover, .article-title a:hover {
   color: black;
 }
-/* line 123, ../scss/partials/_typography.scss */
-.issue-number, .article-issue-number, .article-single-issue-number, .issue-single-number, .article-single-date, .issue-single-date {
+/* line 68, ../scss/partials/_typography.scss */
+.issue-number, .article-issue-number {
   font-size: 2rem;
   font-weight: 200;
   line-height: 2rem;
   display: inline-block;
   text-align: center;
 }
-/* line 129, ../scss/partials/_typography.scss */
-.issue-number a, .article-issue-number a, .article-single-issue-number a, .issue-single-number a, .article-single-date a, .issue-single-date a, .issue-number a:hover, .article-issue-number a:hover, .article-single-issue-number a:hover, .issue-single-number a:hover, .article-single-date a:hover, .issue-single-date a:hover {
+/* line 74, ../scss/partials/_typography.scss */
+.issue-number a, .article-issue-number a, .issue-number a:hover, .article-issue-number a:hover {
   color: #878787;
 }
-/* line 133, ../scss/partials/_typography.scss */
-.issue-date, .article-date, .article-single-date, .issue-single-date {
+/* line 78, ../scss/partials/_typography.scss */
+.issue-date, .article-date {
   font-size: 1.5rem;
   font-weight: 200;
   line-height: 2rem;
   text-align: center;
   color: #e8e8e8;
 }
-/* line 140, ../scss/partials/_typography.scss */
-.issue-contents-title, .article-contents-title, .article-single-contents-title {
+/* line 85, ../scss/partials/_typography.scss */
+.issue-contents-title, .article-contents-title {
   margin-top: 0;
 }
-/* line 142, ../scss/partials/_typography.scss */
-.issue-contents-title a, .article-contents-title a, .article-single-contents-title a, .issue-contents-title a:hover, .article-contents-title a:hover, .article-single-contents-title a:hover {
+/* line 87, ../scss/partials/_typography.scss */
+.issue-contents-title a, .article-contents-title a, .issue-contents-title a:hover, .article-contents-title a:hover {
   color: black;
 }
-/* line 146, ../scss/partials/_typography.scss */
-.issue-contents-teaser, .article-contents-teaser, .article-single-contents-teaser {
-  font-family: "minion-pro", Times, serif;
+/* line 91, ../scss/partials/_typography.scss */
+.issue-contents-teaser, .article-contents-teaser {
+  font-family: "Times New Roman", Times, serif;
   margin-top: 0.5rem;
   font-size: 1.25rem;
 }
-/* line 151, ../scss/partials/_typography.scss */
-.issue-contents-meta, .article-contents-meta, .article-single-contents-meta {
+/* line 96, ../scss/partials/_typography.scss */
+.issue-contents-meta, .article-contents-meta {
   color: #878787;
 }
-/* line 153, ../scss/partials/_typography.scss */
-.issue-contents-meta a, .article-contents-meta a, .article-single-contents-meta a {
+/* line 98, ../scss/partials/_typography.scss */
+.issue-contents-meta a, .article-contents-meta a {
   color: #999999;
   text-decoration: underline;
-  font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
+  font-family: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
 }
 
-/* line 161, ../scss/partials/_typography.scss */
-.issue-single {
-  margin-top: 2rem;
-}
-/* line 180, ../scss/partials/_typography.scss */
-.issue-single-contents-title {
-  margin-top: 0;
-}
-/* line 182, ../scss/partials/_typography.scss */
-.issue-single-contents-title a, .issue-single-contents-title a:hover {
-  color: black;
-}
-/* line 186, ../scss/partials/_typography.scss */
-.issue-single-contents-teaser {
-  font-family: "minion-pro", Times, serif;
-  margin-top: 0.5rem;
-  font-size: 1.25rem;
-}
-/* line 191, ../scss/partials/_typography.scss */
-.issue-single-contents-meta {
-  color: #878787;
-}
-/* line 193, ../scss/partials/_typography.scss */
-.issue-single-contents-meta a {
-  color: #999999;
-  text-decoration: underline;
-  font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
-}
-
-/* line 202, ../scss/partials/_typography.scss */
-.issue-contents-carousel-item-content {
-  color: white;
-  line-height: 25pt;
-}
-/* line 206, ../scss/partials/_typography.scss */
-.issue-contents-carousel-item-title {
-  color: white;
-}
-
-/* line 214, ../scss/partials/_typography.scss */
-.articles-article-title {
-  font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
-}
-/* line 218, ../scss/partials/_typography.scss */
-.articles-article-teaser {
-  font-family: "minion-pro", Times, serif;
-}
-/* line 222, ../scss/partials/_typography.scss */
+/* line 109, ../scss/partials/_typography.scss */
 .articles-header {
   text-align: center;
   margin-bottom: 2rem;
-  margin-top: 1rem;
 }
 
-/* line 255, ../scss/partials/_typography.scss */
-.article-single {
-  margin-top: 3rem;
+/* line 115, ../scss/partials/_typography.scss */
+.article {
+  margin-top: 32rem;
 }
-/* line 257, ../scss/partials/_typography.scss */
-.article-single-title, .issue-single-title {
-  text-align: left;
-}
-/* line 261, ../scss/partials/_typography.scss */
-.article-single-issue-number, .issue-single-number, .article-single-date, .issue-single-date {
-  text-align: left;
-  display: inline-block;
-  font-size: 1.5rem;
-  color: black;
-  font-weight: 200;
-  margin-bottom: 0.25rem;
-  margin-top: 0;
-}
-/* line 270, ../scss/partials/_typography.scss */
-.article-single-issue-number a, .issue-single-number a, .article-single-date a, .issue-single-date a {
-  color: black;
-}
-/* line 274, ../scss/partials/_typography.scss */
-.article-single-date, .issue-single-date {
-  font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
-  margin-left: 1.5rem;
-}
-/* line 290, ../scss/partials/_typography.scss */
-.article-single-contents-text {
+/* line 136, ../scss/partials/_typography.scss */
+.article-contents-body {
+  font-family: "Times New Roman", Times, serif;
   margin-top: 2rem;
-}
-/* line 292, ../scss/partials/_typography.scss */
-.article-single-contents-text-body {
-  font-family: "minion-pro", Times, serif;
   font-size: 1.25rem;
-}
-
-/* line 300, ../scss/partials/_typography.scss */
-.related-article-teaser {
-  font-family: "minion-pro", Times, serif;
-}
-
-/* line 306, ../scss/partials/_typography.scss */
-.category-featured-article-title {
-  font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
-}
-/* line 309, ../scss/partials/_typography.scss */
-.category-featured-article-teaser {
-  font-family: "minion-pro", Times, serif;
-  font-size: 1.1rem;
 }
 
 /* line 1, ../scss/partials/_forms.scss */
@@ -8753,7 +8574,7 @@ li.issue-orbit-list-article:last-child {
 }
 /* line 77, ../scss/partials/_orbit.scss */
 .current-issue-intro p, .current-issue-intro-small p, .issue-post p, .featured-issues p {
-  font-family: "minion-pro", Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-style: italic;
   font-size: 1.25rem;
 }
@@ -8788,24 +8609,24 @@ li.issue-orbit-list-article:last-child {
   font-family: "Times New Roman", Times, serif;
 }
 
-/* line 3, ../scss/partials/_issues.scss */
-.issue-single-header {
-  margin-top: 2rem;
+/* line 2, ../scss/partials/_issues.scss */
+.issue {
+  margin-top: 1rem;
 }
-/* line 6, ../scss/partials/_issues.scss */
-.issue-single-meta {
+/* line 4, ../scss/partials/_issues.scss */
+.issue-meta {
   margin-bottom: 1rem;
 }
-/* line 9, ../scss/partials/_issues.scss */
-.issue-single-contents {
+/* line 7, ../scss/partials/_issues.scss */
+.issue-contents {
   margin-bottom: 2rem;
 }
 
-/* line 14, ../scss/partials/_issues.scss */
+/* line 12, ../scss/partials/_issues.scss */
 .issue-post {
   margin-top: 2rem;
 }
-/* line 17, ../scss/partials/_issues.scss */
+/* line 15, ../scss/partials/_issues.scss */
 .issue-post h7 {
   margin-top: 0rem;
   margin-bottom: 1rem;
@@ -8815,53 +8636,53 @@ li.issue-orbit-list-article:last-child {
   font-size: 0.75rem;
   color: black;
 }
-/* line 26, ../scss/partials/_issues.scss */
+/* line 24, ../scss/partials/_issues.scss */
 .issue-post h2 {
-  font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
+  font-family: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
   margin-bottom: 0;
 }
-/* line 33, ../scss/partials/_issues.scss */
+/* line 31, ../scss/partials/_issues.scss */
 .issue-post h3 {
-  font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
+  font-family: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
 }
-/* line 39, ../scss/partials/_issues.scss */
+/* line 37, ../scss/partials/_issues.scss */
 .issue-post .report-intro p {
-  font-family: "minion-pro", Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-style: italic;
 }
-/* line 43, ../scss/partials/_issues.scss */
+/* line 41, ../scss/partials/_issues.scss */
 .issue-post p {
-  font-family: "minion-pro", Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-style: normal;
 }
-/* line 47, ../scss/partials/_issues.scss */
+/* line 45, ../scss/partials/_issues.scss */
 .issue-post i {
-  font-family: "minion-pro", Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-style: normal;
   font-size: 1.25rem;
 }
-/* line 52, ../scss/partials/_issues.scss */
+/* line 50, ../scss/partials/_issues.scss */
 .issue-post img {
   margin-bottom: 1rem;
   margin-top: 0.5rem;
 }
 
-/* line 58, ../scss/partials/_issues.scss */
+/* line 56, ../scss/partials/_issues.scss */
 .issue-post-related, .article-post-random {
   float: right;
   opacity: 0.6;
   padding-left: 1rem;
   border-left: 1px solid #999;
 }
-/* line 63, ../scss/partials/_issues.scss */
+/* line 61, ../scss/partials/_issues.scss */
 .issue-post-related h3, .article-post-random h3 {
-  font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
+  font-family: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
   text-decoration: underline;
@@ -8869,7 +8690,7 @@ li.issue-orbit-list-article:last-child {
   margin-top: 2rem;
 }
 
-/* line 73, ../scss/partials/_issues.scss */
+/* line 71, ../scss/partials/_issues.scss */
 .issue-post-related:hover, .article-post-random:hover {
   opacity: 1;
 }
@@ -8892,14 +8713,14 @@ li.issue-orbit-list-article:last-child {
 }
 /* line 14, ../scss/partials/_articles.scss */
 .featured-articles h3, .article-category h3 {
-  font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
+  font-family: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
   font-weight: 400;
   margin-bottom: 0;
   margin-top: 2rem;
 }
 /* line 21, ../scss/partials/_articles.scss */
 .featured-articles p, .article-category p {
-  font-family: "minion-pro", Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 400;
 }
 
@@ -8961,21 +8782,21 @@ li.issue-orbit-list-article:last-child {
 }
 
 /* line 27, ../scss/partials/_navigation.scss */
-.next-article, .next-issue {
+.next-article {
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
 /* line 30, ../scss/partials/_navigation.scss */
-.next-article i, .next-issue i {
+.next-article i {
   font-size: 3rem;
   vertical-align: middle;
 }
 /* line 34, ../scss/partials/_navigation.scss */
-.next-article-left, .next-issue-left {
+.next-article-left {
   float: left;
 }
 /* line 36, ../scss/partials/_navigation.scss */
-.next-article-left p, .next-issue-left p {
+.next-article-left p {
   display: inline-block;
   font-weight: 200;
   color: #878787;
@@ -8987,11 +8808,11 @@ li.issue-orbit-list-article:last-child {
   vertical-align: middle;
 }
 /* line 48, ../scss/partials/_navigation.scss */
-.next-article-right, .next-issue-right {
+.next-article-right {
   float: right;
 }
 /* line 50, ../scss/partials/_navigation.scss */
-.next-article-right p, .next-issue-right p {
+.next-article-right p {
   display: inline-block;
   font-weight: 200;
   color: #878787;
@@ -9003,32 +8824,28 @@ li.issue-orbit-list-article:last-child {
   vertical-align: middle;
 }
 
-/* line 74, ../scss/partials/_navigation.scss */
+/* line 64, ../scss/partials/_navigation.scss */
 .index, .article-index {
   margin-top: 2rem;
 }
-/* line 76, ../scss/partials/_navigation.scss */
+/* line 66, ../scss/partials/_navigation.scss */
 .index-side-nav, .index .index-side-nav, .article-index .index-side-nav, .index .side-nav, .article-index .side-nav, .index .article-index-side-nav, .article-index .article-index-side-nav {
   padding: 0;
 }
-/* line 79, ../scss/partials/_navigation.scss */
-.index-side-nav-header, .index .side-nav-header, .article-index .side-nav-header {
-  margin-top: 0;
-}
-/* line 82, ../scss/partials/_navigation.scss */
+/* line 69, ../scss/partials/_navigation.scss */
 .index-side-nav li a:not(.button), .index .index-side-nav li a:not(.button), .article-index .index-side-nav li a:not(.button), .index .side-nav li a:not(.button), .article-index .side-nav li a:not(.button), .index .article-index-side-nav li a:not(.button), .article-index .article-index-side-nav li a:not(.button) {
   color: black;
 }
 
-/* line 90, ../scss/partials/_navigation.scss */
+/* line 77, ../scss/partials/_navigation.scss */
 .article-index {
   margin-top: 2rem;
 }
-/* line 93, ../scss/partials/_navigation.scss */
+/* line 80, ../scss/partials/_navigation.scss */
 .article-index-side-nav, .article-index .index-side-nav, .article-index .side-nav, .article-index .article-index-side-nav {
   padding: 0;
 }
-/* line 96, ../scss/partials/_navigation.scss */
+/* line 83, ../scss/partials/_navigation.scss */
 .article-index-side-nav li a:not(.button), .article-index .index-side-nav li a:not(.button), .article-index .side-nav li a:not(.button), .article-index .article-index-side-nav li a:not(.button) {
   color: black;
 }
@@ -9049,8 +8866,8 @@ li.issue-orbit-list-article:last-child {
 
 /* line 1, ../scss/partials/_category.scss */
 .category {
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
 }
 /* line 4, ../scss/partials/_category.scss */
 .category-header {
@@ -9076,13 +8893,14 @@ li.issue-orbit-list-article:last-child {
   position: relative;
   width: 100%;
 }
-/* line 20, ../scss/partials/_carousel.scss */
+/* line 19, ../scss/partials/_carousel.scss */
 .issue-contents-carousel-item-content {
   position: absolute;
   width: 100%;
   bottom: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.3);
+  color: white;
   padding: 0.625rem;
   -webkit-transition: all 300ms ease-out;
   -moz-transition: all 300ms ease-out;
@@ -9092,55 +8910,118 @@ li.issue-orbit-list-article:last-child {
   height: 150px;
   display: block;
   bottom: -80px;
+  line-height: 25pt;
 }
-/* line 35, ../scss/partials/_carousel.scss */
+/* line 36, ../scss/partials/_carousel.scss */
 .issue-contents-carousel-item-content:hover {
   -moz-transform: translateY(-53.333%);
   -o-transform: translateY(-53.333%);
   -webkit-transform: translateY(-53.333%);
   transform: translateY(-53.333%);
 }
+/* line 44, ../scss/partials/_carousel.scss */
+.issue-contents-carousel-item-title {
+  color: white;
+}
+
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.23
+*/
+/* line 55, ../scss/partials/_carousel.scss */
+.owl-theme .owl-controls {
+  margin-top: 10px;
+  text-align: center;
+}
 
 /* Styling Next and Prev buttons */
-/* line 46, ../scss/partials/_carousel.scss */
+/* line 62, ../scss/partials/_carousel.scss */
 .owl-theme .owl-controls .owl-buttons div {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 50, ../scss/partials/_carousel.scss */
+/* line 66, ../scss/partials/_carousel.scss */
 .owl-theme .owl-controls .owl-buttons div i {
   font-size: 2rem;
 }
 
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+/* line 72, ../scss/partials/_carousel.scss */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+  filter: Alpha(Opacity=100);
+  /*IE7 fix*/
+  opacity: 1;
+  text-decoration: none;
+}
+
+/* Styling Pagination*/
+/* line 80, ../scss/partials/_carousel.scss */
+.owl-theme .owl-controls .owl-page {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  /*IE7 life-saver */
+}
+
+/* line 85, ../scss/partials/_carousel.scss */
+.owl-theme .owl-controls .owl-page span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: 5px 7px;
+  filter: Alpha(Opacity=50);
+  /*IE7 fix*/
+  opacity: 0.5;
+  background: #869791;
+}
+
+/* line 95, ../scss/partials/_carousel.scss */
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+  filter: Alpha(Opacity=100);
+  /*IE7 fix*/
+  opacity: 1;
+}
+
 /* If PaginationNumbers is true */
-/* line 57, ../scss/partials/_carousel.scss */
+/* line 103, ../scss/partials/_carousel.scss */
 .owl-theme .owl-controls .owl-page span.owl-numbers {
+  height: auto;
+  width: auto;
   color: white;
   padding: 2px 10px;
 }
-/* line 60, ../scss/partials/_carousel.scss */
+/* line 108, ../scss/partials/_carousel.scss */
 .owl-theme .owl-controls .owl-page span.owl-numbers i {
   font-size: 3rem;
 }
 
-/* line 65, ../scss/partials/_carousel.scss */
+/* preloading images */
+/* line 114, ../scss/partials/_carousel.scss */
+.owl-item.loading {
+  min-height: 150px;
+  background: url(AjaxLoader.gif) no-repeat center center;
+}
+
+/* line 119, ../scss/partials/_carousel.scss */
 .wrapper-with-margin {
   margin: 0px 50px;
 }
 
-/* line 70, ../scss/partials/_carousel.scss */
+/* line 124, ../scss/partials/_carousel.scss */
 .owl-theme .owl-controls .owl-buttons div {
   position: absolute;
 }
 
-/* line 74, ../scss/partials/_carousel.scss */
+/* line 128, ../scss/partials/_carousel.scss */
 .owl-theme .owl-controls .owl-buttons .owl-prev {
   left: 0.625rem;
   top: 45%;
 }
 
-/* line 79, ../scss/partials/_carousel.scss */
+/* line 133, ../scss/partials/_carousel.scss */
 .owl-theme .owl-controls .owl-buttons .owl-next {
   right: 0.625rem;
   top: 45%;

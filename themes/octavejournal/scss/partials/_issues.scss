@@ -1,6 +1,8 @@
 
-.issue {
-	margin-top: 1rem;
+.issue-single {
+	&-header {
+		margin-top: 2rem;
+	}
 	&-meta {
 		margin-bottom: 1rem;
 	}

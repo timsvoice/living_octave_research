@@ -61,11 +61,24 @@
 	}
 }
 
+.next-issue {
+	@extend .next-article;
+	&-left {
+		@extend .next-article-left;
+	}
+	&-right {
+		@extend .next-article-right;
+	}
+}
+
 .index {
 	margin-top: 2rem;
 	&-side-nav, .side-nav {
 		@extend .side-nav;
 		padding: 0;
+		&-header {
+			margin-top: 0;
+		}
 		li a:not(.button) {
 			color: $black;
 		}

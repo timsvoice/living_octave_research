@@ -17,5 +17,7 @@ $(document).ready(function() {
     ],
     
   });
+
+  $('.issue-contents-carousel-item-content.hidden').fadeIn(1500).removeClass('hidden');
  
 });
