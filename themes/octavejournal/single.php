@@ -6,10 +6,10 @@
 		<div class="next-article large-12 columns alpha beta">
 			<div class="next-article-left">				
 				<i class="icon-ios7-arrow-left"></i>
-				<p>previous article</p>
+				<p>previous <span class="show-for-medium-up">article</span></p>
 			</div>
 			<div class="next-article-right">
-				<p>next article</p>
+				<p>next <span class="show-for-medium-up">article</span></p>
 				<i class="icon-ios7-arrow-right"></i>
 			</div>			
 		</div>
@@ -20,17 +20,15 @@
 			<h2 class="article-single-title">
 				<a href="#">Big Bold Title</a>
 			</h2>			
-			<h3 class="article-single-issue-number">
-				<a href="#">Issue Title</a>
-			</h3>
-			<h3 class="article-single-date">November 2013</h3>
-			<p class="author">author name - source</p>
+			<p class="article-single-contents-meta">
+						By <a href="#">Author Name</a>, filed under <a href="#">category</a> on <a href="#">published date</a>
+					</p>
 			<!-- <h3 class="article-single-date">13/12/13</h3> -->
 			
 			<div class="article-single-contents">
 				<img src="http://placehold.it/1000x516" alt="" class="article-single-contents-image">
 				<?php get_sidebar( articleindex ); ?>
-				<div class="article-single-contents-text large-8 columns">
+				<div class="article-single-contents-text large-8 medium-8 columns">
 					
 						<p class="article-single-contents-text-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, exercitationem, facilis, ut doloremque hic adipisci tempore accusantium ipsa quam doloribus enim saepe obcaecati nostrum quaerat nulla. Voluptatibus, et, possimus, dignissimos, consectetur sed maiores nemo similique tempore qui voluptates aliquam rerum facilis reprehenderit. Quis, odio, eligendi, nisi, a eum quibusdam quae quia adipisci illum unde delectus eius omnis modi? Reprehenderit, est, aspernatur iure quia incidunt numquam asperiores illo animi assumenda aliquam libero harum aperiam accusantium voluptatum quaerat eos quis.</p>
 						
@@ -51,26 +49,37 @@
 	</div><!-- row -->
 	
 	<div class="row">
-		<div class="related-articles large-8 large-offset-4 columns">
+		<div class="related-articles medium-8 medium-offset-4 columns">
 			<hr class="divider">
 			<h3 class="related-articles-header">Related Reading</h3>
-			<ul class="large-block-grid-3">
-				<li class="related-article">
-					<img src="http://placehold.it/199x112" alt="">
-					<p class="related-article-teaser">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, earum.
+			<ul class="large-block-grid-3 medium-block-grid-3">
+				<li class="related-articles">
+					<img class="related-articles-image show-for-medium-up" src="http://placehold.it/300x168" alt="">
+					<img class="related-articles-image show-for-small-only" src="http://placehold.it/100x100" alt="">
+					<h5 class="related-articles-title">
+						<a href="#">Article Title</a>
+					</h5>
+					<p class="related-articles-teaser small">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 					</p>
 				</li>
-				<li class="related-article">
-					<img src="http://placehold.it/199x112" alt="">
-					<p class="related-article-teaser">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, commodi.
+				<li class="related-articles">
+					<img class="related-articles-image show-for-medium-up" src="http://placehold.it/300x168" alt="">
+					<img class="related-articles-image show-for-small-only" src="http://placehold.it/100x100" alt="">
+					<h5 class="related-articles-title">
+						<a href="#">Article Title</a>
+					</h5>
+					<p class="related-articles-teaser small">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 					</p>
-				</li>
-				<li class="related-article">
-					<img src="http://placehold.it/199x112" alt="">
-					<p class="related-article-teaser">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, velit.
+				</li><li class="related-articles">
+					<img class="related-articles-image show-for-medium-up" src="http://placehold.it/300x168" alt="">
+					<img class="related-articles-image show-for-small-only" src="http://placehold.it/100x100" alt="">
+					<h5 class="related-articles-title">
+						<a href="#">Article Title</a>
+					</h5>
+					<p class="related-articles-teaser small">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 					</p>
 				</li>
 			</ul>

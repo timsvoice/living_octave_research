@@ -5,14 +5,17 @@ body, h1, h2, h3, h4, h5, h6, p, a {
 }
 
 h3 {
-	font-size:2rem;
-	font-family: $text-font;
+}
+
+p {
+	font-size: 1.125rem;
 }
 
 p a {
-	color: $navy-black;
-	text-decoration: underline;
+	color: inherit;
 	font-family: $text-font;
+	border-bottom: $underline;
+	border-bottom-color: inherit;
 }
 
 header h4 {
@@ -38,6 +41,11 @@ p.small {
 	display: inline-block;
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
+	@media only screen and (max-width: 40em) {
+		width: 22.1875rem;
+		padding-top: 0;
+		padding-bottom: 0.5rem;
+	}
 	&-text, p {
 		font-size: 1.75rem;
 		font-weight: $heavy-text;
@@ -46,6 +54,14 @@ p.small {
 		margin-bottom: 0;
 		font-style: italic;	
 	}
+}
+
+.underline {
+	border-bottom: $underline;
+}
+
+.bold {
+	font-weight: $heavy-text;
 }
 
 // top-bar navigation
@@ -57,8 +73,9 @@ p.small {
 		a, a:hover {
 			color: $black;
 			text-transform: uppercase;
-			@media only screen and (max-width: 40em) { 
+			@media only screen and (max-width: 40.063em) { 
 			font-size: 1.5rem;
+			font-weight: $light-text;
 		}
 		}
 	}
@@ -77,11 +94,9 @@ p.small {
 			}
 		}
 		li:not(.has-form) a:not(.button) {
-			background: $white;
 			color: $black;
 			font-size: 1rem;
 			&:hover {
-				background: $white;
 				text-decoration: underline;
 			}
 		}
@@ -107,6 +122,84 @@ p.small {
 	background: inherit;
 }
 
+.next-article {
+	i {
+		font-size: 3rem;
+		vertical-align: middle;
+	}
+	&-left, &-right {
+		p {
+			display: inline-block;
+			font-weight: $light-text;
+			color: $dark-gray;
+			font-size: 1.5rem;
+			font-style: italic;
+			margin-left: 1rem;
+			line-height: 3rem;
+			margin-bottom: 0;
+			vertical-align: middle;
+		}
+	}
+}
+
+.index {
+	&-side-nav {
+		&-header {
+			font-family: $body-font;
+		}
+		&-title {
+			margin-bottom: 0;
+			a {
+
+			}
+		}
+		li a:not(.button) {
+			color: $black;
+		}	
+	}
+}
+
+.article-index {
+	@extend .index;
+	&-side-nav {
+		&-header {
+			font-family: $body-font;
+		}
+		&-title {
+			margin-bottom: 0;
+			a {
+
+			}
+		}
+		li a:not(.button) {
+			color: $black;
+		}
+		&-teaser {
+			@media only screen and (min-width: 40.063em) {
+				font-size: 1rem;
+				font-weight: $light-text;
+			}
+		}	
+	}
+}
+
+.related-articles {
+	@extend .article-index;
+	&-header {
+		margin-bottom: 0;
+		margin-top: 1rem;
+	}
+	&-title {		
+		margin-bottom: 0;
+		a {
+			color: $black;
+		}	
+	}
+	&-image {
+		margin-bottom: 0.5rem;
+	}
+}
+
 // issues 
 
 .issue {
@@ -116,6 +209,7 @@ p.small {
 		line-height: 3rem;
 		text-align: center;
 		font-family: $body-font;
+		font-weight: $heavy-text;
 		a, a:hover {
 			color: $black;
 		}
@@ -135,7 +229,7 @@ p.small {
 		font-weight: $light-text;
 		line-height: 2rem;
 		text-align: center;
-		color: $gray;
+		color: $dark-gray;
 	}
 	&-contents-title {
 		margin-top: 0;
@@ -152,7 +246,6 @@ p.small {
 		color: $dark-gray;
 		a {
 			color: $light-gray;
-			text-decoration: underline;
 			font-family: $body-font;
 		}
 	}
@@ -179,6 +272,9 @@ p.small {
 
 	&-contents-title {
 		margin-top: 0;
+		@media only screen and (max-width: 40em) { 
+			margin-top: 1rem;
+		}
 		a, a:hover {
 			color: $black;
 		}
@@ -190,9 +286,9 @@ p.small {
 	}
 	&-contents-meta {
 		color: $dark-gray;
+		font-size: 1rem;
 		a {
 			color: $light-gray;
-			text-decoration: underline;
 			font-family: $body-font;
 		}
 	}
@@ -203,8 +299,10 @@ p.small {
 		color: $white;
 		line-height: 25pt; 
 	}
-	&-carousel-item-title {
-		color: $white;
+	&-carousel-item-content-title {
+		a, a:hover {
+			color: $white;
+		}
 	}
 }
 
@@ -212,7 +310,10 @@ p.small {
 
 .articles {
 	&-article-title {
-		font-family: $body-font;
+		a {
+			font-family: $body-font;
+			color: $black;
+		}
 	}
 	
 	&-article-teaser {
@@ -223,6 +324,15 @@ p.small {
 		text-align: center;
 		margin-bottom: 2rem;
 		margin-top: 1rem;
+	}
+	&-article-contents-meta {
+		@extend .issue-single-contents-meta;
+		font-size: 0.75rem;
+		font-family: $body-font;
+	}
+	&-article-meta {
+		@extend .issue-contents-meta;
+		font-size: 0.9rem;
 	}
 }
 

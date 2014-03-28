@@ -5,8 +5,8 @@
 $(document).ready(function() {
  
   $("#issue-carousel").owlCarousel({
-    items : 3,
-    itemsDesktop : 3,
+    items : 2,
+    itemsDesktop : 2,
     mouseDrag: false,
     lazyLoad : true,
     navigation : true,
@@ -19,5 +19,7 @@ $(document).ready(function() {
   });
 
   $('.issue-contents-carousel-item-content.hidden').fadeIn(1500).removeClass('hidden');
- 
+  
+  $("#index-sticker").sticky({topSpacing:80});
+  $("#article-sticker").sticky({topSpacing:80});
 });

@@ -46,7 +46,7 @@
     <!-- Load Custom JS script -->
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendors/OwlCarousel/owl-carousel/owl.carousel.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/app.js"></script>
-    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-waypoints/waypoints.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendors/sticky/jquery.sticky.js"></script>
 
   
 
@@ -82,8 +82,8 @@
         <nav class="navigation-top-bar" data-topbar>
             <ul class="navigation-title-area">
               <li class="">
-                <img class="navigation-title-area-image" src="http://placehold.it/40x40/bfbfbf/fff" alt="">
-                <h1 class="navigation-title-area-title"><a href="#">Octave Journal</a></h1>
+                <img class="navigation-title-area-image" src="<?php bloginfo('template_url'); ?>/css/assets/branding.png" alt="">
+                <h1 class="navigation-title-area-title"><a href="#"><span class="bold">Octave</span> Journal</a></h1>
               </li>
               <li class="navigation toggle-topbar menu-icon"><a href="#"></a></li>
             </ul>

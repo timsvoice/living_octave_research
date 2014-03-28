@@ -7,10 +7,10 @@
 		<div class="next-issue large-12 columns alpha beta">
 			<div class="next-issue-left">				
 				<i class="icon-ios7-arrow-left"></i>
-				<p>previous issue</p>
+				<p>previous <span class="show-for-medium-up">issue</span></p>
 			</div>
 			<div class="next-issue-right">
-				<p>next issue</p>
+				<p>next <span class="show-for-medium-up">issue</span></p>
 				<i class="icon-ios7-arrow-right"></i>
 			</div>			
 		</div>
@@ -34,41 +34,40 @@
 		
 		
 
-		<div class="issue-single large-9 columns">
+		<div class="issue-single small-12 large-9 columns">
 
 			<div class="issue-single-contents clearfix">				
-				<img src="http://placehold.it/240x240" alt="" class="issue-single-contents-image large-4 columns alpha beta">
-				<h3 class="issue-single-contents-title large-8 columns"><a href="#">Article Title</a></h3>
-				<div class=" large-8 columns">
+				<img src="http://placehold.it/240x240" alt="" class="issue-single-contents-image medium-4 columns alpha">
+				<h3 class="issue-single-contents-title medium-8 columns alpha"><a href="#">Article Title</a></h3>
+				<div class=" medium-8 columns alpha">
 					<p class="issue-single-contents-meta">
-						Written by <a href="#">Author Name</a>, filed under <a href="#">Category</a>
+						By <a href="#">Author Name</a>, filed under <a href="#">Category</a>
 					</p>
 				</div>
-				<p class="issue-single-contents-teaser large-8 columns">
+				<p class="issue-single-contents-teaser medium-8 columns alpha">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, quaerat, pariatur ullam vel sint id ratione at dolorum alias eius dolor quasi eligendi odio tempore. <a href="#">read more</a>
 				</p>
-			</div><!-- issue-contents -->
-			<div class="issue-single-contents clearfix">				
-				<img src="http://placehold.it/240x240" alt="" class="issue-single-contents-image large-4 columns alpha beta">
-				<h3 class="issue-single-contents-title large-8 columns"><a href="#">Article Title</a></h3>
-				<div class=" large-8 columns">
+			</div><!-- issue-contents --><div class="issue-single-contents clearfix">				
+				<img src="http://placehold.it/240x240" alt="" class="issue-single-contents-image medium-4 columns alpha">
+				<h3 class="issue-single-contents-title medium-8 columns alpha"><a href="#">Article Title</a></h3>
+				<div class=" medium-8 columns alpha">
 					<p class="issue-single-contents-meta">
-						Written by <a href="#">Author Name</a>, filed under <a href="#">Category</a>
+						By <a href="#">Author Name</a>, filed under <a href="#">Category</a>
 					</p>
 				</div>
-				<p class="issue-single-contents-teaser large-8 columns">
+				<p class="issue-single-contents-teaser medium-8 columns alpha">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, quaerat, pariatur ullam vel sint id ratione at dolorum alias eius dolor quasi eligendi odio tempore. <a href="#">read more</a>
 				</p>
 			</div><!-- issue-contents -->				
 			<div class="issue-single-contents clearfix">				
-				<img src="http://placehold.it/240x240" alt="" class="issue-single-contents-image large-4 columns alpha beta">
-				<h3 class="issue-single-contents-title large-8 columns"><a href="#">Article Title</a></h3>
-				<div class=" large-8 columns">
+				<img src="http://placehold.it/240x240" alt="" class="issue-single-contents-image medium-4 columns alpha">
+				<h3 class="issue-single-contents-title medium-8 columns alpha"><a href="#">Article Title</a></h3>
+				<div class=" medium-8 columns alpha">
 					<p class="issue-single-contents-meta">
-						Written by <a href="#">Author Name</a>, filed under <a href="#">Category</a>
+						By <a href="#">Author Name</a>, filed under <a href="#">Category</a>
 					</p>
 				</div>
-				<p class="issue-single-contents-teaser large-8 columns">
+				<p class="issue-single-contents-teaser medium-8 columns alpha">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, quaerat, pariatur ullam vel sint id ratione at dolorum alias eius dolor quasi eligendi odio tempore. <a href="#">read more</a>
 				</p>
 			</div><!-- issue-contents -->	

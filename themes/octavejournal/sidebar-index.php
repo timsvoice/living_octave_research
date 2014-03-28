@@ -1,5 +1,5 @@
-<div class="index large-3 columns">
-	<ul class="index-side-nav">
+<div class="index large-3 columns show-for-large-up">
+	<ul id="index-sticker" class="index-side-nav">
 		<li>
 			<h3 class="index-side-nav-header">Issue Index</h3>
 		</li>

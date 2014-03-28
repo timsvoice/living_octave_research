@@ -4615,7 +4615,7 @@ dialog[open] {
   }
 }
 /* line 86, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
-.side-nav, .index-side-nav, .index .side-nav, .article-index .side-nav, .article-index-side-nav {
+.side-nav, .index-side-nav, .index .side-nav, .article-index .side-nav, .related-articles .side-nav, .article-index-side-nav {
   display: block;
   margin: 0;
   padding: 0.875rem 0;
@@ -4624,7 +4624,7 @@ dialog[open] {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 /* line 57, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
-.side-nav li, .index-side-nav li, .index .side-nav li, .article-index .side-nav li, .article-index-side-nav li {
+.side-nav li, .index-side-nav li, .index .side-nav li, .article-index .side-nav li, .related-articles .side-nav li, .article-index-side-nav li {
   margin: 0 0 0.4375rem 0;
   font-size: 0.875rem;
 }
@@ -8371,6 +8371,16 @@ hr {
   display: none !important;
 }
 
+/* line 24, ../scss/partials/_base.scss */
+#index-sticker {
+  max-width: 13.75rem;
+}
+
+/* line 28, ../scss/partials/_base.scss */
+#article-sticker {
+  max-width: 19.25rem;
+}
+
 /* line 1, ../scss/partials/_grid.scss */
 .alpha {
   padding-left: 0px !important;
@@ -8391,20 +8401,20 @@ body, h1, h2, h3, h4, h5, h6, p, a {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
 }
 
-/* line 7, ../scss/partials/_typography.scss */
-h3 {
-  font-size: 2rem;
-  font-family: "minion-pro", Times, serif;
+/* line 10, ../scss/partials/_typography.scss */
+p {
+  font-size: 1.125rem;
 }
 
-/* line 12, ../scss/partials/_typography.scss */
+/* line 14, ../scss/partials/_typography.scss */
 p a {
-  color: #001742;
-  text-decoration: underline;
+  color: inherit;
   font-family: "minion-pro", Times, serif;
+  border-bottom: 0.0625rem dotted;
+  border-bottom-color: inherit;
 }
 
-/* line 18, ../scss/partials/_typography.scss */
+/* line 21, ../scss/partials/_typography.scss */
 header h4 {
   color: black;
   font-size: 1.5rem;
@@ -8413,14 +8423,14 @@ header h4 {
   font-weight: 400;
 }
 
-/* line 26, ../scss/partials/_typography.scss */
+/* line 29, ../scss/partials/_typography.scss */
 p.small {
   font-size: 1rem;
   margin-bottom: 0.5rem;
   font-weight: 200;
 }
 
-/* line 32, ../scss/partials/_typography.scss */
+/* line 35, ../scss/partials/_typography.scss */
 .pull-quote {
   margin-right: 1.5rem;
   width: 12.5rem;
@@ -8431,7 +8441,15 @@ p.small {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
-/* line 41, ../scss/partials/_typography.scss */
+@media only screen and (max-width: 40em) {
+  /* line 35, ../scss/partials/_typography.scss */
+  .pull-quote {
+    width: 22.1875rem;
+    padding-top: 0;
+    padding-bottom: 0.5rem;
+  }
+}
+/* line 49, ../scss/partials/_typography.scss */
 .pull-quote-text, .pull-quote p {
   font-size: 1.75rem;
   font-weight: 900;
@@ -8441,24 +8459,35 @@ p.small {
   font-style: italic;
 }
 
-/* line 54, ../scss/partials/_typography.scss */
+/* line 59, ../scss/partials/_typography.scss */
+.underline {
+  border-bottom: 0.0625rem dotted;
+}
+
+/* line 63, ../scss/partials/_typography.scss */
+.bold {
+  font-weight: 900;
+}
+
+/* line 70, ../scss/partials/_typography.scss */
 .navigation-title-area-title {
   font-size: 2rem;
   padding-left: 1rem;
 }
-/* line 57, ../scss/partials/_typography.scss */
+/* line 73, ../scss/partials/_typography.scss */
 .navigation-title-area-title a, .navigation-title-area-title a:hover {
   color: black;
   text-transform: uppercase;
 }
-@media only screen and (max-width: 40em) {
-  /* line 57, ../scss/partials/_typography.scss */
+@media only screen and (max-width: 40.063em) {
+  /* line 73, ../scss/partials/_typography.scss */
   .navigation-title-area-title a, .navigation-title-area-title a:hover {
     font-size: 1.5rem;
+    font-weight: 200;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 66, ../scss/partials/_typography.scss */
+  /* line 83, ../scss/partials/_typography.scss */
   .navigation-top-bar-section ul, .navigation .navigation-top-bar-section ul, .navigation .top-bar-section ul {
     margin-top: 0.5rem;
     margin-bottom: 1rem;
@@ -8466,31 +8495,29 @@ p.small {
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 73, ../scss/partials/_typography.scss */
+  /* line 90, ../scss/partials/_typography.scss */
   .navigation-top-bar-section ul li, .navigation .navigation-top-bar-section ul li, .navigation .top-bar-section ul li {
     border-bottom: 0.0625rem #e8e8e8 solid;
   }
 }
-/* line 79, ../scss/partials/_typography.scss */
+/* line 96, ../scss/partials/_typography.scss */
 .navigation-top-bar-section li:not(.has-form) a:not(.button), .navigation .navigation-top-bar-section li:not(.has-form) a:not(.button), .navigation .top-bar-section li:not(.has-form) a:not(.button) {
-  background: white;
   color: black;
   font-size: 1rem;
 }
-/* line 83, ../scss/partials/_typography.scss */
+/* line 99, ../scss/partials/_typography.scss */
 .navigation-top-bar-section li:not(.has-form) a:not(.button):hover, .navigation .navigation-top-bar-section li:not(.has-form) a:not(.button):hover, .navigation .top-bar-section li:not(.has-form) a:not(.button):hover {
-  background: white;
   text-decoration: underline;
 }
-/* line 91, ../scss/partials/_typography.scss */
+/* line 106, ../scss/partials/_typography.scss */
 .navigation-toggle-topbar.menu-icon, .navigation .menu-icon.navigation-toggle-topbar, .navigation .menu-icon.toggle-topbar {
   margin-top: -21px;
 }
-/* line 94, ../scss/partials/_typography.scss */
+/* line 109, ../scss/partials/_typography.scss */
 .navigation-toggle-topbar.menu-icon, .navigation .menu-icon.navigation-toggle-topbar, .navigation .menu-icon.toggle-topbar {
   color: black;
 }
-/* line 96, ../scss/partials/_typography.scss */
+/* line 111, ../scss/partials/_typography.scss */
 .navigation-toggle-topbar.menu-icon a::after, .navigation .menu-icon.navigation-toggle-topbar a::after, .navigation .menu-icon.toggle-topbar a::after {
   width: 1.5rem;
   -webkit-box-shadow: 0 3px 0 2px black, 0 12px 0 2px black, 0 21px 0 2px black;
@@ -8498,23 +8525,93 @@ p.small {
   box-shadow: 0 3px 0 2px black, 0 12px 0 2px black, 0 21px 0 2px black;
 }
 
-/* line 106, ../scss/partials/_typography.scss */
+/* line 121, ../scss/partials/_typography.scss */
 .expanded.navigation-top-bar .navigation-title-area {
   background: inherit;
 }
 
-/* line 114, ../scss/partials/_typography.scss */
+/* line 126, ../scss/partials/_typography.scss */
+.next-article i, .next-issue i {
+  font-size: 3rem;
+  vertical-align: middle;
+}
+/* line 131, ../scss/partials/_typography.scss */
+.next-article-left p, .next-issue-left p, .next-article-right p, .next-issue-right p {
+  display: inline-block;
+  font-weight: 200;
+  color: #878787;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: 1rem;
+  line-height: 3rem;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+/* line 147, ../scss/partials/_typography.scss */
+.index-side-nav-header {
+  font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
+}
+/* line 150, ../scss/partials/_typography.scss */
+.index-side-nav-title {
+  margin-bottom: 0;
+}
+/* line 156, ../scss/partials/_typography.scss */
+.index-side-nav li a:not(.button) {
+  color: black;
+}
+
+/* line 165, ../scss/partials/_typography.scss */
+.article-index-side-nav-header {
+  font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
+}
+/* line 168, ../scss/partials/_typography.scss */
+.article-index-side-nav-title {
+  margin-bottom: 0;
+}
+/* line 174, ../scss/partials/_typography.scss */
+.article-index-side-nav li a:not(.button) {
+  color: black;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 177, ../scss/partials/_typography.scss */
+  .article-index-side-nav-teaser {
+    font-size: 1rem;
+    font-weight: 200;
+  }
+}
+
+/* line 188, ../scss/partials/_typography.scss */
+.related-articles-header {
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+/* line 192, ../scss/partials/_typography.scss */
+.related-articles-title {
+  margin-bottom: 0;
+}
+/* line 194, ../scss/partials/_typography.scss */
+.related-articles-title a {
+  color: black;
+}
+/* line 198, ../scss/partials/_typography.scss */
+.related-articles-image {
+  margin-bottom: 0.5rem;
+}
+
+/* line 207, ../scss/partials/_typography.scss */
 .issue-title, .article-title, .article-single-title, .issue-single-title {
   font-size: 3rem;
   line-height: 3rem;
   text-align: center;
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
+  font-weight: 900;
 }
-/* line 119, ../scss/partials/_typography.scss */
+/* line 213, ../scss/partials/_typography.scss */
 .issue-title a, .article-title a, .article-single-title a, .issue-single-title a, .issue-title a:hover, .article-title a:hover, .article-single-title a:hover, .issue-single-title a:hover {
   color: black;
 }
-/* line 123, ../scss/partials/_typography.scss */
+/* line 217, ../scss/partials/_typography.scss */
 .issue-number, .article-issue-number, .article-single-issue-number, .issue-single-number, .article-single-date, .issue-single-date {
   font-size: 2rem;
   font-weight: 200;
@@ -8522,106 +8619,121 @@ p.small {
   display: inline-block;
   text-align: center;
 }
-/* line 129, ../scss/partials/_typography.scss */
+/* line 223, ../scss/partials/_typography.scss */
 .issue-number a, .article-issue-number a, .article-single-issue-number a, .issue-single-number a, .article-single-date a, .issue-single-date a, .issue-number a:hover, .article-issue-number a:hover, .article-single-issue-number a:hover, .issue-single-number a:hover, .article-single-date a:hover, .issue-single-date a:hover {
   color: #878787;
 }
-/* line 133, ../scss/partials/_typography.scss */
+/* line 227, ../scss/partials/_typography.scss */
 .issue-date, .article-date, .article-single-date, .issue-single-date {
   font-size: 1.5rem;
   font-weight: 200;
   line-height: 2rem;
   text-align: center;
-  color: #e8e8e8;
+  color: #878787;
 }
-/* line 140, ../scss/partials/_typography.scss */
+/* line 234, ../scss/partials/_typography.scss */
 .issue-contents-title, .article-contents-title, .article-single-contents-title {
   margin-top: 0;
 }
-/* line 142, ../scss/partials/_typography.scss */
+/* line 236, ../scss/partials/_typography.scss */
 .issue-contents-title a, .article-contents-title a, .article-single-contents-title a, .issue-contents-title a:hover, .article-contents-title a:hover, .article-single-contents-title a:hover {
   color: black;
 }
-/* line 146, ../scss/partials/_typography.scss */
+/* line 240, ../scss/partials/_typography.scss */
 .issue-contents-teaser, .article-contents-teaser, .article-single-contents-teaser {
   font-family: "minion-pro", Times, serif;
   margin-top: 0.5rem;
   font-size: 1.25rem;
 }
-/* line 151, ../scss/partials/_typography.scss */
-.issue-contents-meta, .article-contents-meta, .article-single-contents-meta {
+/* line 245, ../scss/partials/_typography.scss */
+.issue-contents-meta, .articles-article-meta, .article-contents-meta, .article-single-contents-meta {
   color: #878787;
 }
-/* line 153, ../scss/partials/_typography.scss */
-.issue-contents-meta a, .article-contents-meta a, .article-single-contents-meta a {
+/* line 247, ../scss/partials/_typography.scss */
+.issue-contents-meta a, .articles-article-meta a, .article-contents-meta a, .article-single-contents-meta a {
   color: #999999;
-  text-decoration: underline;
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
 }
 
-/* line 161, ../scss/partials/_typography.scss */
+/* line 254, ../scss/partials/_typography.scss */
 .issue-single {
   margin-top: 2rem;
 }
-/* line 180, ../scss/partials/_typography.scss */
+/* line 273, ../scss/partials/_typography.scss */
 .issue-single-contents-title {
   margin-top: 0;
 }
-/* line 182, ../scss/partials/_typography.scss */
+@media only screen and (max-width: 40em) {
+  /* line 273, ../scss/partials/_typography.scss */
+  .issue-single-contents-title {
+    margin-top: 1rem;
+  }
+}
+/* line 278, ../scss/partials/_typography.scss */
 .issue-single-contents-title a, .issue-single-contents-title a:hover {
   color: black;
 }
-/* line 186, ../scss/partials/_typography.scss */
+/* line 282, ../scss/partials/_typography.scss */
 .issue-single-contents-teaser {
   font-family: "minion-pro", Times, serif;
   margin-top: 0.5rem;
   font-size: 1.25rem;
 }
-/* line 191, ../scss/partials/_typography.scss */
-.issue-single-contents-meta {
+/* line 287, ../scss/partials/_typography.scss */
+.issue-single-contents-meta, .articles-article-contents-meta {
   color: #878787;
+  font-size: 1rem;
 }
-/* line 193, ../scss/partials/_typography.scss */
-.issue-single-contents-meta a {
+/* line 290, ../scss/partials/_typography.scss */
+.issue-single-contents-meta a, .articles-article-contents-meta a {
   color: #999999;
-  text-decoration: underline;
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
 }
 
-/* line 202, ../scss/partials/_typography.scss */
+/* line 298, ../scss/partials/_typography.scss */
 .issue-contents-carousel-item-content {
   color: white;
   line-height: 25pt;
 }
-/* line 206, ../scss/partials/_typography.scss */
-.issue-contents-carousel-item-title {
+/* line 303, ../scss/partials/_typography.scss */
+.issue-contents-carousel-item-content-title a, .issue-contents-carousel-item-content-title a:hover {
   color: white;
 }
 
-/* line 214, ../scss/partials/_typography.scss */
-.articles-article-title {
+/* line 313, ../scss/partials/_typography.scss */
+.articles-article-title a {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
+  color: black;
 }
-/* line 218, ../scss/partials/_typography.scss */
+/* line 319, ../scss/partials/_typography.scss */
 .articles-article-teaser {
   font-family: "minion-pro", Times, serif;
 }
-/* line 222, ../scss/partials/_typography.scss */
+/* line 323, ../scss/partials/_typography.scss */
 .articles-header {
   text-align: center;
   margin-bottom: 2rem;
   margin-top: 1rem;
 }
+/* line 328, ../scss/partials/_typography.scss */
+.articles-article-contents-meta {
+  font-size: 0.75rem;
+  font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
+}
+/* line 333, ../scss/partials/_typography.scss */
+.articles-article-meta {
+  font-size: 0.9rem;
+}
 
-/* line 255, ../scss/partials/_typography.scss */
+/* line 365, ../scss/partials/_typography.scss */
 .article-single {
   margin-top: 3rem;
 }
-/* line 257, ../scss/partials/_typography.scss */
+/* line 367, ../scss/partials/_typography.scss */
 .article-single-title, .issue-single-title {
   text-align: left;
 }
-/* line 261, ../scss/partials/_typography.scss */
+/* line 371, ../scss/partials/_typography.scss */
 .article-single-issue-number, .issue-single-number, .article-single-date, .issue-single-date {
   text-align: left;
   display: inline-block;
@@ -8631,35 +8743,35 @@ p.small {
   margin-bottom: 0.25rem;
   margin-top: 0;
 }
-/* line 270, ../scss/partials/_typography.scss */
+/* line 380, ../scss/partials/_typography.scss */
 .article-single-issue-number a, .issue-single-number a, .article-single-date a, .issue-single-date a {
   color: black;
 }
-/* line 274, ../scss/partials/_typography.scss */
+/* line 384, ../scss/partials/_typography.scss */
 .article-single-date, .issue-single-date {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
   margin-left: 1.5rem;
 }
-/* line 290, ../scss/partials/_typography.scss */
+/* line 400, ../scss/partials/_typography.scss */
 .article-single-contents-text {
   margin-top: 2rem;
 }
-/* line 292, ../scss/partials/_typography.scss */
+/* line 402, ../scss/partials/_typography.scss */
 .article-single-contents-text-body {
   font-family: "minion-pro", Times, serif;
   font-size: 1.25rem;
 }
 
-/* line 300, ../scss/partials/_typography.scss */
+/* line 410, ../scss/partials/_typography.scss */
 .related-article-teaser {
   font-family: "minion-pro", Times, serif;
 }
 
-/* line 306, ../scss/partials/_typography.scss */
+/* line 416, ../scss/partials/_typography.scss */
 .category-featured-article-title {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
 }
-/* line 309, ../scss/partials/_typography.scss */
+/* line 419, ../scss/partials/_typography.scss */
 .category-featured-article-teaser {
   font-family: "minion-pro", Times, serif;
   font-size: 1.1rem;
@@ -8744,7 +8856,7 @@ li.issue-orbit-list-article:last-child {
 }
 
 /* line 70, ../scss/partials/_orbit.scss */
-.current-issue-intro h3, .current-issue-intro-small h3, .issue-post h3, .featured-issues h3 {
+.current-issue-intro h3, .current-issue-intro-small h3, .featured-issues h3 {
   font-size: 2rem;
   font-style: italic;
   margin-bottom: 0rem;
@@ -8752,7 +8864,7 @@ li.issue-orbit-list-article:last-child {
   text-decoration: underline;
 }
 /* line 77, ../scss/partials/_orbit.scss */
-.current-issue-intro p, .current-issue-intro-small p, .issue-post p, .featured-issues p {
+.current-issue-intro p, .current-issue-intro-small p, .featured-issues p {
   font-family: "minion-pro", Times, serif;
   font-style: italic;
   font-size: 1.25rem;
@@ -8788,78 +8900,39 @@ li.issue-orbit-list-article:last-child {
   font-family: "Times New Roman", Times, serif;
 }
 
-/* line 3, ../scss/partials/_issues.scss */
+/* line 2, ../scss/partials/_issues.scss */
+.issue-meta {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+@media only screen and (max-width: 40em) {
+  /* line 2, ../scss/partials/_issues.scss */
+  .issue-meta {
+    margin-top: 1rem;
+  }
+}
+
+/* line 12, ../scss/partials/_issues.scss */
 .issue-single-header {
   margin-top: 2rem;
 }
-/* line 6, ../scss/partials/_issues.scss */
+/* line 15, ../scss/partials/_issues.scss */
 .issue-single-meta {
   margin-bottom: 1rem;
 }
-/* line 9, ../scss/partials/_issues.scss */
+/* line 18, ../scss/partials/_issues.scss */
 .issue-single-contents {
   margin-bottom: 2rem;
 }
 
-/* line 14, ../scss/partials/_issues.scss */
-.issue-post {
-  margin-top: 2rem;
-}
-/* line 17, ../scss/partials/_issues.scss */
-.issue-post h7 {
-  margin-top: 0rem;
-  margin-bottom: 1rem;
-  padding-left: 0rem;
-  display: inline-block;
-  font-weight: 200;
-  font-size: 0.75rem;
-  color: black;
-}
-/* line 26, ../scss/partials/_issues.scss */
-.issue-post h2 {
-  font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  text-decoration: none;
-  margin-bottom: 0;
-}
-/* line 33, ../scss/partials/_issues.scss */
-.issue-post h3 {
-  font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  text-decoration: none;
-}
-/* line 39, ../scss/partials/_issues.scss */
-.issue-post .report-intro p {
-  font-family: "minion-pro", Times, serif;
-  font-style: italic;
-}
-/* line 43, ../scss/partials/_issues.scss */
-.issue-post p {
-  font-family: "minion-pro", Times, serif;
-  font-style: normal;
-}
-/* line 47, ../scss/partials/_issues.scss */
-.issue-post i {
-  font-family: "minion-pro", Times, serif;
-  font-style: normal;
-  font-size: 1.25rem;
-}
-/* line 52, ../scss/partials/_issues.scss */
-.issue-post img {
-  margin-bottom: 1rem;
-  margin-top: 0.5rem;
-}
-
-/* line 58, ../scss/partials/_issues.scss */
+/* line 23, ../scss/partials/_issues.scss */
 .issue-post-related, .article-post-random {
   float: right;
   opacity: 0.6;
   padding-left: 1rem;
   border-left: 1px solid #999;
 }
-/* line 63, ../scss/partials/_issues.scss */
+/* line 28, ../scss/partials/_issues.scss */
 .issue-post-related h3, .article-post-random h3 {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
@@ -8869,7 +8942,7 @@ li.issue-orbit-list-article:last-child {
   margin-top: 2rem;
 }
 
-/* line 73, ../scss/partials/_issues.scss */
+/* line 38, ../scss/partials/_issues.scss */
 .issue-post-related:hover, .article-post-random:hover {
   opacity: 1;
 }
@@ -8887,53 +8960,22 @@ li.issue-orbit-list-article:last-child {
 }
 
 /* line 12, ../scss/partials/_articles.scss */
-.featured-articles, .article-category {
-  margin-bottom: 0rem;
-}
-/* line 14, ../scss/partials/_articles.scss */
-.featured-articles h3, .article-category h3 {
-  font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 2rem;
-}
-/* line 21, ../scss/partials/_articles.scss */
-.featured-articles p, .article-category p {
-  font-family: "minion-pro", Times, serif;
-  font-weight: 400;
-}
-
-/* line 27, ../scss/partials/_articles.scss */
-.article-category-featured {
-  height: auto;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
-/* line 31, ../scss/partials/_articles.scss */
-.article-category-featured h6 {
-  margin-top: 0.5rem;
-  display: inline-block;
-  font-weight: 200;
-  color: black;
-}
-
-/* line 39, ../scss/partials/_articles.scss */
 .articles {
   margin-top: 0rem;
 }
-/* line 41, ../scss/partials/_articles.scss */
+/* line 14, ../scss/partials/_articles.scss */
 .articles-article {
   height: 22.5rem;
 }
-/* line 44, ../scss/partials/_articles.scss */
+/* line 17, ../scss/partials/_articles.scss */
 .articles-article-title {
   margin-bottom: 0rem;
 }
-/* line 47, ../scss/partials/_articles.scss */
+/* line 20, ../scss/partials/_articles.scss */
 .articles-article-meta {
   margin-bottom: 0.5rem;
 }
-/* line 49, ../scss/partials/_articles.scss */
+/* line 22, ../scss/partials/_articles.scss */
 .articles-article-meta a {
   margin-top: 0;
   margin-bottom: 0;
@@ -8948,89 +8990,89 @@ li.issue-orbit-list-article:last-child {
 .navigation-title-area-image {
   margin-left: 0.9375rem;
   margin-top: -0.75rem;
+  max-height: 3rem;
+  max-width: 3rem;
 }
-/* line 13, ../scss/partials/_navigation.scss */
+/* line 15, ../scss/partials/_navigation.scss */
 .navigation-top-bar, .navigation .navigation-top-bar, .navigation .top-bar {
   padding-top: 1rem;
-  background: white;
+  background: rgba(255, 255, 255, 0.95);
   height: 5rem;
 }
-/* line 22, ../scss/partials/_navigation.scss */
+/* line 27, ../scss/partials/_navigation.scss */
+.navigation-top-bar-section li:not(.has-form) a:not(.button), .navigation .navigation-top-bar-section li:not(.has-form) a:not(.button), .navigation .top-bar-section li:not(.has-form) a:not(.button) {
+  background: white;
+}
+/* line 29, ../scss/partials/_navigation.scss */
+.navigation-top-bar-section li:not(.has-form) a:not(.button) a, .navigation-top-bar-section li:not(.has-form) a:not(.button) a:hover, .navigation .navigation-top-bar-section li:not(.has-form) a:not(.button) a, .navigation .top-bar-section li:not(.has-form) a:not(.button) a, .navigation .navigation-top-bar-section li:not(.has-form) a:not(.button) a:hover, .navigation .top-bar-section li:not(.has-form) a:not(.button) a:hover {
+  background: white;
+}
+/* line 34, ../scss/partials/_navigation.scss */
 .navigation.contain-to-grid {
   background: white;
 }
 
-/* line 27, ../scss/partials/_navigation.scss */
+/* line 38, ../scss/partials/_navigation.scss */
 .next-article, .next-issue {
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
-/* line 30, ../scss/partials/_navigation.scss */
-.next-article i, .next-issue i {
-  font-size: 3rem;
-  vertical-align: middle;
-}
-/* line 34, ../scss/partials/_navigation.scss */
+/* line 41, ../scss/partials/_navigation.scss */
 .next-article-left, .next-issue-left {
   float: left;
 }
-/* line 36, ../scss/partials/_navigation.scss */
-.next-article-left p, .next-issue-left p {
-  display: inline-block;
-  font-weight: 200;
-  color: #878787;
-  font-size: 1.5rem;
-  font-style: italic;
-  margin-left: 1rem;
-  line-height: 3rem;
-  margin-bottom: 0;
-  vertical-align: middle;
-}
-/* line 48, ../scss/partials/_navigation.scss */
+/* line 44, ../scss/partials/_navigation.scss */
 .next-article-right, .next-issue-right {
   float: right;
 }
-/* line 50, ../scss/partials/_navigation.scss */
-.next-article-right p, .next-issue-right p {
-  display: inline-block;
-  font-weight: 200;
-  color: #878787;
-  font-size: 1.5rem;
-  font-style: italic;
-  margin-right: 1rem;
-  line-height: 3rem;
-  margin-bottom: 0;
-  vertical-align: middle;
-}
 
-/* line 74, ../scss/partials/_navigation.scss */
-.index, .article-index {
+/* line 59, ../scss/partials/_navigation.scss */
+.index, .article-index, .related-articles {
   margin-top: 2rem;
 }
-/* line 76, ../scss/partials/_navigation.scss */
-.index-side-nav, .index .index-side-nav, .article-index .index-side-nav, .index .side-nav, .article-index .side-nav, .index .article-index-side-nav, .article-index .article-index-side-nav {
+/* line 61, ../scss/partials/_navigation.scss */
+.index-side-nav, .index .index-side-nav, .article-index .index-side-nav, .related-articles .index-side-nav, .index .side-nav, .article-index .side-nav, .related-articles .side-nav, .index .article-index-side-nav, .article-index .article-index-side-nav, .related-articles .article-index-side-nav {
   padding: 0;
 }
-/* line 79, ../scss/partials/_navigation.scss */
-.index-side-nav-header, .index .side-nav-header, .article-index .side-nav-header {
+/* line 64, ../scss/partials/_navigation.scss */
+.index-side-nav-header, .index .side-nav-header, .article-index .side-nav-header, .related-articles .side-nav-header {
   margin-top: 0;
 }
-/* line 82, ../scss/partials/_navigation.scss */
-.index-side-nav li a:not(.button), .index .index-side-nav li a:not(.button), .article-index .index-side-nav li a:not(.button), .index .side-nav li a:not(.button), .article-index .side-nav li a:not(.button), .index .article-index-side-nav li a:not(.button), .article-index .article-index-side-nav li a:not(.button) {
-  color: black;
-}
 
-/* line 90, ../scss/partials/_navigation.scss */
-.article-index {
+/* line 72, ../scss/partials/_navigation.scss */
+.article-index, .related-articles {
   margin-top: 2rem;
 }
-/* line 93, ../scss/partials/_navigation.scss */
-.article-index-side-nav, .article-index .index-side-nav, .article-index .side-nav, .article-index .article-index-side-nav {
+/* line 75, ../scss/partials/_navigation.scss */
+.article-index-side-nav, .article-index .index-side-nav, .related-articles .index-side-nav, .article-index .side-nav, .related-articles .side-nav, .article-index .article-index-side-nav, .related-articles .article-index-side-nav {
   padding: 0;
 }
-/* line 96, ../scss/partials/_navigation.scss */
-.article-index-side-nav li a:not(.button), .article-index .index-side-nav li a:not(.button), .article-index .side-nav li a:not(.button), .article-index .article-index-side-nav li a:not(.button) {
+@media only screen and (min-width: 40.063em) {
+  /* line 78, ../scss/partials/_navigation.scss */
+  .article-index-side-nav-header, .article-index .side-nav-header, .related-articles .side-nav-header {
+    font-size: 0.5rem;
+  }
+}
+/* line 83, ../scss/partials/_navigation.scss */
+.article-index-side-nav li a:not(.button), .article-index .index-side-nav li a:not(.button), .related-articles .index-side-nav li a:not(.button), .article-index .side-nav li a:not(.button), .related-articles .side-nav li a:not(.button), .article-index .article-index-side-nav li a:not(.button), .related-articles .article-index-side-nav li a:not(.button) {
   color: black;
+}
+/* line 88, ../scss/partials/_navigation.scss */
+.article-index-side-nav-title, .article-index .side-nav-title, .related-articles .side-nav-title {
+  margin-top: 0;
+}
+/* line 91, ../scss/partials/_navigation.scss */
+.article-index-side-nav-image, .article-index .side-nav-image, .related-articles .side-nav-image {
+  display: inline-block;
+  float: left;
+  margin-right: 0.625rem;
+}
+
+/* line 101, ../scss/partials/_navigation.scss */
+.related-articles-image {
+  display: inline-block;
+  float: left;
+  margin-right: 0.625rem;
 }
 
 /* line 3, ../scss/partials/_login.scss */
@@ -9082,7 +9124,7 @@ li.issue-orbit-list-article:last-child {
   width: 100%;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.75);
   padding: 0.625rem;
   -webkit-transition: all 300ms ease-out;
   -moz-transition: all 300ms ease-out;
@@ -9091,7 +9133,7 @@ li.issue-orbit-list-article:last-child {
   transition: all 300ms ease-out;
   height: 150px;
   display: block;
-  bottom: -80px;
+  bottom: -90px;
 }
 /* line 35, ../scss/partials/_carousel.scss */
 .issue-contents-carousel-item-content:hover {
