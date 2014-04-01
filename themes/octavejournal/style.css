@@ -8534,8 +8534,9 @@ p.small {
 .next-article i, .next-issue i {
   font-size: 3rem;
   vertical-align: middle;
+  color: #878787;
 }
-/* line 131, ../scss/partials/_typography.scss */
+/* line 132, ../scss/partials/_typography.scss */
 .next-article-left p, .next-issue-left p, .next-article-right p, .next-issue-right p {
   display: inline-block;
   font-weight: 200;
@@ -8548,58 +8549,58 @@ p.small {
   vertical-align: middle;
 }
 
-/* line 147, ../scss/partials/_typography.scss */
+/* line 148, ../scss/partials/_typography.scss */
 .index-side-nav-header {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
 }
-/* line 150, ../scss/partials/_typography.scss */
+/* line 151, ../scss/partials/_typography.scss */
 .index-side-nav-title {
   margin-bottom: 0;
 }
-/* line 156, ../scss/partials/_typography.scss */
+/* line 157, ../scss/partials/_typography.scss */
 .index-side-nav li a:not(.button) {
   color: black;
 }
 
-/* line 165, ../scss/partials/_typography.scss */
+/* line 166, ../scss/partials/_typography.scss */
 .article-index-side-nav-header {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
 }
-/* line 168, ../scss/partials/_typography.scss */
+/* line 169, ../scss/partials/_typography.scss */
 .article-index-side-nav-title {
   margin-bottom: 0;
 }
-/* line 174, ../scss/partials/_typography.scss */
+/* line 175, ../scss/partials/_typography.scss */
 .article-index-side-nav li a:not(.button) {
   color: black;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 177, ../scss/partials/_typography.scss */
+  /* line 178, ../scss/partials/_typography.scss */
   .article-index-side-nav-teaser {
     font-size: 1rem;
     font-weight: 200;
   }
 }
 
-/* line 188, ../scss/partials/_typography.scss */
+/* line 189, ../scss/partials/_typography.scss */
 .related-articles-header {
   margin-bottom: 0;
   margin-top: 1rem;
 }
-/* line 192, ../scss/partials/_typography.scss */
+/* line 193, ../scss/partials/_typography.scss */
 .related-articles-title {
   margin-bottom: 0;
 }
-/* line 194, ../scss/partials/_typography.scss */
+/* line 195, ../scss/partials/_typography.scss */
 .related-articles-title a {
   color: black;
 }
-/* line 198, ../scss/partials/_typography.scss */
+/* line 199, ../scss/partials/_typography.scss */
 .related-articles-image {
   margin-bottom: 0.5rem;
 }
 
-/* line 207, ../scss/partials/_typography.scss */
+/* line 208, ../scss/partials/_typography.scss */
 .issue-title, .article-title, .article-single-title, .issue-single-title {
   font-size: 3rem;
   line-height: 3rem;
@@ -8607,11 +8608,11 @@ p.small {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
   font-weight: 900;
 }
-/* line 213, ../scss/partials/_typography.scss */
+/* line 214, ../scss/partials/_typography.scss */
 .issue-title a, .article-title a, .article-single-title a, .issue-single-title a, .issue-title a:hover, .article-title a:hover, .article-single-title a:hover, .issue-single-title a:hover {
   color: black;
 }
-/* line 217, ../scss/partials/_typography.scss */
+/* line 218, ../scss/partials/_typography.scss */
 .issue-number, .article-issue-number, .article-single-issue-number, .issue-single-number, .article-single-date, .issue-single-date {
   font-size: 2rem;
   font-weight: 200;
@@ -8619,11 +8620,11 @@ p.small {
   display: inline-block;
   text-align: center;
 }
-/* line 223, ../scss/partials/_typography.scss */
+/* line 224, ../scss/partials/_typography.scss */
 .issue-number a, .article-issue-number a, .article-single-issue-number a, .issue-single-number a, .article-single-date a, .issue-single-date a, .issue-number a:hover, .article-issue-number a:hover, .article-single-issue-number a:hover, .issue-single-number a:hover, .article-single-date a:hover, .issue-single-date a:hover {
   color: #878787;
 }
-/* line 227, ../scss/partials/_typography.scss */
+/* line 228, ../scss/partials/_typography.scss */
 .issue-date, .article-date, .article-single-date, .issue-single-date {
   font-size: 1.5rem;
   font-weight: 200;
@@ -8631,109 +8632,109 @@ p.small {
   text-align: center;
   color: #878787;
 }
-/* line 234, ../scss/partials/_typography.scss */
+/* line 235, ../scss/partials/_typography.scss */
 .issue-contents-title, .article-contents-title, .article-single-contents-title {
   margin-top: 0;
 }
-/* line 236, ../scss/partials/_typography.scss */
+/* line 237, ../scss/partials/_typography.scss */
 .issue-contents-title a, .article-contents-title a, .article-single-contents-title a, .issue-contents-title a:hover, .article-contents-title a:hover, .article-single-contents-title a:hover {
   color: black;
 }
-/* line 240, ../scss/partials/_typography.scss */
+/* line 241, ../scss/partials/_typography.scss */
 .issue-contents-teaser, .article-contents-teaser, .article-single-contents-teaser {
   font-family: "minion-pro", Times, serif;
   margin-top: 0.5rem;
   font-size: 1.25rem;
 }
-/* line 245, ../scss/partials/_typography.scss */
+/* line 246, ../scss/partials/_typography.scss */
 .issue-contents-meta, .articles-article-meta, .article-contents-meta, .article-single-contents-meta {
   color: #878787;
 }
-/* line 247, ../scss/partials/_typography.scss */
+/* line 248, ../scss/partials/_typography.scss */
 .issue-contents-meta a, .articles-article-meta a, .article-contents-meta a, .article-single-contents-meta a {
   color: #999999;
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
 }
 
-/* line 254, ../scss/partials/_typography.scss */
+/* line 255, ../scss/partials/_typography.scss */
 .issue-single {
   margin-top: 2rem;
 }
-/* line 273, ../scss/partials/_typography.scss */
+/* line 274, ../scss/partials/_typography.scss */
 .issue-single-contents-title {
   margin-top: 0;
 }
 @media only screen and (max-width: 40em) {
-  /* line 273, ../scss/partials/_typography.scss */
+  /* line 274, ../scss/partials/_typography.scss */
   .issue-single-contents-title {
     margin-top: 1rem;
   }
 }
-/* line 278, ../scss/partials/_typography.scss */
+/* line 279, ../scss/partials/_typography.scss */
 .issue-single-contents-title a, .issue-single-contents-title a:hover {
   color: black;
 }
-/* line 282, ../scss/partials/_typography.scss */
+/* line 283, ../scss/partials/_typography.scss */
 .issue-single-contents-teaser {
   font-family: "minion-pro", Times, serif;
   margin-top: 0.5rem;
   font-size: 1.25rem;
 }
-/* line 287, ../scss/partials/_typography.scss */
+/* line 288, ../scss/partials/_typography.scss */
 .issue-single-contents-meta, .articles-article-contents-meta {
   color: #878787;
   font-size: 1rem;
 }
-/* line 290, ../scss/partials/_typography.scss */
+/* line 291, ../scss/partials/_typography.scss */
 .issue-single-contents-meta a, .articles-article-contents-meta a {
   color: #999999;
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
 }
 
-/* line 298, ../scss/partials/_typography.scss */
+/* line 299, ../scss/partials/_typography.scss */
 .issue-contents-carousel-item-content {
   color: white;
   line-height: 25pt;
 }
-/* line 303, ../scss/partials/_typography.scss */
+/* line 304, ../scss/partials/_typography.scss */
 .issue-contents-carousel-item-content-title a, .issue-contents-carousel-item-content-title a:hover {
   color: white;
 }
 
-/* line 313, ../scss/partials/_typography.scss */
+/* line 314, ../scss/partials/_typography.scss */
 .articles-article-title a {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
   color: black;
 }
-/* line 319, ../scss/partials/_typography.scss */
+/* line 320, ../scss/partials/_typography.scss */
 .articles-article-teaser {
   font-family: "minion-pro", Times, serif;
 }
-/* line 323, ../scss/partials/_typography.scss */
+/* line 324, ../scss/partials/_typography.scss */
 .articles-header {
   text-align: center;
   margin-bottom: 2rem;
   margin-top: 1rem;
 }
-/* line 328, ../scss/partials/_typography.scss */
+/* line 329, ../scss/partials/_typography.scss */
 .articles-article-contents-meta {
   font-size: 0.75rem;
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
 }
-/* line 333, ../scss/partials/_typography.scss */
+/* line 334, ../scss/partials/_typography.scss */
 .articles-article-meta {
   font-size: 0.9rem;
 }
 
-/* line 365, ../scss/partials/_typography.scss */
+/* line 366, ../scss/partials/_typography.scss */
 .article-single {
   margin-top: 3rem;
 }
-/* line 367, ../scss/partials/_typography.scss */
+/* line 368, ../scss/partials/_typography.scss */
 .article-single-title, .issue-single-title {
   text-align: left;
 }
-/* line 371, ../scss/partials/_typography.scss */
+/* line 372, ../scss/partials/_typography.scss */
 .article-single-issue-number, .issue-single-number, .article-single-date, .issue-single-date {
   text-align: left;
   display: inline-block;
@@ -8743,35 +8744,35 @@ p.small {
   margin-bottom: 0.25rem;
   margin-top: 0;
 }
-/* line 380, ../scss/partials/_typography.scss */
+/* line 381, ../scss/partials/_typography.scss */
 .article-single-issue-number a, .issue-single-number a, .article-single-date a, .issue-single-date a {
   color: black;
 }
-/* line 384, ../scss/partials/_typography.scss */
+/* line 385, ../scss/partials/_typography.scss */
 .article-single-date, .issue-single-date {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
   margin-left: 1.5rem;
 }
-/* line 400, ../scss/partials/_typography.scss */
+/* line 401, ../scss/partials/_typography.scss */
 .article-single-contents-text {
   margin-top: 2rem;
 }
-/* line 402, ../scss/partials/_typography.scss */
-.article-single-contents-text-body {
+/* line 403, ../scss/partials/_typography.scss */
+.article-single-contents-text p {
   font-family: "minion-pro", Times, serif;
   font-size: 1.25rem;
 }
 
-/* line 410, ../scss/partials/_typography.scss */
+/* line 411, ../scss/partials/_typography.scss */
 .related-article-teaser {
   font-family: "minion-pro", Times, serif;
 }
 
-/* line 416, ../scss/partials/_typography.scss */
+/* line 417, ../scss/partials/_typography.scss */
 .category-featured-article-title {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
 }
-/* line 419, ../scss/partials/_typography.scss */
+/* line 420, ../scss/partials/_typography.scss */
 .category-featured-article-teaser {
   font-family: "minion-pro", Times, serif;
   font-size: 1.1rem;

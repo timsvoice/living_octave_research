@@ -1,51 +1,51 @@
 <?php get_header( ); ?>
 
-<div class="container">
-	
+<div class="container"> 
+	<?php if ( have_posts() ) : while (have_posts() ) :
+		the_post(); ?>
+		<?php get_post_custom_values('issue_number'); ?>
+
 	<div class="row">
 		<div class="next-article large-12 columns alpha beta">
 			<div class="next-article-left">				
-				<i class="icon-ios7-arrow-left"></i>
-				<p>previous <span class="show-for-medium-up">article</span></p>
-			</div>
+				<?php next_post_link( '%link', '<i class="icon-ios7-arrow-left"></i><p>previous <span class="show-for-medium-up">article</span></p>', false, $in_same_term = true, 'issue_number' ); ?>				
+			</div> <!-- next-article-left -->
 			<div class="next-article-right">
-				<p>next <span class="show-for-medium-up">article</span></p>
-				<i class="icon-ios7-arrow-right"></i>
-			</div>			
-		</div>
-	</div>
+				<?php previous_post_link( '%link', '<p>next <span class="show-for-medium-up">article</span></p><i class="icon-ios7-arrow-right"></i>', false, $in_same_term = true, 'issue_number' ); ?>			
+			</div><!-- next article right -->			
+		</div><!-- next article -->
+	</div><!-- row -->
 
+	
 	<div class="row">
+
+
 		<div class="article-single large-12 columns">
 			<h2 class="article-single-title">
-				<a href="#">Big Bold Title</a>
+				<?php the_title(); ?>			
 			</h2>			
 			<p class="article-single-contents-meta">
-						By <a href="#">Author Name</a>, filed under <a href="#">category</a> on <a href="#">published date</a>
+						By <?php the_author_posts_link(); ?> ,  filed under <?php the_category( ', ' ); ?> on <?php the_date( ); ?>
 					</p>
 			<!-- <h3 class="article-single-date">13/12/13</h3> -->
 			
 			<div class="article-single-contents">
-				<img src="http://placehold.it/1000x516" alt="" class="article-single-contents-image">
+				<img src="<?php the_field('featured_image') ?>" alt="" class="article-single-contents-image small-12 columns alpha beta">
 				<?php get_sidebar( articleindex ); ?>
 				<div class="article-single-contents-text large-8 medium-8 columns">
 					
-						<p class="article-single-contents-text-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, exercitationem, facilis, ut doloremque hic adipisci tempore accusantium ipsa quam doloribus enim saepe obcaecati nostrum quaerat nulla. Voluptatibus, et, possimus, dignissimos, consectetur sed maiores nemo similique tempore qui voluptates aliquam rerum facilis reprehenderit. Quis, odio, eligendi, nisi, a eum quibusdam quae quia adipisci illum unde delectus eius omnis modi? Reprehenderit, est, aspernatur iure quia incidunt numquam asperiores illo animi assumenda aliquam libero harum aperiam accusantium voluptatum quaerat eos quis.</p>
+						<p class="article-single-contents-text-body">
+							<?php the_content( ); ?>
+						</p>
 						
-						<p class="article-single-contents-text-body">Officia, ab, molestias voluptas nobis rerum totam eveniet nemo deserunt debitis similique unde ullam excepturi animi eum libero sequi facilis tempore reprehenderit temporibus ipsam ad neque sit qui autem culpa laborum facere quibusdam tenetur inventore voluptate dicta nostrum recusandae sed.</p> 
-						
-						<div class="pull-quote">
-							<p class="pull-quote-text">
-								"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, voluptates!"
-							</p>
-						</div>
-
-							<p class="article-single-contents-text-body">Dolore, repellendus ab tenetur iusto repellat incidunt exercitationem tempore itaque doloribus illo facere eum velit eius aliquid unde atque id delectus ipsam soluta corrupti impedit aliquam blanditiis sed odit aperiam deserunt asperiores illum consectetur eos! Veniam, similique, quidem, modi, odio et ipsa qui quae officiis corporis ratione blanditiis delectus quia omnis consequuntur explicabo! Eius, hic, numquam, consequatur, suscipit ex assumenda alias expedita nisi repudiandae voluptate itaque natus totam quaerat odio dolorem! Nemo, molestiae et officiis culpa iste deleniti rem. Totam, nobis, ratione, consequatur, qui ipsa aliquid voluptatem quisquam perspiciatis tempora laboriosam assumenda ab sed repudiandae molestias repellendus reprehenderit fuga excepturi architecto in distinctio labore dolore necessitatibus at possimus.</p>
-					
 				</div>
 			</div><!-- article-single-contents -->
 			
 		</div><!-- article -->
+
+		<?php endwhile; else: ?>
+<p><?php _e('No posts were found. Sorry!'); ?></p>
+<?php endif; ?>
 	</div><!-- row -->
 	
 	<div class="row">

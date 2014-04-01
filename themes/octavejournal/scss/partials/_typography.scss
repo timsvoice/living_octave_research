@@ -126,6 +126,7 @@ p.small {
 	i {
 		font-size: 3rem;
 		vertical-align: middle;
+		color: $dark-gray;
 	}
 	&-left, &-right {
 		p {
@@ -399,7 +400,7 @@ p.small {
 
 	&-contents-text {
 		margin-top: 2rem;
-		&-body {
+		p {
 			font-family: $text-font;			
 			font-size: 1.25rem;
 		}
