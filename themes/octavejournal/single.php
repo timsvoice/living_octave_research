@@ -1,9 +1,6 @@
 <?php get_header( ); ?>
 
 <div class="container"> 
-	<?php if ( have_posts() ) : while (have_posts() ) :
-		the_post(); ?>
-		<?php get_post_custom_values('issue_number'); ?>
 
 	<div class="row">
 		<div class="next-article large-12 columns alpha beta">
@@ -29,62 +26,28 @@
 					</p>
 			<!-- <h3 class="article-single-date">13/12/13</h3> -->
 			
+			<?php while ( have_posts()) : the_post(); ?>
+
 			<div class="article-single-contents">
 				<img src="<?php the_field('featured_image') ?>" alt="" class="article-single-contents-image small-12 columns alpha beta">
-				<?php get_sidebar( articleindex ); ?>
+				
 				<div class="article-single-contents-text large-8 medium-8 columns">
-					
+						
 						<p class="article-single-contents-text-body">
 							<?php the_content( ); ?>
 						</p>
 						
-				</div>
+				</div><!-- article-single-contents-text -->
 			</div><!-- article-single-contents -->
+
+			<?php endwhile ?>
+
+			<?php get_sidebar( articleindex ); ?>
 			
 		</div><!-- article -->
-
-		<?php endwhile; else: ?>
-<p><?php _e('No posts were found. Sorry!'); ?></p>
-<?php endif; ?>
 	</div><!-- row -->
 	
-	<div class="row">
-		<div class="related-articles medium-8 medium-offset-4 columns">
-			<hr class="divider">
-			<h3 class="related-articles-header">Related Reading</h3>
-			<ul class="large-block-grid-3 medium-block-grid-3">
-				<li class="related-articles">
-					<img class="related-articles-image show-for-medium-up" src="http://placehold.it/300x168" alt="">
-					<img class="related-articles-image show-for-small-only" src="http://placehold.it/100x100" alt="">
-					<h5 class="related-articles-title">
-						<a href="#">Article Title</a>
-					</h5>
-					<p class="related-articles-teaser small">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					</p>
-				</li>
-				<li class="related-articles">
-					<img class="related-articles-image show-for-medium-up" src="http://placehold.it/300x168" alt="">
-					<img class="related-articles-image show-for-small-only" src="http://placehold.it/100x100" alt="">
-					<h5 class="related-articles-title">
-						<a href="#">Article Title</a>
-					</h5>
-					<p class="related-articles-teaser small">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					</p>
-				</li><li class="related-articles">
-					<img class="related-articles-image show-for-medium-up" src="http://placehold.it/300x168" alt="">
-					<img class="related-articles-image show-for-small-only" src="http://placehold.it/100x100" alt="">
-					<h5 class="related-articles-title">
-						<a href="#">Article Title</a>
-					</h5>
-					<p class="related-articles-teaser small">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					</p>
-				</li>
-			</ul>
-		</div>
-	</div><!-- row -->
+	<?php get_sidebar( relatedreading ); ?>
 
 </div><!-- container -->
 

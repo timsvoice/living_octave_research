@@ -9073,7 +9073,6 @@ li.issue-orbit-list-article:last-child {
 .related-articles-image {
   display: inline-block;
   float: left;
-  margin-right: 0.625rem;
 }
 
 /* line 3, ../scss/partials/_login.scss */
