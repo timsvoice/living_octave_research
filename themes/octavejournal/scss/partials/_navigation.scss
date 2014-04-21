@@ -26,6 +26,9 @@
 		@extend .top-bar-section;
 		ul {
 			background: none;
+			li:last-child {
+				border-left: $border-thin;
+			}
 		}
 		li:not(.has-form) a:not(.button) {
 			background: none;

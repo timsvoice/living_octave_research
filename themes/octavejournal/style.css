@@ -8486,13 +8486,13 @@ p.small {
   .navigation-top-bar-section ul, .navigation .navigation-top-bar-section ul, .navigation .top-bar-section ul {
     margin-top: 0.5rem;
     margin-bottom: 1rem;
-    border-top: 0.0625rem #e8e8e8 solid;
+    border-top: 0.125rem #e8e8e8 solid;
   }
 }
 @media only screen and (max-width: 40em) {
   /* line 90, ../scss/partials/_typography.scss */
   .navigation-top-bar-section ul li, .navigation .navigation-top-bar-section ul li, .navigation .top-bar-section ul li {
-    border-bottom: 0.0625rem #e8e8e8 solid;
+    border-bottom: 0.125rem #e8e8e8 solid;
   }
 }
 /* line 96, ../scss/partials/_typography.scss */
@@ -9053,70 +9053,74 @@ li.issue-orbit-list-article:last-child {
 .navigation-top-bar-section ul, .navigation .navigation-top-bar-section ul, .navigation .top-bar-section ul {
   background: none;
 }
-/* line 30, ../scss/partials/_navigation.scss */
+/* line 29, ../scss/partials/_navigation.scss */
+.navigation-top-bar-section ul li:last-child, .navigation .navigation-top-bar-section ul li:last-child, .navigation .top-bar-section ul li:last-child {
+  border-left: 0.125rem #e8e8e8 solid;
+}
+/* line 33, ../scss/partials/_navigation.scss */
 .navigation-top-bar-section li:not(.has-form) a:not(.button), .navigation .navigation-top-bar-section li:not(.has-form) a:not(.button), .navigation .top-bar-section li:not(.has-form) a:not(.button) {
   background: none;
 }
-/* line 32, ../scss/partials/_navigation.scss */
+/* line 35, ../scss/partials/_navigation.scss */
 .navigation-top-bar-section li:not(.has-form) a:not(.button) a, .navigation-top-bar-section li:not(.has-form) a:not(.button) a:hover, .navigation .navigation-top-bar-section li:not(.has-form) a:not(.button) a, .navigation .top-bar-section li:not(.has-form) a:not(.button) a, .navigation .navigation-top-bar-section li:not(.has-form) a:not(.button) a:hover, .navigation .top-bar-section li:not(.has-form) a:not(.button) a:hover {
   background: none;
 }
-/* line 37, ../scss/partials/_navigation.scss */
+/* line 40, ../scss/partials/_navigation.scss */
 .navigation.contain-to-grid {
   background: white;
 }
 
-/* line 41, ../scss/partials/_navigation.scss */
+/* line 44, ../scss/partials/_navigation.scss */
 .next-article, .next-issue {
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
-/* line 44, ../scss/partials/_navigation.scss */
+/* line 47, ../scss/partials/_navigation.scss */
 .next-article-left, .next-issue-left {
   float: left;
 }
-/* line 47, ../scss/partials/_navigation.scss */
+/* line 50, ../scss/partials/_navigation.scss */
 .next-article-right, .next-issue-right {
   float: right;
 }
 
-/* line 62, ../scss/partials/_navigation.scss */
+/* line 65, ../scss/partials/_navigation.scss */
 .index, .article-index, .related-articles {
   margin-top: 2rem;
 }
-/* line 64, ../scss/partials/_navigation.scss */
+/* line 67, ../scss/partials/_navigation.scss */
 .index-side-nav, .index .index-side-nav, .article-index .index-side-nav, .related-articles .index-side-nav, .index .side-nav, .article-index .side-nav, .related-articles .side-nav, .index .article-index-side-nav, .article-index .article-index-side-nav, .related-articles .article-index-side-nav {
   padding: 0;
 }
-/* line 67, ../scss/partials/_navigation.scss */
+/* line 70, ../scss/partials/_navigation.scss */
 .index-side-nav-header, .index .side-nav-header, .article-index .side-nav-header, .related-articles .side-nav-header {
   margin-top: 0;
 }
 
-/* line 75, ../scss/partials/_navigation.scss */
+/* line 78, ../scss/partials/_navigation.scss */
 .article-index, .related-articles {
   margin-top: 2rem;
 }
-/* line 78, ../scss/partials/_navigation.scss */
+/* line 81, ../scss/partials/_navigation.scss */
 .article-index-side-nav, .article-index .index-side-nav, .related-articles .index-side-nav, .article-index .side-nav, .related-articles .side-nav, .article-index .article-index-side-nav, .related-articles .article-index-side-nav {
   padding: 0;
 }
-/* line 86, ../scss/partials/_navigation.scss */
+/* line 89, ../scss/partials/_navigation.scss */
 .article-index-side-nav li a:not(.button), .article-index .index-side-nav li a:not(.button), .related-articles .index-side-nav li a:not(.button), .article-index .side-nav li a:not(.button), .related-articles .side-nav li a:not(.button), .article-index .article-index-side-nav li a:not(.button), .related-articles .article-index-side-nav li a:not(.button) {
   color: black;
 }
-/* line 91, ../scss/partials/_navigation.scss */
+/* line 94, ../scss/partials/_navigation.scss */
 .article-index-side-nav-title, .article-index .side-nav-title, .related-articles .side-nav-title {
   margin-top: 0;
 }
-/* line 94, ../scss/partials/_navigation.scss */
+/* line 97, ../scss/partials/_navigation.scss */
 .article-index-side-nav-image, .article-index .side-nav-image, .related-articles .side-nav-image {
   display: inline-block;
   float: left;
   margin-right: 0.625rem;
 }
 
-/* line 104, ../scss/partials/_navigation.scss */
+/* line 107, ../scss/partials/_navigation.scss */
 .related-articles-image {
   display: inline-block;
   float: left;
