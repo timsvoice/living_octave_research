@@ -26,15 +26,17 @@ get_header( ); ?>
     	<?php if (++$count > 1) break; ?>
 
 		<div class="category-featured-article small-12 large-12 columns alpha">
-			<img src="<?php the_field ('featured_image') ?>" alt="" class="category-featured-article-image small-12 medium-6 columns alpha">
+			<a href="<?php the_permalink(); ?>">
+				<img src="<?php the_field ('featured_image') ?>" alt="" class="category-featured-article-image small-12 medium-6 columns alpha">
+			</a>
 			<h4 class="category-featured-article-header">Latest in <?php single_cat_title( ); ?></h4>
-			<h3 class="category-featured-article-title"><?php the_title(); ?></h3>
+			<h3 class="category-featured-article-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 				<p class="articles-article-meta">
 					<a href="#"><?php the_author(); ?></a>
 				</p>
 			<p class="category-featured-article-teaser">
 				<?php the_field ('teaser') ?>
-				<a href="#">read more</a>
+				<a href="<?php the_permalink(); ?>">read more</a>
 			</p>
 		</div>
 

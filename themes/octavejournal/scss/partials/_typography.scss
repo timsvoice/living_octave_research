@@ -447,6 +447,9 @@ p.small {
 	&-featured-article-title {
 		font-family: $body-font;
 		font-weight: $heavy-text;
+		a {
+			color: inherit;
+		}
 	}
 	&-featured-article-header {
 		font-weight: $light-text;
