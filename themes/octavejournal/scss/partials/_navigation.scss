@@ -24,10 +24,13 @@
 	}
 	&-top-bar-section, .top-bar-section {
 		@extend .top-bar-section;
+		ul {
+			background: none;
+		}
 		li:not(.has-form) a:not(.button) {
-			background: hsla(0,0,100%,1);
+			background: none;
 			a, a:hover {
-				background: hsla(0,0,100%,1);
+				background: none;
 			}
 		}
 	}
@@ -77,7 +80,7 @@
 		padding: 0;
 		&-header {
 			@media only screen and (min-width: 40.063em) {
-				font-size: 0.5rem;
+				
 			}
 		}
 		li a:not(.button) {

@@ -1,7 +1,7 @@
 <div class="article-index medium-4 columns show-for-medium-up alpha">
 	<ul id="article-sticker" class="article-index-side-nav">
-		<li class="article-index-side-nav-header">
-			<h3>Also in this Issue</h3>
+		<li >
+			<h5 class="article-index-side-nav-header">Also in this Issue</h5>
 		</li>
 		
 		<?php 
@@ -29,14 +29,14 @@
 
 		<li class="article-index-side-nav-item clearfix">			
 			
-			<img class="article-index-side-nav-image small-3 columns alpha beta" src="<?php the_field ('featured_image'); ?>" alt="">
+			<img class="article-index-side-nav-image small-3 columns alpha beta" src="<?php the_field ('index_image'); ?>" alt="">
 			
 			<!-- <h5 class="article-index-side-nav-title">
 				<a href="#"><?php the_title (); ?></a>
 			</h5> -->
 			
 			<p class="article-index-side-nav-teaser small-8 columns alpha beta">
-				<?php the_field ('summary') ?>
+				<?php the_field ('biline') ?>
 			</p>
 
 		</li>
@@ -45,3 +45,5 @@
 
 	</ul>
 </div><!-- article-index -->
+
+

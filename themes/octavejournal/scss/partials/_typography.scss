@@ -90,15 +90,17 @@ p.small {
 			li {
 				@media only screen and (max-width: 40em) {
 					border-bottom: $border-thin;
-				}
+				}					
 			}
 		}
 		li:not(.has-form) a:not(.button) {
 			color: $black;
 			font-size: 1rem;
 			&:hover {
-				text-decoration: underline;
-			}
+			}			
+		}
+		&-menu-item {
+			border-bottom: $underline;
 		}
 	}
 	&-toggle-topbar, .toggle-topbar {
@@ -165,6 +167,8 @@ p.small {
 	&-side-nav {
 		&-header {
 			font-family: $body-font;
+			font-weight: $heavy-text;
+			font-size: rem;
 		}
 		&-title {
 			margin-bottom: 0;
@@ -298,12 +302,19 @@ p.small {
 .issue-contents {
 	&-carousel-item-content {
 		color: $white;
-		line-height: 25pt; 
+		line-height: 1.25rem; 
 	}
 	&-carousel-item-content-title {
 		a, a:hover {
 			color: $white;
+			font-size: 1rem;
+			font-weight: $heavy-text;
 		}
+	}
+	&-carousel-item-content-teaser {
+		color: $white;
+		font-size: 1rem;
+		line-height: 1.25rem;
 	}
 }
 
@@ -314,11 +325,14 @@ p.small {
 		a {
 			font-family: $body-font;
 			color: $black;
+			font-size: 1.25rem;
 		}
 	}
 	
 	&-article-teaser {
-		font-family: $text-font;
+			font-family: $text-font;
+			color: $black;
+			font-size: 1rem;
 	}
 
 	&-header {
@@ -404,6 +418,10 @@ p.small {
 			font-family: $text-font;			
 			font-size: 1.25rem;
 		}
+	}
+	&-interview-question {
+		font-weight: $heavy-text;
+		font-style: italic;
 	}
 }
 

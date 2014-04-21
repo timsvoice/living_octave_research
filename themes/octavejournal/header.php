@@ -83,19 +83,25 @@
             <ul class="navigation-title-area">
               <li class="">
                 <img class="navigation-title-area-image" src="<?php bloginfo('template_url'); ?>/css/assets/branding.png" alt="">
-                <h1 class="navigation-title-area-title"><a href="#"><span class="bold">Octave</span> Journal</a></h1>
+                <h1 class="navigation-title-area-title"><a href="<?php echo site_url(); ?>"><span class="bold">Octave</span> Journal</a></h1>
               </li>
               <li class="navigation toggle-topbar menu-icon"><a href="#"></a></li>
             </ul>
 
           <section class="navigation-top-bar-section">
             <!-- Right Nav Section -->
+
             <ul class="right">
-                <li><a href="#">nurture</a></li>
-                <li><a href="#">connect</a></li>
-                <li><a href="#">discover</a></li>
-                <li><a href="#">practice</a></li>
-            </ul>
+                <?php wp_list_categories(
+                array(
+                    'container'       => false,
+                    'container_class'    => '',
+                    'menu_class'    => 'right',
+                    'depth' => '1',
+                    'title_li' => ''
+                )
+            ); ?>
+            </ul> 
           </section>
         </nav>
     </div>

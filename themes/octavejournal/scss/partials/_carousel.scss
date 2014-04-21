@@ -24,14 +24,15 @@
 		left: 0;
 		background: $transparent-black;
 		padding: 0.625rem;
+    padding-top: 0rem;
 		-webkit-transition: all 300ms ease-out;  
 	    -moz-transition: all 300ms ease-out;  
 	    -o-transition: all 300ms ease-out;  
 	    -ms-transition: all 300ms ease-out;  
 	    transition: all 300ms ease-out;
-	    height: 150px;    
+	    height: 160px;   
 	    display: block;  
-	    bottom: -90px;  
+	    bottom: -110px;  
 	    &:hover {
 	    	-moz-transform: translateY(-53.333%);  
 		    -o-transform: translateY(-53.333%);  

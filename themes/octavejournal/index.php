@@ -20,16 +20,16 @@
 					'posts_per_page' => 9) ); ?>
 		            <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 		                
-		                <div class="item">
-		                	<a href="<?php the_permalink(); ?>">
-		                		<img alt="" class="lazyOwl" data-src="<?php the_field('featured_image');?>">
-		                	</a>
+            <div class="item">
+            	<a href="<?php the_permalink(); ?>">
+            		<img alt="" class="lazyOwl" data-src="<?php the_field('featured_image');?>">
+            	</a>
 							<div class="issue-contents-carousel-item-content hidden">
 								<h3 class="issue-contents-carousel-item-content-title"><a href="<?php the_permalink(); ?>">
 									<?php the_title( ); ?>
 								</a></h3>
 								<p class="issue-contents-carousel-item-content-teaser">
-									<?php the_field('summary') ?>
+									<?php the_field('teaser') ?>
 								</p>
 							</div>
 						</div>
@@ -66,10 +66,10 @@
 								</a>
 							</h3>
 							<p class="articles-article-contents-meta">
-									By <a href="#">Author Name</a>, filed under <a href="#">Category</a>
+									<a href="#"><?php the_author(); ?>
 								</p>
 							<p class="articles-article-teaser">
-								<?php the_field('summary') ?>
+								<?php the_field('teaser') ?>
 							</p>
 						</li>
 

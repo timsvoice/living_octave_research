@@ -7,7 +7,9 @@ $(document).ready(function() {
   $("#issue-carousel").owlCarousel({
     items : 2,
     itemsDesktop : 2,
-    mouseDrag: false,
+    itemsDesktopSmall : 2,
+    itemsTablet : 2,
+    mouseDrag: true,
     lazyLoad : true,
     navigation : true,
     pagination : false,
