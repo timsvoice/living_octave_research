@@ -29,8 +29,14 @@
     <?php while($relatedReading->have_posts() ) : $relatedReading->the_post() ?>
 
         <li class="related-articles">
-          <img src="<?php the_field( 'featured_image' ) ?>" alt="" class="related-articles-image">
-          <h5 class="related-articles-title"><?php the_title(); ?></h5>
+          <a href="<?php the_permalink(); ?>">
+            <img src="<?php the_field( 'featured_image' ) ?>" alt="" class="related-articles-image">
+          </a>
+          <h5 class="related-articles-title">
+            <a href="<?php the_permalink(); ?>">
+              <?php the_title(); ?>
+            </a>
+          </h5>
           <p class="related-articles-teaser"><?php the_field( 'biline' ) ?></p>
         </li>
 
