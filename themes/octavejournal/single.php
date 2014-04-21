@@ -13,7 +13,7 @@
 		</div><!-- next article -->
 	</div><!-- row -->
 
-	
+	<?php while ( have_posts()) : the_post(); ?>	
 	<div class="row">
 
 
@@ -21,12 +21,13 @@
 			<h2 class="article-single-title">
 				<?php the_title(); ?>			
 			</h2>			
+			<p class="article-single-contents-biline"><?php the_field('biline') ?></p>
 			<p class="article-single-contents-meta">
 						By <?php the_author_posts_link(); ?> ,  filed under <?php the_category( ', ' ); ?> on <?php the_date( ); ?>
 					</p>
 			<!-- <h3 class="article-single-date">13/12/13</h3> -->
 			
-			<?php while ( have_posts()) : the_post(); ?>
+			
 
 			<div class="article-single-contents">
 				<img src="<?php the_field('featured_image') ?>" alt="" class="article-single-contents-image small-12 columns alpha beta">

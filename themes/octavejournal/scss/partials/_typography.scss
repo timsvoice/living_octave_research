@@ -176,6 +176,12 @@ p.small {
 
 			}
 		}
+		&-teaser {
+			a {
+				font-family: $body-font;
+				border-bottom: none;
+			}
+		}
 		li a:not(.button) {
 			color: $black;
 		}
@@ -407,6 +413,12 @@ p.small {
 	}
 	&-contents-teaser {
 		@extend .issue-contents-teaser;
+	}
+	&-contents-biline {
+		@extend .issue-contents-meta;
+		font-style: italic;
+		font-size: 1.25rem;
+		color: $black;
 	}
 	&-contents-meta {
 		@extend .issue-contents-meta;

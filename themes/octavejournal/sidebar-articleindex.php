@@ -10,7 +10,7 @@
 
 			$issueRelated = array(
 				'post_type' => 'any', 
-				'posts_per_page' => '5',
+				'posts_per_page' => '6',
 				'post__not_in' => array($post->ID),
 				'tax_query' => array(
 						array(
@@ -27,19 +27,25 @@
 		
 		<?php while($relatedPosts->have_posts() ) : $relatedPosts->the_post() ?>
 
-		<li class="article-index-side-nav-item clearfix">			
+		
+			<li class="article-index-side-nav-item clearfix">			
 			
-			<img class="article-index-side-nav-image small-3 columns alpha beta" src="<?php the_field ('index_image'); ?>" alt="">
-			
+			<a href="<?php the_permalink();?>">
+				<img class="article-index-side-nav-image small-3 columns alpha beta" src="<?php the_field ('index_image'); ?>" alt="">
+			</a>
+
 			<!-- <h5 class="article-index-side-nav-title">
 				<a href="#"><?php the_title (); ?></a>
 			</h5> -->
 			
 			<p class="article-index-side-nav-teaser small-8 columns alpha beta">
-				<?php the_field ('biline') ?>
+				<a href="<?php the_permalink(); ?>">
+					<?php the_field ('biline') ?>
+				</a>
 			</p>
 
 		</li>
+		
 		
 		<?php endwhile; ?>
 
