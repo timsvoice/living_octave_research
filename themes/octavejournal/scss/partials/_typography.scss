@@ -202,12 +202,18 @@ p.small {
 	}
 	&-title {		
 		margin-bottom: 0;
+		font-size: 1rem;
+		font-weight: $heavy-text;
 		a {
 			color: $black;
 		}	
 	}
 	&-image {
 		margin-bottom: 0.5rem;
+	}
+	&-teaser {
+		font-size: 1rem;
+		font-weight: $light-text;
 	}
 }
 

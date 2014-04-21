@@ -8592,17 +8592,24 @@ p.small {
 /* line 203, ../scss/partials/_typography.scss */
 .related-articles-title {
   margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 900;
 }
-/* line 205, ../scss/partials/_typography.scss */
+/* line 207, ../scss/partials/_typography.scss */
 .related-articles-title a {
   color: black;
 }
-/* line 209, ../scss/partials/_typography.scss */
+/* line 211, ../scss/partials/_typography.scss */
 .related-articles-image {
   margin-bottom: 0.5rem;
 }
+/* line 214, ../scss/partials/_typography.scss */
+.related-articles-teaser {
+  font-size: 1rem;
+  font-weight: 200;
+}
 
-/* line 218, ../scss/partials/_typography.scss */
+/* line 224, ../scss/partials/_typography.scss */
 .issue-title, .article-title, .article-single-title, .issue-single-title {
   font-size: 3rem;
   line-height: 3rem;
@@ -8610,11 +8617,11 @@ p.small {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
   font-weight: 900;
 }
-/* line 224, ../scss/partials/_typography.scss */
+/* line 230, ../scss/partials/_typography.scss */
 .issue-title a, .article-title a, .article-single-title a, .issue-single-title a, .issue-title a:hover, .article-title a:hover, .article-single-title a:hover, .issue-single-title a:hover {
   color: black;
 }
-/* line 228, ../scss/partials/_typography.scss */
+/* line 234, ../scss/partials/_typography.scss */
 .issue-number, .article-issue-number, .article-single-issue-number, .issue-single-number, .article-single-date, .issue-single-date {
   font-size: 2rem;
   font-weight: 200;
@@ -8622,11 +8629,11 @@ p.small {
   display: inline-block;
   text-align: center;
 }
-/* line 234, ../scss/partials/_typography.scss */
+/* line 240, ../scss/partials/_typography.scss */
 .issue-number a, .article-issue-number a, .article-single-issue-number a, .issue-single-number a, .article-single-date a, .issue-single-date a, .issue-number a:hover, .article-issue-number a:hover, .article-single-issue-number a:hover, .issue-single-number a:hover, .article-single-date a:hover, .issue-single-date a:hover {
   color: #878787;
 }
-/* line 238, ../scss/partials/_typography.scss */
+/* line 244, ../scss/partials/_typography.scss */
 .issue-date, .article-date, .article-single-date, .issue-single-date {
   font-size: 1.5rem;
   font-weight: 200;
@@ -8634,120 +8641,120 @@ p.small {
   text-align: center;
   color: #878787;
 }
-/* line 245, ../scss/partials/_typography.scss */
+/* line 251, ../scss/partials/_typography.scss */
 .issue-contents-title, .article-contents-title, .article-single-contents-title {
   margin-top: 0;
 }
-/* line 247, ../scss/partials/_typography.scss */
+/* line 253, ../scss/partials/_typography.scss */
 .issue-contents-title a, .article-contents-title a, .article-single-contents-title a, .issue-contents-title a:hover, .article-contents-title a:hover, .article-single-contents-title a:hover {
   color: black;
 }
-/* line 251, ../scss/partials/_typography.scss */
+/* line 257, ../scss/partials/_typography.scss */
 .issue-contents-teaser, .article-contents-teaser, .article-single-contents-teaser {
   font-family: "minion-pro", Times, serif;
   margin-top: 0.5rem;
   font-size: 1.25rem;
 }
-/* line 256, ../scss/partials/_typography.scss */
+/* line 262, ../scss/partials/_typography.scss */
 .issue-contents-meta, .articles-article-meta, .article-contents-meta, .article-single-contents-biline, .article-single-contents-meta {
   color: #878787;
 }
-/* line 258, ../scss/partials/_typography.scss */
+/* line 264, ../scss/partials/_typography.scss */
 .issue-contents-meta a, .articles-article-meta a, .article-contents-meta a, .article-single-contents-biline a, .article-single-contents-meta a {
   color: #999999;
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
 }
 
-/* line 265, ../scss/partials/_typography.scss */
+/* line 271, ../scss/partials/_typography.scss */
 .issue-single {
   margin-top: 2rem;
 }
-/* line 284, ../scss/partials/_typography.scss */
+/* line 290, ../scss/partials/_typography.scss */
 .issue-single-contents-title {
   margin-top: 0;
 }
 @media only screen and (max-width: 40em) {
-  /* line 284, ../scss/partials/_typography.scss */
+  /* line 290, ../scss/partials/_typography.scss */
   .issue-single-contents-title {
     margin-top: 1rem;
   }
 }
-/* line 289, ../scss/partials/_typography.scss */
+/* line 295, ../scss/partials/_typography.scss */
 .issue-single-contents-title a, .issue-single-contents-title a:hover {
   color: black;
 }
-/* line 293, ../scss/partials/_typography.scss */
+/* line 299, ../scss/partials/_typography.scss */
 .issue-single-contents-teaser {
   font-family: "minion-pro", Times, serif;
   margin-top: 0.5rem;
   font-size: 1.25rem;
 }
-/* line 298, ../scss/partials/_typography.scss */
+/* line 304, ../scss/partials/_typography.scss */
 .issue-single-contents-meta, .articles-article-contents-meta {
   color: #878787;
   font-size: 1rem;
 }
-/* line 301, ../scss/partials/_typography.scss */
+/* line 307, ../scss/partials/_typography.scss */
 .issue-single-contents-meta a, .articles-article-contents-meta a {
   color: #999999;
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
 }
 
-/* line 309, ../scss/partials/_typography.scss */
+/* line 315, ../scss/partials/_typography.scss */
 .issue-contents-carousel-item-content {
   color: white;
   line-height: 1.25rem;
 }
-/* line 314, ../scss/partials/_typography.scss */
+/* line 320, ../scss/partials/_typography.scss */
 .issue-contents-carousel-item-content-title a, .issue-contents-carousel-item-content-title a:hover {
   color: white;
   font-size: 1rem;
   font-weight: 900;
 }
-/* line 320, ../scss/partials/_typography.scss */
+/* line 326, ../scss/partials/_typography.scss */
 .issue-contents-carousel-item-content-teaser {
   color: white;
   font-size: 1rem;
   line-height: 1.25rem;
 }
 
-/* line 331, ../scss/partials/_typography.scss */
+/* line 337, ../scss/partials/_typography.scss */
 .articles-article-title a {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
   color: black;
   font-size: 1.25rem;
 }
-/* line 338, ../scss/partials/_typography.scss */
+/* line 344, ../scss/partials/_typography.scss */
 .articles-article-teaser {
   font-family: "minion-pro", Times, serif;
   color: black;
   font-size: 1rem;
 }
-/* line 344, ../scss/partials/_typography.scss */
+/* line 350, ../scss/partials/_typography.scss */
 .articles-header {
   text-align: center;
   margin-bottom: 2rem;
   margin-top: 1rem;
 }
-/* line 349, ../scss/partials/_typography.scss */
+/* line 355, ../scss/partials/_typography.scss */
 .articles-article-contents-meta {
   font-size: 0.75rem;
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
 }
-/* line 354, ../scss/partials/_typography.scss */
+/* line 360, ../scss/partials/_typography.scss */
 .articles-article-meta {
   font-size: 0.9rem;
 }
 
-/* line 386, ../scss/partials/_typography.scss */
+/* line 392, ../scss/partials/_typography.scss */
 .article-single {
   margin-top: 3rem;
 }
-/* line 388, ../scss/partials/_typography.scss */
+/* line 394, ../scss/partials/_typography.scss */
 .article-single-title, .issue-single-title {
   text-align: left;
 }
-/* line 392, ../scss/partials/_typography.scss */
+/* line 398, ../scss/partials/_typography.scss */
 .article-single-issue-number, .issue-single-number, .article-single-date, .issue-single-date {
   text-align: left;
   display: inline-block;
@@ -8757,65 +8764,65 @@ p.small {
   margin-bottom: 0.25rem;
   margin-top: 0;
 }
-/* line 401, ../scss/partials/_typography.scss */
+/* line 407, ../scss/partials/_typography.scss */
 .article-single-issue-number a, .issue-single-number a, .article-single-date a, .issue-single-date a {
   color: black;
 }
-/* line 405, ../scss/partials/_typography.scss */
+/* line 411, ../scss/partials/_typography.scss */
 .article-single-date, .issue-single-date {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
   margin-left: 1.5rem;
 }
-/* line 417, ../scss/partials/_typography.scss */
+/* line 423, ../scss/partials/_typography.scss */
 .article-single-contents-biline {
   font-style: italic;
   font-size: 1.25rem;
   color: black;
 }
-/* line 427, ../scss/partials/_typography.scss */
+/* line 433, ../scss/partials/_typography.scss */
 .article-single-contents-text {
   margin-top: 2rem;
 }
-/* line 429, ../scss/partials/_typography.scss */
+/* line 435, ../scss/partials/_typography.scss */
 .article-single-contents-text p {
   font-family: "minion-pro", Times, serif;
   font-size: 1.25rem;
 }
-/* line 434, ../scss/partials/_typography.scss */
+/* line 440, ../scss/partials/_typography.scss */
 .article-single-interview-question {
   font-weight: 900;
   font-style: italic;
 }
 
-/* line 441, ../scss/partials/_typography.scss */
+/* line 447, ../scss/partials/_typography.scss */
 .related-article-teaser {
   font-family: "minion-pro", Times, serif;
 }
 
-/* line 447, ../scss/partials/_typography.scss */
+/* line 453, ../scss/partials/_typography.scss */
 .category-featured-article-title {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
   font-weight: 900;
 }
-/* line 450, ../scss/partials/_typography.scss */
+/* line 456, ../scss/partials/_typography.scss */
 .category-featured-article-title a {
   color: inherit;
 }
-/* line 454, ../scss/partials/_typography.scss */
+/* line 460, ../scss/partials/_typography.scss */
 .category-featured-article-header {
   font-weight: 200;
   margin-bottom: 0;
 }
-/* line 458, ../scss/partials/_typography.scss */
+/* line 464, ../scss/partials/_typography.scss */
 .category-featured-article-teaser {
   font-family: "minion-pro", Times, serif;
   font-size: 1.1rem;
 }
-/* line 462, ../scss/partials/_typography.scss */
+/* line 468, ../scss/partials/_typography.scss */
 .category-title {
   font-weight: 900;
 }
-/* line 466, ../scss/partials/_typography.scss */
+/* line 472, ../scss/partials/_typography.scss */
 .category-description p {
   font-weight: 200;
 }

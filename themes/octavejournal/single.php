@@ -41,7 +41,7 @@
 				</div><!-- article-single-contents-text -->
 			</div><!-- article-single-contents -->
 
-			<?php endwhile ?>
+			<?php endwhile; ?>
 
 			<?php get_sidebar( articleindex ); ?>
 			
