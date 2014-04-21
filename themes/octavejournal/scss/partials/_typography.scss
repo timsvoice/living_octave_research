@@ -446,9 +446,22 @@ p.small {
 .category {
 	&-featured-article-title {
 		font-family: $body-font;
+		font-weight: $heavy-text;
+	}
+	&-featured-article-header {
+		font-weight: $light-text;
+		margin-bottom: 0;
 	}
 	&-featured-article-teaser {
 		font-family: $text-font;
 		font-size: 1.1rem;
+	}
+	&-title {
+		font-weight: $heavy-text;
+	}
+	&-description {
+		p {
+			font-weight: $light-text;
+		}
 	}
 }

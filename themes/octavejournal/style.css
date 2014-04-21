@@ -8795,11 +8795,25 @@ p.small {
 /* line 447, ../scss/partials/_typography.scss */
 .category-featured-article-title {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
+  font-weight: 900;
 }
-/* line 450, ../scss/partials/_typography.scss */
+/* line 451, ../scss/partials/_typography.scss */
+.category-featured-article-header {
+  font-weight: 200;
+  margin-bottom: 0;
+}
+/* line 455, ../scss/partials/_typography.scss */
 .category-featured-article-teaser {
   font-family: "minion-pro", Times, serif;
   font-size: 1.1rem;
+}
+/* line 459, ../scss/partials/_typography.scss */
+.category-title {
+  font-weight: 900;
+}
+/* line 463, ../scss/partials/_typography.scss */
+.category-description p {
+  font-weight: 200;
 }
 
 /* line 1, ../scss/partials/_forms.scss */

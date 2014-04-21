@@ -34,7 +34,7 @@
 							</div>
 						</div>
 
-		            <?php endwhile; ?>
+            <?php endwhile; ?>
 					
 				</div>
 			</div>
@@ -73,7 +73,7 @@
 							</p>
 						</li>
 
-		            <?php endwhile; ?>
+          <?php endwhile; ?>
 
 				
 			</ul>
