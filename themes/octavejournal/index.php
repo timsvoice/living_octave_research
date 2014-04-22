@@ -52,7 +52,18 @@
 				
 				<?php $loop = new WP_Query( array(  
 					'post_type' => 'articles', 
-					'posts_per_page' => 9) ); ?>
+					'posts_per_page' => 9,
+					'tax_query' => array(
+						array(
+							'taxonomy' => 'issue_number',
+							'field' => 'id',
+							'terms' => array(76, 80, 92),
+							'operator' => 'NOT IN'
+								)
+							)	
+						) 
+					); 
+					?>
 		            <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>		                		      
 
 						<li class="articles-article">
