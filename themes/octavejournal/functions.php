@@ -39,4 +39,40 @@ function namespace_add_custom_types( $query ) {
 }
 add_filter( 'pre_get_posts', 'namespace_add_custom_types' );
 
+
+//custom login logo
+function my_login_logo() { ?>
+    <style type="text/css">
+        body.login div#login h1 a {
+            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/css/assets/branding.png);
+            padding-bottom: 30px;
+        }
+        html, body {
+            background: none;
+        }
+        .login form {
+            box-shadow: none;
+            border: 1px #9E9E9E solid;
+        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
+
+
+//custom login link
+function my_login_logo_url() {
+    return get_bloginfo( 'url' );
+}
+add_filter( 'login_headerurl', 'my_login_logo_url' );
+
+function my_login_logo_url_title() {
+    return 'Octave Journal';
+}
+add_filter( 'login_headertitle', 'my_login_logo_url_title' );
+
+// Fix login logo title text
+function change_wp_login_title() {
+    return get_option('blogname');
+}
+add_filter('login_headertitle', 'change_wp_login_title');
 ?>
