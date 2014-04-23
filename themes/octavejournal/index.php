@@ -57,7 +57,7 @@
 						array(
 							'taxonomy' => 'issue_number',
 							'field' => 'id',
-							'terms' => array(76, 80, 92),
+							'terms' => array(112, 113, 114),
 							'operator' => 'NOT IN'
 								)
 							)	
