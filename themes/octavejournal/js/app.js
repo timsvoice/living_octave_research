@@ -10,7 +10,7 @@ $(document).ready(function() {
     itemsDesktopSmall : 2,
     itemsTablet : 2,
     mouseDrag: true,
-    lazyLoad : true,
+    lazyLoad : false,
     navigation : true,
     pagination : false,
     navigationText : [
