@@ -24,7 +24,7 @@ get_header( ); ?>
 <div class="row">
 		<div class="articles small-12 columns suzhou-project">
 			<div class="small-12 medium-12 large-12 columns alpha">
-				<img src="<?php echo site_url(); ?>/wp-content/uploads/2014/04/20120426_SZHH_Feb2012_SD_Submission_Renderings-91.png" alt="" class="olr-project-image">
+				<img src="http://128.199.206.98/wp-content/uploads/2014/04/20120426_SZHH_Feb2012_SD_Submission_Renderings-9.png" alt="" class="olr-project-image">
 				<div class="olr-project-description">
 					<h2 class="olr-project-title">Suzhou Harmony</h2>
 					<p class="olr-project-intro">
@@ -77,7 +77,7 @@ get_header( ); ?>
 	<div class="row">
 		<div class="articles small-12 columns olr-project">
 			<div class="small-12 medium-12 large-12 columns alpha">
-				<img src="<?php echo site_url(); ?>/wp-content/uploads/2014/04/20120426_SZHH_Feb2012_SD_Submission_Renderings-9.png" alt="" class="olr-project-image">
+				<img src="http://128.199.206.98/wp-content/uploads/2014/04/20120426_SZHH_Feb2012_SD_Submission_Renderings-91.png" alt="" class="olr-project-image">
 				<div class="olr-project-description">
 					<h2 class="olr-project-title">Octave Living Room</h2>
 					<p class="olr-project-intro">
