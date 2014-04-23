@@ -11,6 +11,10 @@
 		margin-top: -0.75rem;
 		max-height: 3rem;
 		max-width: 3rem;
+		@media only screen and (max-width: 40.063em) { 
+			max-height: 2.25rem;
+			max-width: 2.25rem;
+		}
 	}
 	&-top-bar, .top-bar {
 		@extend .top-bar;

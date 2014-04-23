@@ -8469,20 +8469,26 @@ p.small {
   font-size: 2rem;
   padding-left: 1rem;
 }
-/* line 73, ../scss/partials/_typography.scss */
+@media only screen and (max-width: 40.063em) {
+  /* line 70, ../scss/partials/_typography.scss */
+  .navigation-title-area-title {
+    padding-left: 0.5rem;
+  }
+}
+/* line 76, ../scss/partials/_typography.scss */
 .navigation-title-area-title a, .navigation-title-area-title a:hover {
   color: black;
   text-transform: uppercase;
 }
 @media only screen and (max-width: 40.063em) {
-  /* line 73, ../scss/partials/_typography.scss */
+  /* line 76, ../scss/partials/_typography.scss */
   .navigation-title-area-title a, .navigation-title-area-title a:hover {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 200;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 83, ../scss/partials/_typography.scss */
+  /* line 86, ../scss/partials/_typography.scss */
   .navigation-top-bar-section ul, .navigation .navigation-top-bar-section ul, .navigation .top-bar-section ul {
     margin-top: 0.5rem;
     margin-bottom: 1rem;
@@ -8490,29 +8496,29 @@ p.small {
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 90, ../scss/partials/_typography.scss */
+  /* line 93, ../scss/partials/_typography.scss */
   .navigation-top-bar-section ul li, .navigation .navigation-top-bar-section ul li, .navigation .top-bar-section ul li {
     border-bottom: 0.125rem #e8e8e8 solid;
   }
 }
-/* line 96, ../scss/partials/_typography.scss */
+/* line 99, ../scss/partials/_typography.scss */
 .navigation-top-bar-section li:not(.has-form) a:not(.button), .navigation .navigation-top-bar-section li:not(.has-form) a:not(.button), .navigation .top-bar-section li:not(.has-form) a:not(.button) {
   color: black;
   font-size: 1rem;
 }
-/* line 102, ../scss/partials/_typography.scss */
+/* line 105, ../scss/partials/_typography.scss */
 .navigation-top-bar-section-menu-item, .navigation .top-bar-section-menu-item {
   border-bottom: 0.0625rem dotted;
 }
-/* line 108, ../scss/partials/_typography.scss */
+/* line 111, ../scss/partials/_typography.scss */
 .navigation-toggle-topbar.menu-icon, .navigation .menu-icon.navigation-toggle-topbar, .navigation .menu-icon.toggle-topbar {
   margin-top: -21px;
 }
-/* line 111, ../scss/partials/_typography.scss */
+/* line 114, ../scss/partials/_typography.scss */
 .navigation-toggle-topbar.menu-icon, .navigation .menu-icon.navigation-toggle-topbar, .navigation .menu-icon.toggle-topbar {
   color: black;
 }
-/* line 113, ../scss/partials/_typography.scss */
+/* line 116, ../scss/partials/_typography.scss */
 .navigation-toggle-topbar.menu-icon a::after, .navigation .menu-icon.navigation-toggle-topbar a::after, .navigation .menu-icon.toggle-topbar a::after {
   width: 1.5rem;
   -webkit-box-shadow: 0 3px 0 2px black, 0 12px 0 2px black, 0 21px 0 2px black;
@@ -8520,18 +8526,18 @@ p.small {
   box-shadow: 0 3px 0 2px black, 0 12px 0 2px black, 0 21px 0 2px black;
 }
 
-/* line 123, ../scss/partials/_typography.scss */
+/* line 126, ../scss/partials/_typography.scss */
 .expanded.navigation-top-bar .navigation-title-area {
   background: inherit;
 }
 
-/* line 128, ../scss/partials/_typography.scss */
+/* line 131, ../scss/partials/_typography.scss */
 .next-article i, .next-issue i {
   font-size: 3rem;
   vertical-align: middle;
   color: #878787;
 }
-/* line 134, ../scss/partials/_typography.scss */
+/* line 137, ../scss/partials/_typography.scss */
 .next-article-left p, .next-issue-left p, .next-article-right p, .next-issue-right p {
   display: inline-block;
   font-weight: 200;
@@ -8544,72 +8550,72 @@ p.small {
   vertical-align: middle;
 }
 
-/* line 150, ../scss/partials/_typography.scss */
+/* line 153, ../scss/partials/_typography.scss */
 .index-side-nav-header {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
 }
-/* line 153, ../scss/partials/_typography.scss */
+/* line 156, ../scss/partials/_typography.scss */
 .index-side-nav-title {
   margin-bottom: 0;
 }
-/* line 159, ../scss/partials/_typography.scss */
+/* line 162, ../scss/partials/_typography.scss */
 .index-side-nav li a:not(.button) {
   color: black;
 }
 
-/* line 168, ../scss/partials/_typography.scss */
+/* line 171, ../scss/partials/_typography.scss */
 .article-index-side-nav-header {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
   font-weight: 900;
   font-size: rem;
 }
-/* line 173, ../scss/partials/_typography.scss */
+/* line 176, ../scss/partials/_typography.scss */
 .article-index-side-nav-title {
   margin-bottom: 0;
 }
-/* line 180, ../scss/partials/_typography.scss */
+/* line 183, ../scss/partials/_typography.scss */
 .article-index-side-nav-teaser a {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
   border-bottom: none;
 }
-/* line 185, ../scss/partials/_typography.scss */
+/* line 188, ../scss/partials/_typography.scss */
 .article-index-side-nav li a:not(.button) {
   color: black;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 188, ../scss/partials/_typography.scss */
+  /* line 191, ../scss/partials/_typography.scss */
   .article-index-side-nav-teaser {
     font-size: 1rem;
     font-weight: 200;
   }
 }
 
-/* line 199, ../scss/partials/_typography.scss */
+/* line 202, ../scss/partials/_typography.scss */
 .related-articles-header {
   margin-bottom: 0;
   margin-top: 1rem;
 }
-/* line 203, ../scss/partials/_typography.scss */
+/* line 206, ../scss/partials/_typography.scss */
 .related-articles-title {
   margin-bottom: 0;
   font-size: 1rem;
   font-weight: 900;
 }
-/* line 207, ../scss/partials/_typography.scss */
+/* line 210, ../scss/partials/_typography.scss */
 .related-articles-title a {
   color: black;
 }
-/* line 211, ../scss/partials/_typography.scss */
+/* line 214, ../scss/partials/_typography.scss */
 .related-articles-image {
   margin-bottom: 0.5rem;
 }
-/* line 214, ../scss/partials/_typography.scss */
+/* line 217, ../scss/partials/_typography.scss */
 .related-articles-teaser {
   font-size: 1rem;
   font-weight: 200;
 }
 
-/* line 224, ../scss/partials/_typography.scss */
+/* line 227, ../scss/partials/_typography.scss */
 .issue-title, .article-title, .article-single-title, .issue-single-title {
   font-size: 3rem;
   line-height: 3rem;
@@ -8617,11 +8623,11 @@ p.small {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
   font-weight: 900;
 }
-/* line 230, ../scss/partials/_typography.scss */
+/* line 233, ../scss/partials/_typography.scss */
 .issue-title a, .article-title a, .article-single-title a, .issue-single-title a, .issue-title a:hover, .article-title a:hover, .article-single-title a:hover, .issue-single-title a:hover {
   color: black;
 }
-/* line 234, ../scss/partials/_typography.scss */
+/* line 237, ../scss/partials/_typography.scss */
 .issue-number, .article-issue-number, .article-single-issue-number, .issue-single-number, .article-single-date, .issue-single-date {
   font-size: 2rem;
   font-weight: 200;
@@ -8629,11 +8635,11 @@ p.small {
   display: inline-block;
   text-align: center;
 }
-/* line 240, ../scss/partials/_typography.scss */
+/* line 243, ../scss/partials/_typography.scss */
 .issue-number a, .article-issue-number a, .article-single-issue-number a, .issue-single-number a, .article-single-date a, .issue-single-date a, .issue-number a:hover, .article-issue-number a:hover, .article-single-issue-number a:hover, .issue-single-number a:hover, .article-single-date a:hover, .issue-single-date a:hover {
   color: #878787;
 }
-/* line 244, ../scss/partials/_typography.scss */
+/* line 247, ../scss/partials/_typography.scss */
 .issue-date, .article-date, .article-single-date, .issue-single-date {
   font-size: 1.5rem;
   font-weight: 200;
@@ -8641,120 +8647,120 @@ p.small {
   text-align: center;
   color: #878787;
 }
-/* line 251, ../scss/partials/_typography.scss */
+/* line 254, ../scss/partials/_typography.scss */
 .issue-contents-title, .article-contents-title, .article-single-contents-title {
   margin-top: 0;
 }
-/* line 253, ../scss/partials/_typography.scss */
+/* line 256, ../scss/partials/_typography.scss */
 .issue-contents-title a, .article-contents-title a, .article-single-contents-title a, .issue-contents-title a:hover, .article-contents-title a:hover, .article-single-contents-title a:hover {
   color: black;
 }
-/* line 257, ../scss/partials/_typography.scss */
+/* line 260, ../scss/partials/_typography.scss */
 .issue-contents-teaser, .article-contents-teaser, .article-single-contents-teaser {
   font-family: "minion-pro", Times, serif;
   margin-top: 0.5rem;
   font-size: 1.25rem;
 }
-/* line 262, ../scss/partials/_typography.scss */
+/* line 265, ../scss/partials/_typography.scss */
 .issue-contents-meta, .articles-article-meta, .article-contents-meta, .article-single-contents-biline, .article-single-contents-meta {
   color: #878787;
 }
-/* line 264, ../scss/partials/_typography.scss */
+/* line 267, ../scss/partials/_typography.scss */
 .issue-contents-meta a, .articles-article-meta a, .article-contents-meta a, .article-single-contents-biline a, .article-single-contents-meta a {
   color: #999999;
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
 }
 
-/* line 271, ../scss/partials/_typography.scss */
+/* line 274, ../scss/partials/_typography.scss */
 .issue-single {
   margin-top: 2rem;
 }
-/* line 290, ../scss/partials/_typography.scss */
+/* line 293, ../scss/partials/_typography.scss */
 .issue-single-contents-title {
   margin-top: 0;
 }
 @media only screen and (max-width: 40em) {
-  /* line 290, ../scss/partials/_typography.scss */
+  /* line 293, ../scss/partials/_typography.scss */
   .issue-single-contents-title {
     margin-top: 1rem;
   }
 }
-/* line 295, ../scss/partials/_typography.scss */
+/* line 298, ../scss/partials/_typography.scss */
 .issue-single-contents-title a, .issue-single-contents-title a:hover {
   color: black;
 }
-/* line 299, ../scss/partials/_typography.scss */
+/* line 302, ../scss/partials/_typography.scss */
 .issue-single-contents-teaser {
   font-family: "minion-pro", Times, serif;
   margin-top: 0.5rem;
   font-size: 1.25rem;
 }
-/* line 304, ../scss/partials/_typography.scss */
+/* line 307, ../scss/partials/_typography.scss */
 .issue-single-contents-meta, .articles-article-contents-meta {
   color: #878787;
   font-size: 1rem;
 }
-/* line 307, ../scss/partials/_typography.scss */
+/* line 310, ../scss/partials/_typography.scss */
 .issue-single-contents-meta a, .articles-article-contents-meta a {
   color: #999999;
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
 }
 
-/* line 315, ../scss/partials/_typography.scss */
+/* line 318, ../scss/partials/_typography.scss */
 .issue-contents-carousel-item-content {
   color: white;
   line-height: 1.25rem;
 }
-/* line 320, ../scss/partials/_typography.scss */
+/* line 323, ../scss/partials/_typography.scss */
 .issue-contents-carousel-item-content-title a, .issue-contents-carousel-item-content-title a:hover {
   color: white;
   font-size: 1rem;
   font-weight: 900;
 }
-/* line 326, ../scss/partials/_typography.scss */
+/* line 329, ../scss/partials/_typography.scss */
 .issue-contents-carousel-item-content-teaser {
   color: white;
   font-size: 1rem;
   line-height: 1.25rem;
 }
 
-/* line 337, ../scss/partials/_typography.scss */
+/* line 340, ../scss/partials/_typography.scss */
 .articles-article-title a {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
   color: black;
   font-size: 1.25rem;
 }
-/* line 344, ../scss/partials/_typography.scss */
+/* line 347, ../scss/partials/_typography.scss */
 .articles-article-teaser {
   font-family: "minion-pro", Times, serif;
   color: black;
   font-size: 1rem;
 }
-/* line 350, ../scss/partials/_typography.scss */
+/* line 353, ../scss/partials/_typography.scss */
 .articles-header {
   text-align: center;
   margin-bottom: 2rem;
   margin-top: 1rem;
 }
-/* line 355, ../scss/partials/_typography.scss */
+/* line 358, ../scss/partials/_typography.scss */
 .articles-article-contents-meta {
   font-size: 0.75rem;
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
 }
-/* line 360, ../scss/partials/_typography.scss */
+/* line 363, ../scss/partials/_typography.scss */
 .articles-article-meta {
   font-size: 0.9rem;
 }
 
-/* line 392, ../scss/partials/_typography.scss */
+/* line 395, ../scss/partials/_typography.scss */
 .article-single {
   margin-top: 3rem;
 }
-/* line 394, ../scss/partials/_typography.scss */
+/* line 397, ../scss/partials/_typography.scss */
 .article-single-title, .issue-single-title {
   text-align: left;
 }
-/* line 398, ../scss/partials/_typography.scss */
+/* line 401, ../scss/partials/_typography.scss */
 .article-single-issue-number, .issue-single-number, .article-single-date, .issue-single-date {
   text-align: left;
   display: inline-block;
@@ -8764,65 +8770,65 @@ p.small {
   margin-bottom: 0.25rem;
   margin-top: 0;
 }
-/* line 407, ../scss/partials/_typography.scss */
+/* line 410, ../scss/partials/_typography.scss */
 .article-single-issue-number a, .issue-single-number a, .article-single-date a, .issue-single-date a {
   color: black;
 }
-/* line 411, ../scss/partials/_typography.scss */
+/* line 414, ../scss/partials/_typography.scss */
 .article-single-date, .issue-single-date {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
   margin-left: 1.5rem;
 }
-/* line 423, ../scss/partials/_typography.scss */
+/* line 426, ../scss/partials/_typography.scss */
 .article-single-contents-biline {
   font-style: italic;
   font-size: 1.25rem;
   color: black;
 }
-/* line 433, ../scss/partials/_typography.scss */
+/* line 436, ../scss/partials/_typography.scss */
 .article-single-contents-text {
   margin-top: 2rem;
 }
-/* line 435, ../scss/partials/_typography.scss */
+/* line 438, ../scss/partials/_typography.scss */
 .article-single-contents-text p {
   font-family: "minion-pro", Times, serif;
   font-size: 1.25rem;
 }
-/* line 440, ../scss/partials/_typography.scss */
+/* line 443, ../scss/partials/_typography.scss */
 .article-single-interview-question {
   font-weight: 900;
   font-style: italic;
 }
 
-/* line 447, ../scss/partials/_typography.scss */
+/* line 450, ../scss/partials/_typography.scss */
 .related-article-teaser {
   font-family: "minion-pro", Times, serif;
 }
 
-/* line 453, ../scss/partials/_typography.scss */
+/* line 456, ../scss/partials/_typography.scss */
 .category-featured-article-title {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
   font-weight: 900;
 }
-/* line 456, ../scss/partials/_typography.scss */
+/* line 459, ../scss/partials/_typography.scss */
 .category-featured-article-title a {
   color: inherit;
 }
-/* line 460, ../scss/partials/_typography.scss */
+/* line 463, ../scss/partials/_typography.scss */
 .category-featured-article-header {
   font-weight: 200;
   margin-bottom: 0;
 }
-/* line 464, ../scss/partials/_typography.scss */
+/* line 467, ../scss/partials/_typography.scss */
 .category-featured-article-teaser {
   font-family: "minion-pro", Times, serif;
   font-size: 1.1rem;
 }
-/* line 468, ../scss/partials/_typography.scss */
+/* line 471, ../scss/partials/_typography.scss */
 .category-title {
   font-weight: 900;
 }
-/* line 472, ../scss/partials/_typography.scss */
+/* line 475, ../scss/partials/_typography.scss */
 .category-description p {
   font-weight: 200;
 }
@@ -9043,84 +9049,91 @@ li.issue-orbit-list-article:last-child {
   max-height: 3rem;
   max-width: 3rem;
 }
-/* line 15, ../scss/partials/_navigation.scss */
+@media only screen and (max-width: 40.063em) {
+  /* line 9, ../scss/partials/_navigation.scss */
+  .navigation-title-area-image {
+    max-height: 2.25rem;
+    max-width: 2.25rem;
+  }
+}
+/* line 19, ../scss/partials/_navigation.scss */
 .navigation-top-bar, .navigation .navigation-top-bar, .navigation .top-bar {
   padding-top: 1rem;
   background: rgba(255, 255, 255, 0.95);
   height: 5rem;
 }
-/* line 27, ../scss/partials/_navigation.scss */
+/* line 31, ../scss/partials/_navigation.scss */
 .navigation-top-bar-section ul, .navigation .navigation-top-bar-section ul, .navigation .top-bar-section ul {
   background: none;
 }
-/* line 29, ../scss/partials/_navigation.scss */
+/* line 33, ../scss/partials/_navigation.scss */
 .navigation-top-bar-section ul li:last-child, .navigation .navigation-top-bar-section ul li:last-child, .navigation .top-bar-section ul li:last-child {
   border-left: 0.125rem #e8e8e8 solid;
 }
-/* line 33, ../scss/partials/_navigation.scss */
+/* line 37, ../scss/partials/_navigation.scss */
 .navigation-top-bar-section li:not(.has-form) a:not(.button), .navigation .navigation-top-bar-section li:not(.has-form) a:not(.button), .navigation .top-bar-section li:not(.has-form) a:not(.button) {
   background: none;
 }
-/* line 35, ../scss/partials/_navigation.scss */
+/* line 39, ../scss/partials/_navigation.scss */
 .navigation-top-bar-section li:not(.has-form) a:not(.button) a, .navigation-top-bar-section li:not(.has-form) a:not(.button) a:hover, .navigation .navigation-top-bar-section li:not(.has-form) a:not(.button) a, .navigation .top-bar-section li:not(.has-form) a:not(.button) a, .navigation .navigation-top-bar-section li:not(.has-form) a:not(.button) a:hover, .navigation .top-bar-section li:not(.has-form) a:not(.button) a:hover {
   background: none;
 }
-/* line 40, ../scss/partials/_navigation.scss */
+/* line 44, ../scss/partials/_navigation.scss */
 .navigation.contain-to-grid {
   background: white;
 }
 
-/* line 44, ../scss/partials/_navigation.scss */
+/* line 48, ../scss/partials/_navigation.scss */
 .next-article, .next-issue {
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
-/* line 47, ../scss/partials/_navigation.scss */
+/* line 51, ../scss/partials/_navigation.scss */
 .next-article-left, .next-issue-left {
   float: left;
 }
-/* line 50, ../scss/partials/_navigation.scss */
+/* line 54, ../scss/partials/_navigation.scss */
 .next-article-right, .next-issue-right {
   float: right;
 }
 
-/* line 65, ../scss/partials/_navigation.scss */
+/* line 69, ../scss/partials/_navigation.scss */
 .index, .article-index, .related-articles {
   margin-top: 2rem;
 }
-/* line 67, ../scss/partials/_navigation.scss */
+/* line 71, ../scss/partials/_navigation.scss */
 .index-side-nav, .index .index-side-nav, .article-index .index-side-nav, .related-articles .index-side-nav, .index .side-nav, .article-index .side-nav, .related-articles .side-nav, .index .article-index-side-nav, .article-index .article-index-side-nav, .related-articles .article-index-side-nav {
   padding: 0;
 }
-/* line 70, ../scss/partials/_navigation.scss */
+/* line 74, ../scss/partials/_navigation.scss */
 .index-side-nav-header, .index .side-nav-header, .article-index .side-nav-header, .related-articles .side-nav-header {
   margin-top: 0;
 }
 
-/* line 78, ../scss/partials/_navigation.scss */
+/* line 82, ../scss/partials/_navigation.scss */
 .article-index, .related-articles {
   margin-top: 2rem;
 }
-/* line 81, ../scss/partials/_navigation.scss */
+/* line 85, ../scss/partials/_navigation.scss */
 .article-index-side-nav, .article-index .index-side-nav, .related-articles .index-side-nav, .article-index .side-nav, .related-articles .side-nav, .article-index .article-index-side-nav, .related-articles .article-index-side-nav {
   padding: 0;
 }
-/* line 89, ../scss/partials/_navigation.scss */
+/* line 93, ../scss/partials/_navigation.scss */
 .article-index-side-nav li a:not(.button), .article-index .index-side-nav li a:not(.button), .related-articles .index-side-nav li a:not(.button), .article-index .side-nav li a:not(.button), .related-articles .side-nav li a:not(.button), .article-index .article-index-side-nav li a:not(.button), .related-articles .article-index-side-nav li a:not(.button) {
   color: black;
 }
-/* line 94, ../scss/partials/_navigation.scss */
+/* line 98, ../scss/partials/_navigation.scss */
 .article-index-side-nav-title, .article-index .side-nav-title, .related-articles .side-nav-title {
   margin-top: 0;
 }
-/* line 97, ../scss/partials/_navigation.scss */
+/* line 101, ../scss/partials/_navigation.scss */
 .article-index-side-nav-image, .article-index .side-nav-image, .related-articles .side-nav-image {
   display: inline-block;
   float: left;
   margin-right: 0.625rem;
 }
 
-/* line 107, ../scss/partials/_navigation.scss */
+/* line 111, ../scss/partials/_navigation.scss */
 .related-articles-image {
   display: inline-block;
   float: left;
@@ -9187,7 +9200,13 @@ li.issue-orbit-list-article:last-child {
   display: block;
   bottom: -110px;
 }
-/* line 36, ../scss/partials/_carousel.scss */
+@media only screen and (max-width: 40.063em) {
+  /* line 20, ../scss/partials/_carousel.scss */
+  .issue-contents-carousel-item-content {
+    bottom: -120px;
+  }
+}
+/* line 39, ../scss/partials/_carousel.scss */
 .issue-contents-carousel-item-content:hover {
   -moz-transform: translateY(-53.333%);
   -o-transform: translateY(-53.333%);
@@ -9196,48 +9215,60 @@ li.issue-orbit-list-article:last-child {
 }
 
 /* Styling Next and Prev buttons */
-/* line 47, ../scss/partials/_carousel.scss */
+/* line 50, ../scss/partials/_carousel.scss */
 .owl-theme .owl-controls .owl-buttons div {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
 }
-/* line 51, ../scss/partials/_carousel.scss */
+/* line 54, ../scss/partials/_carousel.scss */
 .owl-theme .owl-controls .owl-buttons div i {
   font-size: 2rem;
 }
 
 /* If PaginationNumbers is true */
-/* line 58, ../scss/partials/_carousel.scss */
+/* line 61, ../scss/partials/_carousel.scss */
 .owl-theme .owl-controls .owl-page span.owl-numbers {
   color: white;
   padding: 2px 10px;
 }
-/* line 61, ../scss/partials/_carousel.scss */
+/* line 64, ../scss/partials/_carousel.scss */
 .owl-theme .owl-controls .owl-page span.owl-numbers i {
   font-size: 3rem;
 }
 
-/* line 66, ../scss/partials/_carousel.scss */
+/* line 69, ../scss/partials/_carousel.scss */
 .wrapper-with-margin {
   margin: 0px 50px;
 }
 
-/* line 71, ../scss/partials/_carousel.scss */
+/* line 74, ../scss/partials/_carousel.scss */
 .owl-theme .owl-controls .owl-buttons div {
   position: absolute;
 }
 
-/* line 75, ../scss/partials/_carousel.scss */
+/* line 78, ../scss/partials/_carousel.scss */
 .owl-theme .owl-controls .owl-buttons .owl-prev {
   left: 0.625rem;
   top: 45%;
 }
+@media only screen and (max-width: 40.063em) {
+  /* line 78, ../scss/partials/_carousel.scss */
+  .owl-theme .owl-controls .owl-buttons .owl-prev {
+    display: none;
+  }
+}
 
-/* line 80, ../scss/partials/_carousel.scss */
+/* line 86, ../scss/partials/_carousel.scss */
 .owl-theme .owl-controls .owl-buttons .owl-next {
   right: 0.625rem;
   top: 45%;
+}
+@media only screen and (max-width: 40.063em) {
+  /* line 86, ../scss/partials/_carousel.scss */
+  .owl-theme .owl-controls .owl-buttons .owl-next {
+    display: none;
+  }
 }
 
 /* Table of Contents

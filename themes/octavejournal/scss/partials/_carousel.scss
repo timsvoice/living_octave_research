@@ -33,6 +33,9 @@
 	    height: 160px;   
 	    display: block;  
 	    bottom: -110px;  
+      @media only screen and (max-width: 40.063em) { 
+        bottom: -120px;
+      }
 	    &:hover {
 	    	-moz-transform: translateY(-53.333%);  
 		    -o-transform: translateY(-53.333%);  
@@ -74,10 +77,16 @@
  
 .owl-theme .owl-controls .owl-buttons .owl-prev{
   left: 0.625rem;
-  top: 45%; 
+  top: 45%;
+  @media only screen and (max-width: 40.063em) { 
+    display: none;
+  } 
 }
  
 .owl-theme .owl-controls .owl-buttons .owl-next{
   right: 0.625rem;
   top: 45%;
+  @media only screen and (max-width: 40.063em) { 
+    display: none;
+  }
 }
