@@ -6,7 +6,6 @@ Description: Declares a plugin that will create a custom post type displaying Ar
 Version: 1.0
 Author: Timothy Voice
 Author URI: http://www.timothyvoice.com
-License: GPLv2
 */
 ?>
 
