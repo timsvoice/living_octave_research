@@ -223,7 +223,9 @@ p.small {
 // issues 
 
 .issue {
-
+	&-intro {
+		margin-bottom: 2rem;
+	}
 	&-title {
 		font-size: 3rem;
 		line-height: 3rem;

@@ -15,8 +15,8 @@
 				<div class="small-12 medium-8 columns small-centered issue-intro">
 					<p class="issue-intro-text">
 						With our two ongoing projects in Shanghai and Suzhou underway, many of Octave’s team are working tirelessly on the details of real estate design and construction. As our daily tasks require us to often focus on the exterior “hardware” of our projects, it can be easy to overlook the importance of Octave’s “software” - our programs. As we prepare to launch the Octave Living Room this summer, it is the perfect time for our team to take a closer look at our health and wellness service offerings.
+						<a href="http://www.octavejournal.com/?issue_number=issue-4-four-touchpoints">read more</a>
 					</p>
-					<a href="#">read more</a>
 				</div>
 			</div>
 
