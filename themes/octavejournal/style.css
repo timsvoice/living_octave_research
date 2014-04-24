@@ -8628,7 +8628,7 @@ p.small {
 /* line 232, ../scss/partials/_typography.scss */
 .issue-intro-text, .issue-intro-section-text {
   font-family: "minion-pro", Times, serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 /* line 236, ../scss/partials/_typography.scss */
 .issue-title, .article-title, .article-single-title, .issue-single-title {
