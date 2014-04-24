@@ -19,6 +19,14 @@
 					</p>
 				</div>
 			</div>
+		
+		<div class="row">
+			<div class="small-12 large-6 columns small-centered">
+				<h3 class="issue-header">
+					- In This Issue -
+				</h3>
+			</div>
+		</div>
 
 		<div class="issue-contents">
 			<div class="issue-contents-carousel">

@@ -233,6 +233,10 @@ p.small {
 		font-family: $text-font;
 		font-size: 1.25rem;
 	}
+	&-header {
+		text-align: center;
+		color: $dark-gray;
+	}
 	&-title {
 		font-size: 3rem;
 		line-height: 3rem;
