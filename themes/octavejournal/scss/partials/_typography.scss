@@ -229,6 +229,9 @@ p.small {
 	&-intro {
 		margin-bottom: 2rem;
 	}
+	&-intro-text, &-intro-section-text {
+		font-family: $text-font;
+	}
 	&-title {
 		font-size: 3rem;
 		line-height: 3rem;
