@@ -14,7 +14,7 @@ get_header( ); ?>
 
 
 <div class="row">
-	<img src="http://www.octavejournal.com/wp-content/uploads/2014/04/alvaro-estaban_featured.png" alt="" class="article-single-contents-image small-12 columns">
+	<img src="http://www.octavejournal.com/wp-content/uploads/2014/04/featured_beach.png" alt="" class="article-single-contents-image small-12 columns">
 	<div class="category small-12 large-8 large-offset-4 columns issue-intro">
 
 	<p class="issue-intro-text">
