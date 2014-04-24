@@ -5,10 +5,10 @@
 	<div class="row">
 		<div class="next-article large-12 columns alpha beta">
 			<div class="next-article-left">				
-				<?php next_post_link( '%link', '<i class="icon-ios7-arrow-left"></i><p>previous <span class="show-for-medium-up">article</span></p>', false, $in_same_term = true, 'issue_number' ); ?>				
+				<?php next_post_link( '%link', '<i class="icon-ios7-arrow-left"></i><p> <span class="show-for-medium-up">%title </span><span class="show-for-small-only">previous</span></p>', false); ?>				
 			</div> <!-- next-article-left -->
 			<div class="next-article-right">
-				<?php previous_post_link( '%link', '<p>next <span class="show-for-medium-up">article</span></p><i class="icon-ios7-arrow-right"></i>', false, $in_same_term = true, 'issue_number' ); ?>			
+				<?php previous_post_link( '%link', '<p><span class="show-for-medium-up">%title </span><span class="show-for-small-only">next</span></p><i class="icon-ios7-arrow-right"></i>', false); ?>			
 			</div><!-- next article right -->			
 		</div><!-- next article -->
 	</div><!-- row -->

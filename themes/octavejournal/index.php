@@ -7,7 +7,7 @@
 		<div class="row">
 			<div class="issue-meta large-12 columns">
 				<h3 class="issue-title"><a href="#">Galloping into the Year of the Horse</a></h3>
-				<h3 class="issue-date">November 2013</h3>
+				<h3 class="issue-date">April 2014</h3>
 			</div><!-- issue-meta -->
 		</div><!-- row -->
 		
