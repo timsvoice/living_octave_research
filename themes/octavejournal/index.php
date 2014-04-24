@@ -6,7 +6,7 @@
 		
 		<div class="row">
 			<div class="issue-meta large-12 columns">
-				<h3 class="issue-title"><a href="http://www.octavejournal.com/?issue_number=issue-4-activating-wellbeing">Cornerstones of Wellbeing</a></h3>
+				<h3 class="issue-title"><a href="http://www.octavejournal.com/?issue_number=issue-4-activating-wellbeing">Activating Wellbeing</a></h3>
 				<h3 class="issue-date">April 2014</h3>
 			</div><!-- issue-meta -->
 		</div><!-- row -->
