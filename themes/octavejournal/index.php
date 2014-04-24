@@ -16,7 +16,7 @@
 				<div id="issue-carousel" class="owl-carousel">
 					
 					<?php $loop = new WP_Query( array(  
-					'issue_number' => 'Issue #3: Galloping into the Year of the Horse', 
+					'issue_number' => 'Issue #4: Nurture Practice Connect Discover', 
 					'posts_per_page' => 9) ); ?>
 		            <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 		                
