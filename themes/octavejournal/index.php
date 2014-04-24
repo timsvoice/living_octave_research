@@ -6,7 +6,7 @@
 		
 		<div class="row">
 			<div class="issue-meta large-12 columns">
-				<h3 class="issue-title"><a href="http://www.octavejournal.com/?issue_number=issue-4-four-touchpoints">Four Touchpoints</a></h3>
+				<h3 class="issue-title"><a href="http://www.octavejournal.com/?issue_number=issue-4-four-touchpoints">Cornerstones of Wellbeing</a></h3>
 				<h3 class="issue-date">April 2014</h3>
 			</div><!-- issue-meta -->
 		</div><!-- row -->
@@ -25,7 +25,7 @@
 				<div id="issue-carousel" class="owl-carousel">
 					
 					<?php $loop = new WP_Query( array(  
-					'issue_number' => 'Issue #3: Galloping into the Year of the Horse', 
+					'issue_number' => 'Issue #4: Cornerstones of Wellbeing', 
 					'posts_per_page' => 9,
 					'orderby' => 'title',
 					'order' => 'ASC') ); ?>
