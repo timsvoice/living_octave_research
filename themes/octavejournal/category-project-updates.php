@@ -28,7 +28,6 @@ get_header( ); ?>
 				<div class="olr-project-description">
 					<h2 class="olr-project-title">Suzhou Harmony</h2>
 					<p class="olr-project-intro">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, minima natus excepturi magnam nihil sed nam libero recusandae sunt odit.
 					</p>
 				</div>
 			</div>
@@ -81,7 +80,6 @@ get_header( ); ?>
 				<div class="olr-project-description">
 					<h2 class="olr-project-title">Octave Living Room</h2>
 					<p class="olr-project-intro">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, minima natus excepturi magnam nihil sed nam libero recusandae sunt odit.
 					</p>
 				</div>
 			</div>
