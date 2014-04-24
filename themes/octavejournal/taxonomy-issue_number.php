@@ -50,8 +50,8 @@ get_header( ); ?>
 				
 				<?php
 					$args = array(
-					'order_by' => 'title', 
-					'order' => 'ASC',
+					'orderby' => 'title', 
+					'order' => 'ASC'
 				);
 
 				$issueArticles = new WP_Query($args); 
