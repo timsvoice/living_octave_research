@@ -1,7 +1,7 @@
 <div class="article-index medium-4 columns show-for-medium-up alpha">
 	<ul id="article-sticker" class="article-index-side-nav">
 		<li >
-			<h5 class="article-index-side-nav-header">Also in this Issue</h5>
+			<h5 class="article-index-side-nav-header"></h5>
 		</li>
 		
 		<?php 
