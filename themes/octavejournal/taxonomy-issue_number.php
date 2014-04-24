@@ -48,17 +48,10 @@ get_header( ); ?>
 		<div class="articles small-12 columns">
 			<ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-1">
 				
-				<?php
-					$args = array(
-					'orderby' => 'title', 
-					'order' => 'ASC'
-				);
-
-				$issueArticles = new WP_Query($args); 
-
-			?>
-				
-				<?php while ($issueArticles->have_posts() ) : $issueArticles->the_post(); ?>	
+				<?php $loop = new WP_Query( array(   
+					'orderby' => 'title',
+					'order' => 'ASC') ); ?>
+		            <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>	
 	                		      
 
 						<li class="articles-article">
