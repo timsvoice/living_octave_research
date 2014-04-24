@@ -6,7 +6,7 @@
 		
 		<div class="row">
 			<div class="issue-meta large-12 columns">
-				<h3 class="issue-title"><a href="http://www.octavejournal.com/?issue_number=issue-4-cornerstones-of-wellbeing">Cornerstones of Wellbeing</a></h3>
+				<h3 class="issue-title"><a href="http://www.octavejournal.com/?issue_number=issue-4-activating-wellbeing">Cornerstones of Wellbeing</a></h3>
 				<h3 class="issue-date">April 2014</h3>
 			</div><!-- issue-meta -->
 		</div><!-- row -->
@@ -15,7 +15,7 @@
 				<div class="small-12 medium-8 columns small-centered issue-intro">
 					<p class="issue-intro-text">
 						With our two ongoing projects in Shanghai and Suzhou underway, many of Octave’s team are working tirelessly on the details of real estate design and construction. As our daily tasks require us to often focus on the exterior “hardware” of our projects, it can be easy to overlook the importance of Octave’s “software” - our programs. As we prepare to launch the Octave Living Room this summer, it is the perfect time for our team to take a closer look at our health and wellness service offerings.
-						<a href="http://www.octavejournal.com/?issue_number=issue-4-cornerstones-of-wellbeing">read more</a>
+						<a href="http://www.octavejournal.com/?issue_number=issue-4-activating-wellbeing">read more</a>
 					</p>
 				</div>
 			</div>
@@ -25,7 +25,7 @@
 				<div id="issue-carousel" class="owl-carousel">
 					
 					<?php $loop = new WP_Query( array(  
-					'issue_number' => 'Issue #4: Cornerstones of Wellbeing', 
+					'issue_number' => 'Issue #4: Activating Wellbeing', 
 					'posts_per_page' => 9,
 					'orderby' => 'title',
 					'order' => 'ASC') ); ?>
