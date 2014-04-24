@@ -16,7 +16,7 @@
 				<div id="issue-carousel" class="owl-carousel">
 					
 					<?php $loop = new WP_Query( array(  
-					'issue_number' => 'Issue #4: Nurture Practice Connect Discover', 
+					'issue_number' => 'Issue #4: Four Touchpoints', 
 					'posts_per_page' => 9) ); ?>
 		            <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 		                
@@ -57,7 +57,7 @@
 						array(
 							'taxonomy' => 'issue_number',
 							'field' => 'id',
-							'terms' => array(112, 113, 114),
+							'terms' => array(112, 113, 114, 115),
 							'operator' => 'NOT IN'
 								)
 							)	
