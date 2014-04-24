@@ -48,7 +48,18 @@ get_header( ); ?>
 		<div class="articles small-12 columns">
 			<ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-1">
 				
-				<?php while ( have_posts() ) : the_post(); ?>		                		      
+				<?php
+					$args = array(
+					'order_by' => 'title', 
+					'order' => 'ASC',
+				);
+
+				$issueArticles = new WP_Query($args); 
+
+			?>
+				
+				<?php while ($issueArticles->have_posts() ) : $issueArticles->the_post(); ?>	
+	                		      
 
 						<li class="articles-article">
 							<a href="<?php the_permalink(); ?>">
