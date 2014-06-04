@@ -8344,16 +8344,21 @@ table {
   Media Queries
 ============================ */
 /* line 4, ../scss/partials/_base.scss */
+#body {
+  display: none;
+}
+
+/* line 8, ../scss/partials/_base.scss */
 hr {
   margin: 0;
 }
 
-/* line 8, ../scss/partials/_base.scss */
+/* line 12, ../scss/partials/_base.scss */
 :focus {
   background: white;
 }
 
-/* line 12, ../scss/partials/_base.scss */
+/* line 16, ../scss/partials/_base.scss */
 .vcard {
   border: none;
   padding: 0;
@@ -8361,23 +8366,23 @@ hr {
   display: block;
 }
 
-/* line 19, ../scss/partials/_base.scss */
+/* line 23, ../scss/partials/_base.scss */
 .hidden {
   display: none !important;
 }
 
-/* line 23, ../scss/partials/_base.scss */
+/* line 27, ../scss/partials/_base.scss */
 #index-sticker {
   max-width: 13.75rem;
 }
 
-/* line 27, ../scss/partials/_base.scss */
+/* line 31, ../scss/partials/_base.scss */
 #article-sticker {
   max-width: 19.25rem;
 }
 
 @media only screen and (min-width: 47.063em) {
-  /* line 36, ../scss/partials/_base.scss */
+  /* line 40, ../scss/partials/_base.scss */
   .horizon {
     text-align: center;
     position: absolute;
@@ -8389,6 +8394,12 @@ hr {
     visibility: visible;
     display: block;
   }
+}
+
+/* line 54, ../scss/partials/_base.scss */
+.background-image {
+  height: 100%;
+  display: none;
 }
 
 /* line 1, ../scss/partials/_grid.scss */
@@ -9081,21 +9092,27 @@ li.issue-orbit-list-article:last-child {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 50rem;
+  min-height: 40rem;
+}
+@media only screen and (max-width: 47em) {
+  /* line 52, ../scss/partials/_issues.scss */
+  .issue-intro, .issue-single-intro {
+    min-height: 50rem;
+  }
 }
 
-/* line 64, ../scss/partials/_issues.scss */
+/* line 67, ../scss/partials/_issues.scss */
 .issue-single-intro {
   background: none;
 }
 
-/* line 69, ../scss/partials/_issues.scss */
+/* line 72, ../scss/partials/_issues.scss */
 .issue-intro-center {
   display: inline-block;
   z-index: 10;
 }
 @media only screen and (min-width: 47.063em) {
-  /* line 69, ../scss/partials/_issues.scss */
+  /* line 72, ../scss/partials/_issues.scss */
   .issue-intro-center {
     margin-left: -500px;
     position: absolute;

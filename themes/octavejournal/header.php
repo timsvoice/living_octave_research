@@ -48,10 +48,6 @@
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/app.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/vendors/sticky/jquery.sticky.js"></script>
 
-  
-
-
-
     <!-- TYPOGRAPHY
     ================================================== -->  
     <script type="text/javascript" src="//use.typekit.net/itk1olx.js"></script>
@@ -77,8 +73,7 @@
       ga('send', 'pageview');
 
     </script>
-
-
+    
     <!-- 
       This script enables structural HTML5 elements in old IE.
       http://code.google.com/p/html5shim/
@@ -88,6 +83,11 @@
     <![endif]-->
 
 </head>
+<script type="text/javascript">
+$(window).load(function() {
+    $('#body').fadeIn('400');
+});
+</script>
 <body>
 
     <div class="navigation fixed">
@@ -115,5 +115,6 @@
             ); ?>
             </ul> 
           </section>
-        </nav>
+        </nav>        
     </div>
+    <div id="body">

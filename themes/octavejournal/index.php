@@ -4,6 +4,7 @@
 
 	<div class="issue">
 		<div class="issue-intro" id="splash">
+			<img class="background-image" src="<?php bloginfo('template_url'); ?>/css/assets/background.jpg" alt="">
 			<div class="issue-overlay"></div><!-- issue-overlay -->
 			<div class="horizon">
 				<div class="issue-intro-center">

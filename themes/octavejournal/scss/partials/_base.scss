@@ -1,6 +1,10 @@
 *, body {
 }
 
+#body {
+    display: none;
+}
+
 hr {
 	margin: 0;
 }
@@ -45,4 +49,9 @@ hr {
     visibility: visible;
     display: block;
   }
+}
+
+.background-image {
+    height: 100%;
+    display: none;
 }

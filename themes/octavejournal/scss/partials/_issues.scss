@@ -56,7 +56,10 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;  
-  min-height: 50rem;
+  min-height: 40rem;
+  @include breakpoint(small) {
+    min-height: 50rem;
+  }
   &-text {
   }
 }
