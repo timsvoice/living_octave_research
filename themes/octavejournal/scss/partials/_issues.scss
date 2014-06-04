@@ -1,10 +1,20 @@
 .issue {
+	position: relative;
 	&-meta {
 		margin-top: 3rem;
 		margin-bottom: 2rem;
 		@media only screen and (max-width: 40em) { 
 			margin-top: 1rem;
 		}
+	}
+	&-overlay {
+		background-color: $black-overlay;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 	}
 }
 
@@ -37,4 +47,25 @@
 
 .issue-post-related:hover {
 	opacity:1;
+}
+
+.issue-intro {
+	margin-bottom: 3rem;
+	background: url(css/assets/background.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+  min-height: 50rem;
+  &-text {
+    text-align: center;
+  }
+}
+
+.issue-intro-center {
+	display: inline-block;
+	@include breakpoint(medium) {
+		@include dead-center(1000px, 511px);
+	}
+	z-index: 10;
 }

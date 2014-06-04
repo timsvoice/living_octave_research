@@ -3,32 +3,31 @@
 <div class="container">
 
 	<div class="issue">
-		
-		<div class="row">
-			<div class="issue-meta large-12 columns">
-				<h3 class="issue-title"><a href="http://www.octavejournal.com/?issue_number=issue-4-activating-wellbeing">Activating Wellbeing</a></h3>
-				<h3 class="issue-date">April 2014</h3>
-			</div><!-- issue-meta -->
-		</div><!-- row -->
-		
-		<div class="row">
-				<div class="small-12 medium-8 columns small-centered issue-intro">
-					<p class="issue-intro-text">
-						With our two ongoing projects in Shanghai and Suzhou underway, many of Octave’s team are working tirelessly on the details of real estate design and construction. As our daily tasks require us to often focus on the exterior “hardware” of our projects, it can be easy to overlook the importance of Octave’s “software” - our programs. As we prepare to launch the Octave Living Room this summer, it is the perfect time for our team to take a closer look at our health and wellness service offerings.
-						<a href="http://www.octavejournal.com/?issue_number=issue-4-activating-wellbeing">read more</a>
-					</p>
-				</div>
-			</div>
-		
-		<div class="row">
-			<div class="small-12 large-6 columns small-centered">
-				<h3 class="issue-header">
-					- In This Issue -
-				</h3>
-			</div>
-		</div>
+		<div class="issue-intro" id="splash">
+			<div class="issue-overlay"></div><!-- issue-overlay -->
+			<div class="horizon">
+				<div class="issue-intro-center">
+					<div class="row">
+						<div class="issue-meta large-12 columns">
+							<h3 class="issue-title"><a href="http://www.octavejournal.com/?issue_number=issue-4-activating-wellbeing">Activating Wellbeing</a></h3>
+							<h3 class="issue-date">April 2014</h3>
+						</div><!-- issue-meta -->
+					</div><!-- row -->
+					
+					<div class="row">
+							<div class="issue-intro-text small-12 medium-8 columns small-centered">
+								<p class="">
+									With our two ongoing projects in Shanghai and Suzhou underway, many of Octave’s team are working tirelessly on the details of real estate design and construction. As our daily tasks require us to often focus on the exterior “hardware” of our projects, it can be easy to overlook the importance of Octave’s “software” - our programs. As we prepare to launch the Octave Living Room this summer, it is the perfect time for our team to take a closer look at our health and wellness service offerings.									
+								</p>
+								<a href="http://www.octavejournal.com/?issue_number=issue-4-activating-wellbeing" class="large button">read issue</a>
+							</div>
+						</div>
+				</div><!-- issue-intro-center -->
+			</div><!-- horizon -->
+		</div><!-- issue-intro -->
 
-		<div class="issue-contents">
+		<!-- <div class="issue-articles">
+			<div class="issue-contents">
 			<div class="issue-contents-carousel">
 				<div id="issue-carousel" class="owl-carousel">
 					
@@ -58,6 +57,7 @@
 				</div>
 			</div>
 		</div><!-- issue-contents -->
+		</div><!-- issue-articles -->
 
 	</div><!-- issue -->
 
@@ -65,7 +65,7 @@
 	<div class="row">
 		<div class="articles small-12 columns">
 			<h2 class="articles-header small-12 columns alpha beta">
-				Articles
+				Reading List
 			</h2>
 			<ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-1">
 				

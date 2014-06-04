@@ -2,13 +2,14 @@
 // Documentation can be found at: http://foundation.zurb.com/docs
 
 
+
 $(document).ready(function() {
  
   $("#issue-carousel").owlCarousel({
-    items : 2,
-    itemsDesktop : 2,
-    itemsDesktopSmall : 2,
-    itemsTablet : 2,
+    items : 3,
+    itemsDesktop : 3,
+    itemsDesktopSmall : 1,
+    itemsTablet : 3,
     mouseDrag: true,
     lazyLoad : true,
     navigation : true,
@@ -24,4 +25,16 @@ $(document).ready(function() {
   
   $("#index-sticker").sticky({topSpacing:80});
   $("#article-sticker").sticky({topSpacing:80});
+
+  //splash 
+  function resizesplash() {
+      var heights = window.innerHeight;
+      document.getElementById("splash").style.height = heights -80 + "px";
+  }
+
+  resizesplash();
+  window.onresize = function() {
+      resizesplash();
+};
+
 });

@@ -1,8 +1,12 @@
 .button {
 	background:$dark-gray;
-	height: 3rem;
-	&:hover {
-	background:$black;
+	&.large {
+    background: inherit;
+    border: 1px $white solid;
+    padding: 1rem 1.5rem;
+  }
+  &:hover {
+	 background:$white-overlay;
 	}
 }
 

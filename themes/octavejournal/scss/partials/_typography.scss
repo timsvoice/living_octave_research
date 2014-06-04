@@ -227,11 +227,15 @@ p.small {
 
 .issue {
 	&-intro {
-		margin-bottom: 2rem;
 	}
 	&-intro-text, &-intro-section-text {
-		font-family: $text-font;
+		font-family: $body-font;
 		font-size: 1.25rem;
+		color: $white;
+		font-weight: $medium-text;
+		@include breakpoint(small) {
+			font-size: 1rem;
+		}
 	}
 	&-header {
 		text-align: center;
@@ -244,8 +248,12 @@ p.small {
 		text-align: center;
 		font-family: $body-font;
 		font-weight: $heavy-text;
+		@include breakpoint(small) {
+			font-size: 2.5rem;
+		}
+		color: white;
 		a, a:hover {
-			color: $black;
+			color: $white;
 		}
 	}
 	&-number {
@@ -255,7 +263,7 @@ p.small {
 		display: inline-block;
 		text-align: center;
 		a, a:hover {
-			color: $dark-gray;
+			color: $light-gray;
 		}
 	}
 	&-date {
@@ -263,7 +271,7 @@ p.small {
 		font-weight: $light-text;
 		line-height: 2rem;
 		text-align: center;
-		color: $dark-gray;
+		color: $light-gray;
 	}
 	&-contents-title {
 		margin-top: 0;
@@ -368,6 +376,8 @@ p.small {
 		text-align: center;
 		margin-bottom: 2rem;
 		margin-top: 1rem;
+		font-weight: $heavy-text;
+		font-size: 3rem;
 	}
 	&-article-contents-meta {
 		@extend .issue-single-contents-meta;
