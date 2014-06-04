@@ -58,8 +58,12 @@
   background-size: cover;  
   min-height: 50rem;
   &-text {
-    text-align: center;
   }
+}
+
+.issue-single-intro {
+  @extend .issue-intro;
+  background: none;
 }
 
 .issue-intro-center {

@@ -228,14 +228,21 @@ p.small {
 .issue {
 	&-intro {
 	}
-	&-intro-text, &-intro-section-text {
+	&-intro-text {
 		font-family: $body-font;
 		font-size: 1.25rem;
 		color: $white;
 		font-weight: $medium-text;
+		text-align: center;
 		@include breakpoint(small) {
 			font-size: 1rem;
-		}
+		}	
+	}
+	&-intro-section-text {
+		@extend .issue-intro-text;
+		color: black;
+		text-align: left;
+		font-weight: $light-text;
 	}
 	&-header {
 		text-align: center;

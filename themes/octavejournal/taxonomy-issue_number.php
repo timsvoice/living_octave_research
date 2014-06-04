@@ -15,9 +15,9 @@ get_header( ); ?>
 
 <div class="row">
 	<img src="http://www.octavejournal.com/wp-content/uploads/2014/04/featured_beach.png" alt="" class="article-single-contents-image small-12 columns">
-	<div class="category small-12 large-8 large-offset-4 columns issue-intro">
+	<div class="category small-12 large-8 large-offset-4 columns issue-single-intro">
 
-	<p class="issue-intro-text">
+	<p class="issue-intro-section-text">
 		Octave approaches health & wellness improvement with a holistic perspective. We believe that mental, physical, emotional, and spiritual health are all connected. In order to improve our health and well-being, we must consider all of these aspects of our lives. Octave aims to empower people by providing a platform where they can explore, engage, and practice a healthy lifestyle. As we grow, we will develop a health and wellness management program where our coaches and practitioners will lead members through a wellness journey customized to the customer’s individual needs. The OLR will start by delivering one-to-one educational sessions and group classes in four main areas: Nurture, Practice, Connect, & Discover.
 	</p>
 	
