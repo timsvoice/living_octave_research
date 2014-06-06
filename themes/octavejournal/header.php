@@ -116,5 +116,4 @@ $(window).load(function() {
             </ul> 
           </section>
         </nav>        
-    </div>
-    <div id="body">
+    </div>    

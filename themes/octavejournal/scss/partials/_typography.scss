@@ -428,6 +428,7 @@ p.small {
 	&-title {
 		@extend .issue-title;
 		text-align: left;
+		color: $black;
 	}
 	&-issue-number {
 		@extend .issue-number;

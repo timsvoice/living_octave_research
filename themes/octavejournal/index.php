@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<div id="body">
 <div class="container">
 
 	<div class="issue">
@@ -61,7 +61,7 @@
 		</div><!-- issue-articles -->
 
 	</div><!-- issue -->
-
+</div><!-- #page -->
 		
 	<div class="row">
 		<div class="articles small-12 columns">

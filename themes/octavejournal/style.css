@@ -8381,7 +8381,26 @@ hr {
   max-width: 19.25rem;
 }
 
-@media only screen and (min-width: 47.063em) {
+/* line 40, ../scss/partials/_base.scss */
+.horizon {
+  /* min-width 641px, medium screens */
+  /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 40, ../scss/partials/_base.scss */
+  .horizon {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    overflow: visible;
+    visibility: visible;
+    display: block;
+  }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /* line 40, ../scss/partials/_base.scss */
   .horizon {
     text-align: center;
@@ -8654,8 +8673,9 @@ p.small {
   color: white;
   font-weight: 400;
   text-align: center;
+  /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 }
-@media only screen and (max-width: 47em) {
+@media only screen and (max-width: 40em) {
   /* line 231, ../scss/partials/_typography.scss */
   .issue-intro-text, .issue-intro-section-text {
     font-size: 1rem;
@@ -8680,9 +8700,10 @@ p.small {
   text-align: center;
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
   font-weight: 900;
+  /* max-width 640px, mobile-only styles, use when QAing mobile issues */
   color: white;
 }
-@media only screen and (max-width: 47em) {
+@media only screen and (max-width: 40em) {
   /* line 252, ../scss/partials/_typography.scss */
   .issue-title, .article-title, .article-single-title, .issue-single-title {
     font-size: 2.5rem;
@@ -8826,8 +8847,9 @@ p.small {
 /* line 428, ../scss/partials/_typography.scss */
 .article-single-title, .issue-single-title {
   text-align: left;
+  color: black;
 }
-/* line 432, ../scss/partials/_typography.scss */
+/* line 433, ../scss/partials/_typography.scss */
 .article-single-issue-number, .issue-single-number, .article-single-date, .issue-single-date {
   text-align: left;
   display: inline-block;
@@ -8837,65 +8859,65 @@ p.small {
   margin-bottom: 0.25rem;
   margin-top: 0;
 }
-/* line 441, ../scss/partials/_typography.scss */
+/* line 442, ../scss/partials/_typography.scss */
 .article-single-issue-number a, .issue-single-number a, .article-single-date a, .issue-single-date a {
   color: black;
 }
-/* line 445, ../scss/partials/_typography.scss */
+/* line 446, ../scss/partials/_typography.scss */
 .article-single-date, .issue-single-date {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
   margin-left: 1.5rem;
 }
-/* line 457, ../scss/partials/_typography.scss */
+/* line 458, ../scss/partials/_typography.scss */
 .article-single-contents-biline {
   font-style: italic;
   font-size: 1.25rem;
   color: black;
 }
-/* line 467, ../scss/partials/_typography.scss */
+/* line 468, ../scss/partials/_typography.scss */
 .article-single-contents-text {
   margin-top: 2rem;
 }
-/* line 469, ../scss/partials/_typography.scss */
+/* line 470, ../scss/partials/_typography.scss */
 .article-single-contents-text p {
   font-family: "minion-pro", Times, serif;
   font-size: 1.25rem;
 }
-/* line 474, ../scss/partials/_typography.scss */
+/* line 475, ../scss/partials/_typography.scss */
 .article-single-interview-question {
   font-weight: 900;
   font-style: italic;
 }
 
-/* line 481, ../scss/partials/_typography.scss */
+/* line 482, ../scss/partials/_typography.scss */
 .related-article-teaser {
   font-family: "minion-pro", Times, serif;
 }
 
-/* line 487, ../scss/partials/_typography.scss */
+/* line 488, ../scss/partials/_typography.scss */
 .category-featured-article-title {
   font-family: "pragmatica-web", Helvetica, Arial, sans-serif;
   font-weight: 900;
 }
-/* line 490, ../scss/partials/_typography.scss */
+/* line 491, ../scss/partials/_typography.scss */
 .category-featured-article-title a {
   color: inherit;
 }
-/* line 494, ../scss/partials/_typography.scss */
+/* line 495, ../scss/partials/_typography.scss */
 .category-featured-article-header {
   font-weight: 200;
   margin-bottom: 0;
 }
-/* line 498, ../scss/partials/_typography.scss */
+/* line 499, ../scss/partials/_typography.scss */
 .category-featured-article-teaser {
   font-family: "minion-pro", Times, serif;
   font-size: 1.1rem;
 }
-/* line 502, ../scss/partials/_typography.scss */
+/* line 503, ../scss/partials/_typography.scss */
 .category-title {
   font-weight: 900;
 }
-/* line 506, ../scss/partials/_typography.scss */
+/* line 507, ../scss/partials/_typography.scss */
 .category-description p {
   font-weight: 200;
 }
@@ -9093,8 +9115,9 @@ li.issue-orbit-list-article:last-child {
   -o-background-size: cover;
   background-size: cover;
   min-height: 40rem;
+  /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 }
-@media only screen and (max-width: 47em) {
+@media only screen and (max-width: 40em) {
   /* line 52, ../scss/partials/_issues.scss */
   .issue-intro, .issue-single-intro {
     min-height: 50rem;
@@ -9109,9 +9132,22 @@ li.issue-orbit-list-article:last-child {
 /* line 72, ../scss/partials/_issues.scss */
 .issue-intro-center {
   display: inline-block;
+  /* min-width 641px, medium screens */
+  /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
   z-index: 10;
 }
-@media only screen and (min-width: 47.063em) {
+@media only screen and (min-width: 40.063em) {
+  /* line 72, ../scss/partials/_issues.scss */
+  .issue-intro-center {
+    margin-left: -500px;
+    position: absolute;
+    top: -255.5px;
+    left: 50%;
+    width: 1000px;
+    visibility: visible;
+  }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /* line 72, ../scss/partials/_issues.scss */
   .issue-intro-center {
     margin-left: -500px;
